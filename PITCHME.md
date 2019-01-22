@@ -48,14 +48,14 @@
 @snapend
 
 ---
-@css[breadcrumb]
-<ul class="cp_breadcrumb">
-	<li><a href="">Home</a></li>
-	<li><a href="">Category</a></li>
-	<li><a href="">Sub Category</a></li>
-	<li><a href="">Sub Category</a></li>
-	<li><a href="">Contents</a></li>
-</ul>
+@ol[roman breadcrumb](false)
+- Home
+- Category
+- Sub Category
+- Sub Category
+- Contents
+@olend
+
 # @css[slide-title blue specified-font](（例）Firefoxのダウンロード)
 
 @snap[south-east]
