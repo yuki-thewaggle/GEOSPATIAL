@@ -403,25 +403,25 @@ div.docslink a:hover {
 }
 
 /** Reveal.js Core Override Styles **/
-.reveal ol {
+.reveal ol.numberlist {
   position: absolute !important;
   left: 0px !important;
   text-align: left !important;
   margin-left: 0px !important;
 }
 
-.reveal ol li {
+.reveal ol.numberlist li {
     /* margin-left: 0 !important; */
     /* padding-right: 0 !important; */
     list-style-type: none !important;
 }
 
-.reveal ol li {
-    position: relative !important;
+.reveal ol.numberlist li {
+  position: relative !important;
   counter-increment: step-counter !important;
 }
 
-.reveal ol li::before {
+.reveal ol.numberlist li::before {
   color: white;
   font-size: 80%;
   font-weight: bold;
