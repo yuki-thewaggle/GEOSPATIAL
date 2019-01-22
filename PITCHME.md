@@ -48,7 +48,7 @@
 @snapend
 
 ---
-@css[breadclumb]
+@css[breadcrumb]
 <ul class="cp_breadcrumb">
 	<li><a href="">Home</a></li>
 	<li><a href="">Category</a></li>
