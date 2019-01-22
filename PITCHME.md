@@ -11,6 +11,17 @@
 </div>
 </dl>
 
+---
+
+<dl class="breadcrumbs-wrap">
+@ol[breadcrumbs]
+- [ホーム]()
+- [首都圏エリア]()
+- [東京23区]()
+- [中野駅]()
+@olend
+</dl>
+
 ---?color=#3A8FB7
 
 @snap[west]
@@ -130,7 +141,7 @@
 @snapend
 
 @snap[south-west list-content-concise span-80]
-@ol[list-bullets-black](true)
+@ol[numberlist](true)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
