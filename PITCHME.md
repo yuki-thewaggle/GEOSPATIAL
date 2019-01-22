@@ -1,11 +1,15 @@
 <dl class="breadcrumbs-wrap">
-@ul[roman breadcrumbs](false)
-- Home
-- Category
-- Sub Category
-- Sub Category
-- Contents
-@ulend
+<div class="breadcrumbs">
+ <nav>
+   <ul>
+     <li><a href="#">ホーム</a></li>
+     <li><a href="#">首都圏エリア</a></li>
+     <li><a href="#">東京23区</a></li>
+     <li class="active"><a href="#">中野駅</a></li>
+   </ul>
+ </nav>
+</div>
+</dl>
   
 <ul>
   <li>1</li>
