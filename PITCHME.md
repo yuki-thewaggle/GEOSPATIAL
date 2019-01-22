@@ -1,18 +1,13 @@
 <dl class="breadcrumbs-wrap">
-@ol[roman breadcrumbs](false)
-- ホーム
-- 首都圏エリア
-- 東京23区
-- 中野駅
-@olend
- 
- 
 <div class="breadcrumbs">
- <ol>
-  <li>q</li>
-  <li>w</li>
-  <li>e</li>
- </ol>
+ <nav>
+   <ul>
+     <li><a href="#">ホーム</a></li>
+     <li><a href="#">首都圏エリア</a></li>
+     <li><a href="#">東京23区</a></li>
+     <li class="active"><a href="#">中野駅</a></li>
+   </ul>
+ </nav>
 </div>
 </dl>
 
