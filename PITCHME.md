@@ -1,11 +1,11 @@
 <nav>
-@ol[roman breadcrumbs](false)
+@ul[roman breadcrumbs](false)
 - Home
 - Category
 - Sub Category
 - Sub Category
 - Contents
-@olend
+@ulend
 </nav>
 
 ---?color=#3A8FB7
