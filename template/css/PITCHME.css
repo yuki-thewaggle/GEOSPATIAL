@@ -78,6 +78,7 @@ dl.breadcrumbs-wrap .breadcrumbs ul,
 dl.breadcrumbs-wrap .breadcrumbs li {
  margin: 0 !important;
  padding: 0 !important;
+ white-space:nowrap !important;
 }
 
 dl.breadcrumbs-wrap .breadcrumbs a {
@@ -102,7 +103,6 @@ dl.breadcrumbs-wrap .breadcrumbs li {
  line-height: 30px !important;
  margin-right: 35px !important;
  position: relative !important;
- white-space:nowrap !important;
 }
 
 dl.breadcrumbs-wrap .breadcrumbs li:before,
