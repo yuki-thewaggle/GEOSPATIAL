@@ -11,28 +11,6 @@
 </div>
 </dl>
 
----
-
-<dl class="breadcrumbs-wrap">
-<div class="breadcrumbs">
- <nav>
-   <ul>
-     <li><a href="#">ホーム</a></li>
-     <li><a href="#">首都圏エリア</a></li>
-     <li><a href="#">東京23区</a></li>
-     <li class="active"><a href="#">中野駅</a></li>
-   </ul>
- </nav>
-</div>
-</dl>
-  
-<ul>
-  <li>1</li>
-  <li>12</li>
-  <li>123</li>
-</ul>
-</dl>
-
 ---?color=#3A8FB7
 
 @snap[west]
