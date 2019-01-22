@@ -5,11 +5,118 @@
   src: url('/assets/fonts/raleway-regular-webfont.woff2')format('woff2'),
        url('/assets/fonts/Raleway-Regular.woff')format('woff');
 }
+
+@font-face {
+  font-family: 'Specified';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/Product-Sans-Regular.woff')format('woff');
+}
+.specified-font {
+  font-family: 'Specified', sans-serif !important;
+}
+
+/* Color */
+.green {
+  color: #227D51;
+}
+
+.blue {
+  color: #0B346E;
+}
+
+.lightblue {
+  color: #3A8FB7;
+}
+.orange {
+  color: #F05E1C;
+}
+
+/* Size */
+.height-50 {
+  height: 50% !important;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+/* Margin */
+.margin-right-0 {
+  margin-right: 0px !important;
+}
+
+/* Space */
+.space-0 {
+  margin: 0.1em !important;
+}
+
+/* Page Number */
+.page-number {
+  position: fixed !important;
+  top: 20px !important;
+  left: 0px !important;
+  font-size: 0.5em !important;
+  text-align: left !important;
+}
+
+/* iframe */
+.iframe-style
+{
+  width: 100% !important;
+  height: 400px !important;
+  overflow: scroll;
+  margin-top: 100px !important;
+}
+
 /* Title */
 .headline {
-  font-size: 0.8em !important;
-  font-variant: small-caps !important;
+  font-size: 0.7em !important;
+  /*font-variant: small-caps !important;*/
 }
+
+/* Sub Title */
+.sub-headline {
+  font-size: 0.6em !important;
+}
+
+/* Slide Title*/
+.slide-title {
+  position: fixed !important;
+  top: 80px !important;
+  left: 0px !important;
+  font-size: 0.4em !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  border-bottom: solid 2px gainsboro !important;
+  padding-bottom: 15px !important;
+  width: 950px !important;
+}
+
+/* Slide Contents*/
+.slide-contents {
+  position: fixed !important;
+  top: 280px !important;
+  left: 0px !important;
+  font-size: 0.8em !important;
+  display: inline-block !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  width: 950px !important;
+}
+
+/* Box Style */
+.box-style {
+  position: relative !important;
+  top: 0px !important;
+  border: none !important;
+  background-color: white !important;
+  color: #3A8FB7 !important;
+  font-size: 1.2em !important;
+  padding-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
 /* Intro Template Styles */
 .byline {
   letter-spacing: 0.1em;
@@ -26,7 +133,7 @@
 }
 
 .split-screen-list li::before {
-  color: #FF5600 !important;
+  color: #F05E1C !important;
   background-color: white !important;
 }
 
@@ -162,7 +269,7 @@
 }
 
 .contact-links {
-  color: #00008B !important;
+  color: #0B346E !important;
 }
 
 .twitter-handle {
@@ -202,7 +309,7 @@ div.docslink a {
 }
 
 div.docslink a:hover {
-  color: #e58537 !important;
+  color: #F05E1C !important;
   font-weight: bold;
 }
 
@@ -227,16 +334,22 @@ div.docslink a:hover {
 }
 
 /** Reveal.js Core Override Styles **/
-
-.reveal ol li {
-    margin-left: 0;
-    padding-right: 0;
-    list-style-type: none;
+.reveal ol {
+  position: absolute !important;
+  left: 0px !important;
+  text-align: left !important;
+  margin-left: 0px !important;
 }
 
 .reveal ol li {
-  position: relative;
-  counter-increment: step-counter;
+    /* margin-left: 0 !important; */
+    /* padding-right: 0 !important; */
+    list-style-type: none !important;
+}
+
+.reveal ol li {
+    position: relative !important;
+  counter-increment: step-counter !important;
 }
 
 .reveal ol li::before {
@@ -246,7 +359,7 @@ div.docslink a:hover {
   padding: 3px 10px;
   margin-right: 15px;
   border-radius: 3px;
-  background-color: #F26225;
+  background-color: #0B346E;
   content: counter(step-counter);
 }
 

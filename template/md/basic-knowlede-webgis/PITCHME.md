@@ -1,42 +1,70 @@
 ---?color=#9F79F7
-# @css[headline](WebGIS等)
+# @css[headline](Webの)
 # @css[headline](基礎知識)
+# @css[headline](ちょっとだけ)
 
 ---
-## ハンズオンで作るゴールイメージ
+@snap[midopoint north-west text-06]
+### 本日のゴールイメージ
+@snapend
 
-
----
-
-## システム構成
-
-
-
-## GISとは
-
-> 地理情報システム（GIS：Geographic Information System）は、地理的位置を手がかりに、位置に関する情報を持ったデータ（空間データ）を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術である。
-
-[国土交通省国土地理院HP](http://www.gsi.go.jp/GIS/whatisgis.html)より引用
+@img[span-60](template/img/finish.png)
 
 ---
-## 地理空間情報とは
+@snap[midopoint north-west text-06]
+### Webの仕組み
+@snapend
 
-> 地理空間情報とは、空間上の特定の地点又は区域の位置を示す情報（位置情報）とそれに関連付けられた様々な事象に関する情報、もしくは位置情報のみからなる情報をいう。
+ブラウザに表示するのに使う技術は３種類
 
-[国土交通省国土地理院HP](http://www.gsi.go.jp/GIS/whatisgis.html)より引用
-
+* 文章の構造を定義する　HTML
+* レイアウト等、装飾するのが　CSS
+* 機能をつけるのが JavaScript
 ---
-##  WebGISとは
+@snap[midopoint north-west text-06]
+### HTML
+@snapend
 
-WebGISは、インターネット技術を使用したGISのことです。
-
+```html
+<html>
+    <head>属性情報などを記述する</head>
+    <body>ブラウザに表示される</body>
+</html>
+```
 ---
-## APIとは
+@snap[midopoint north-west text-06]
+### CSS
+@snapend
 
-アプリケーションプログラミングインタフェースの略称で広義の意味と狭義の意味で異なるが、
-本ハンズオンで扱うのは、どちらかと言えば、狭義の意味で使っている。
-> 商業的に使われる狭義の意味ではOSやミドルウェアやWebサービス等サービスを利用するアプリケーション(Application)を作成する(Programming)ためのインターフェース
-
-[Wiki:アプリケーションプログラミングインターフェース](https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9)より引用
-
+```css
+div {
+    Width: 300px;
+    height: 500px;
+    color: red;
+}
+```
 ---
+@snap[midopoint north-west text-06]
+### JavaScript
+@snapend
+
+```js
+
+var myHeading = document.querySelector('h1');
+myHeading.textContent = "Hello World";  
+
+```
+---
+@snap[midopoint north-west text-06]
+### Elixirの型
+@snapend
+
+* 基本的な型	値の例
+* 整数	1
+* 整数(16進数)	0x1F
+* 小数	1.0
+* 論理値	true
+* アトム	:atom
+* 文字列	"elixir"
+* リスト	[1, 2, 3]
+* タプル	{1, 2, 3}

@@ -64,7 +64,7 @@ http://localhost:4000　にアクセスして、以下が表示されていた�
 
 
 ## 日本語のアジェンダと管理フォルダの対応表
-- WebGIS等 基礎知識　-> basic-knowlede-webgis
+- WebG等 基礎知識　-> basic-knowlede-webgis
 - 環境構築 -> environment
 - APIServerの構築 -> Building-APIServer
 - 地図の表示 -> Show-map
