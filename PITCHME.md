@@ -14,7 +14,7 @@
 ---
 
 <dl class="breadcrumbs-wrap">
-@ol[breadcrumbs]
+@ol[breadcrumbs](false)
 - [ホーム](/#1)
 - [首都圏エリア]()
 - [東京23区]()
