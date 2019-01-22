@@ -28,7 +28,7 @@
 
 @css[space-0]()
 
-@ul[roman](false)
+@ol[roman](false)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -38,7 +38,7 @@
 - 内部API呼び出し
 - 地図へのポイント追加
 - 自分の緯度経度の取得
-@ulend
+@olend
 
 ---?color=#3A8FB7
 @css[page-number blue]([2] 環境構築)
