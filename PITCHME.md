@@ -48,7 +48,14 @@
 @snapend
 
 ---
-@css[page-number lightblue]([2] 環境構築 ＞ [1] Firefox)
+@css[breadclumb]
+<ul class="cp_breadcrumb">
+	<li><a href="">Home</a></li>
+	<li><a href="">Category</a></li>
+	<li><a href="">Sub Category</a></li>
+	<li><a href="">Sub Category</a></li>
+	<li><a href="">Contents</a></li>
+</ul>
 # @css[slide-title blue specified-font](（例）Firefoxのダウンロード)
 
 @snap[south-east]
