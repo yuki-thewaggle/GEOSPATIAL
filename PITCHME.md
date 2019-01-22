@@ -41,7 +41,7 @@
 @olend
 
 ---?color=#3A8FB7
-@css[page-number blue]([2] 環境構築)
+@css[page-number blue](（レイアウト変更します）[2] 環境構築)
 # @css[slide-title specified-font](（例）環境構築)
 
 @snap[west slide-contents]
@@ -76,7 +76,7 @@
 @snapend
 
 ---
-@css[page-number lightblue](ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
+@css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title blue specified-font](（例）ソースコード)
 
 @css[space-0]()
@@ -88,12 +88,29 @@
 @[6-8](sample3)
 
 ---
-@css[page-number lightblue](ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
+@css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title blue specified-font](（例）Webページを埋め込む)
 
 <iframe class="iframe-style" src="http://nipponcolors.com/#chigusa"></iframe>
 
 ---
+@css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
+# @css[slide-title specified-font](（例）Webの仕組み)
+
+1. Webの仕組み
+	> https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
+	> https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+	
+ * クライアント
+		Webブラウザ
+	* サーバ
+	* リクエストとレスポンス
+	* インターネット接続
+	* ウェブページ
+		ウェブブラウザに表示可能なドキュメント
+
+---
+
 1. Webの仕組み
 2. HTML
 3. CSS
