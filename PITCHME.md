@@ -1,10 +1,10 @@
 <dl class="breadcrumbs-wrap">
-@ol[roman breadcrumbs](false)
+@ul[roman breadcrumbs](false)
 - ホーム
 - 首都圏エリア
 - 東京23区
 - 中野駅
-@olend
+@ulend
 </dl>
   
 <ul>
