@@ -63,37 +63,39 @@
 /* Bread Crumb */
 dl.breadcrumbs-wrap {
   position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
   width : 500px !important;
   border: 1px solid gray !important;
 }
 
-.breadcrumbs{
+dl.breadcrumbs-wrap .breadcrumbs{
  border: solid 1px #ccc;
  border-width: 1px 0;
 }
 
-.breadcrumbs ul,
-.breadcrumbs li{
+dl.breadcrumbs-wrap .breadcrumbs ul,
+dl.breadcrumbs-wrap .breadcrumbs li{
  margin: 0;
  padding: 0;
 }
 
-.breadcrumbs a{
+dl.breadcrumbs-wrap .breadcrumbs a{
  color: #9b4dca;
  text-decoration: none;
 }
 
-.breadcrumbs a:hover{
+dl.breadcrumbs-wrap .breadcrumbs a:hover{
  color: #606c76;
 }
 
-.breadcrumbs ul{
+dl.breadcrumbs-wrap .breadcrumbs ul{
  display: flex;
  width: 1000px;
  margin: auto;
 }
 
-.breadcrumbs li{
+dl.breadcrumbs-wrap .breadcrumbs li{
  list-style: none;
  font-size: 14px;
  height: 30px;
@@ -102,8 +104,8 @@ dl.breadcrumbs-wrap {
  position: relative;
 }
 
-.breadcrumbs li:before,
-.breadcrumbs li:after{
+dl.breadcrumbs-wrap .breadcrumbs li:before,
+dl.breadcrumbs-wrap .breadcrumbs li:after{
  content: "";
  display: block;
  position: absolute;
@@ -113,17 +115,17 @@ dl.breadcrumbs-wrap {
  border-bottom: 15px solid transparent;
 }
 
-.breadcrumbs li:before{
+dl.breadcrumbs-wrap .breadcrumbs li:before{
  right: -40px;
  border-left: 15px solid #ccc;
 }
 
-.breadcrumbs li:after{
+dl.breadcrumbs-wrap .breadcrumbs li:after{
  right: -39px;
  border-left: 15px solid #fff;
 }
 
-.active a{
+dl.breadcrumbs-wrap .active a{
  color: #000;
 }
 
