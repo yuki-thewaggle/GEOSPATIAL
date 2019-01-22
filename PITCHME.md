@@ -28,7 +28,7 @@
 
 @css[space-0]()
 
-@ol[roman](false)
+@ol[numberlist](false)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -48,7 +48,7 @@
 
 @box[rounded box-style](今回の開発に必要なシステムやソフトウェアを、<br>自分のPCで使えるように準備します。)
 
-@ol[roman](false)
+@ol[numberlist](false)
 - Firefox
 - RestClient
 - テキストエディタ
