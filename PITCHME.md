@@ -1,3 +1,13 @@
+<nav>
+@ol[roman breadcrumb](false)
+- Home
+- Category
+- Sub Category
+- Sub Category
+- Contents
+@olend
+</nav>
+
 ---?color=#3A8FB7
 
 @snap[west]
@@ -48,13 +58,6 @@
 @snapend
 
 ---
-@ol[roman breadcrumb](false)
-- Home
-- Category
-- Sub Category
-- Sub Category
-- Contents
-@olend
 
 # @css[slide-title blue specified-font](（例）Firefoxのダウンロード)
 
