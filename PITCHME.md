@@ -2,7 +2,7 @@
 <div class="breadcrumbs">
  <nav>
    <ul>
-     <li><a href="#">ホーム</a></li>
+     <li><a href="./#5">ホーム</a></li>
      <li><a href="#">首都圏エリア</a></li>
      <li><a href="#">東京23区</a></li>
      <li class="active"><a href="#">中野駅</a></li>
@@ -15,7 +15,7 @@
 
 <dl class="breadcrumbs-wrap">
 @ol[breadcrumbs](false)
-- [ホーム](./#1)
+- [ホーム](./#5)
 - [首都圏エリア]()
 - [東京23区]()
 - [中野駅]()
