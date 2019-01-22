@@ -11,6 +11,15 @@
 </div>
 </dl>
 
+---
+
+<dl class="breadcrumbs-wrap">
+@ol[breadcrumbs](false)
+- [ホーム](#1)
+- [首都圏エリア]()
+@olend
+</dl>
+
 ---?color=#3A8FB7
 
 @snap[west]
@@ -97,17 +106,16 @@
 @css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title specified-font](（例）Webの仕組み)
 
-1. Webの仕組み
-	> https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
-	> https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+> https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
+> https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
 	
- * クライアント
-		Webブラウザ
-	* サーバ
-	* リクエストとレスポンス
-	* インターネット接続
-	* ウェブページ
-		ウェブブラウザに表示可能なドキュメント
+* クライアント
+	Webブラウザ
+* サーバ
+* リクエストとレスポンス
+* インターネット接続
+* ウェブページ
+	ウェブブラウザに表示可能なドキュメント
 
 ---
 
