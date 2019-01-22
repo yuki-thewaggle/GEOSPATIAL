@@ -1,5 +1,5 @@
 <nav>
-@ol[roman breadcrumb](false)
+@ol[roman breadcrumbs](false)
 - Home
 - Category
 - Sub Category
