@@ -74,7 +74,7 @@ dl.breadcrumbs-wrap .breadcrumbs{
  border-width: 1px 0 !important;
 }
 
-dl.breadcrumbs-wrap .breadcrumbs ul,
+dl.breadcrumbs-wrap .breadcrumbs ol,
 dl.breadcrumbs-wrap .breadcrumbs li{
  margin: 0 !important;
  padding: 0 !important;
@@ -89,7 +89,7 @@ dl.breadcrumbs-wrap .breadcrumbs a:hover{
  color: #606c76 !important;
 }
 
-dl.breadcrumbs-wrap .breadcrumbs ul{
+dl.breadcrumbs-wrap .breadcrumbs ol{
  display: flex !important;
  width: 1000px !important;
  margin: auto !important;
