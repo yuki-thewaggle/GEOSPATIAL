@@ -1,4 +1,4 @@
-<nav>
+<dl class="breadcrumbs-wrap">
 @ul[roman breadcrumbs](false)
 - Home
 - Category
@@ -6,7 +6,7 @@
 - Sub Category
 - Contents
 @ulend
-</nav>
+</dl>
 
 ---?color=#3A8FB7
 
