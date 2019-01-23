@@ -116,7 +116,10 @@
 	right: -2em !important;
 	border-left-color: #ffffff !important;
 }
-.breadcrumbs li:first-child a        { background:        #0B346E !important; }
+dl.bluescale .breadcrumbs a::before {
+	border-left-color: #3A8FB7 !important;
+}
+/* .breadcrumbs li:first-child a        { background:        #0B346E !important; }
 .breadcrumbs li:first-child a::after { border-left-color: #0B346E !important; }
 .breadcrumbs li:nth-child(2) a       { background:        #2A5F83 !important; }
 .breadcrumbs li:nth-child(2) a:after { border-left-color: #2A5F83 !important; }
@@ -125,14 +128,37 @@
 .breadcrumbs li:nth-child(4) a       { background:        #6AA9AB !important; }
 .breadcrumbs li:nth-child(4) a:after { border-left-color: #6AA9AB !important; }
 .breadcrumbs li:nth-child(5) a       { background:        #8ABEB6 !important; }
-.breadcrumbs li:nth-child(5) a:after { border-left-color: #8ABEB6 !important; }
+.breadcrumbs li:nth-child(5) a:after { border-left-color: #8ABEB6 !important; } */
+
+.breadcrumbs li:first-child a        { background:        #D54300 !important; z-index: 6 !important; }
+.breadcrumbs li:first-child a:after  { border-left-color: #D54300 !important; z-index: 6 !important; }
+.breadcrumbs li:nth-child(2) a       { background:        #F05E1C !important; z-index: 5 !important; }
+.breadcrumbs li:nth-child(2) a:after { border-left-color: #F05E1C !important; z-index: 5 !important; }
+.breadcrumbs li:nth-child(3) a       { background:        #F38A49 !important; z-index: 4 !important; }
+.breadcrumbs li:nth-child(3) a:after { border-left-color: #F38A49 !important; z-index: 4 !important; }
+.breadcrumbs li:nth-child(4) a       { background:        #F6AF77 !important; z-index: 2 !important; }
+.breadcrumbs li:nth-child(4) a:after { border-left-color: #F6AF77 !important; z-index: 2 !important; }
+.breadcrumbs li:last-child a         { background:        #F8C08E !important; z-index: 1 !important; }
+.breadcrumbs li:last-child a:after   { border-left-color: #F8C08E !important; z-index: 1 !important; }
+
+dl.bluescale .breadcrumbs li:first-child a        { background:        #0B346E !important; z-index: 2 !important; }
+dl.bluescale .breadcrumbs li:first-child a:after  { border-left-color: #0B346E !important; z-index: 2 !important; }
+dl.bluescale .breadcrumbs li:last-child a         { background:        #CCE4D7 !important; z-index: 1 !important; }
+dl.bluescale .breadcrumbs li:last-child a:after   { border-left-color: #CCE4D7 !important; z-index: 1 !important; }
 
 .breadcrumbs li:last-child a {
   left: -0.05em !important;
 	cursor: default !important;
 	pointer-events: none !important;
 	color: black !important;
-	background: #CCE4D7 !important;
+	border-radius: 0 5px 5px 0 !important;
+}
+
+dl.bluescale .breadcrumbs li:last-child a {
+  left: -0.05em !important;
+	cursor: default !important;
+	pointer-events: none !important;
+	color: black !important;
 	border-radius: 0 5px 5px 0 !important;
 }
 .breadcrumbs li:last-child a:hover {
@@ -142,70 +168,6 @@
 .breadcrumbs li:last-child a::after {
 	content: normal !important;
 }
-
-/*
-.reveal dl.breadcrumbs-wrap .breadcrumbs {
- border: solid 1px #ccc !important;
- border-width: 1px 0 !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs ul,
-.reveal dl.breadcrumbs-wrap .breadcrumbs li {
- margin: 0 !important;
- padding: 0 !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs a {
- color: #9b4dca !important;
- text-decoration: none !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs a:hover {
- color: #606c76 !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs ul {
- display: flex !important;
- width: 1000px !important;
- margin: auto !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs li {
- list-style: none !important;
- font-size: 14px !important;
- height: 30px !important;
- line-height: 30px !important;
- margin-right: 35px !important;
- position: relative !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs li:before,
-.reveal dl.breadcrumbs-wrap .breadcrumbs li:after {
- content: "" !important;
- display: block !important;
- position: absolute !important;
- top: 0 !important;
- border-top: 15px solid transparent !important;
- border-right: 15px solid transparent !important;
- border-bottom: 15px solid transparent !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs li:before{
- position: absolute !important;
- right: -40px !important;
- border-left: 15px solid #ccc !important;
-}
-
-.reveal dl.breadcrumbs-wrap .breadcrumbs li:after{
- position: absolute !important;
- right: -39px !important;
- border-left: 15px solid #fff !important;
-}
-
-.reveal dl.breadcrumbs-wrap .active a{
- color: #000 !important;
-}
-*/
 
 /* iframe */
 .iframe-style

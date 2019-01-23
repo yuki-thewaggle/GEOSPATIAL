@@ -9,6 +9,15 @@
 
 ---?color=#3A8FB7
 
+<dl class="breadcrumbs-wrap bluescale">
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [1. Web基礎知識]()
+@olend
+</dl>
+
+---?color=#3A8FB7
+
 @snap[west]
 # @css[headline top-left specified-font](GEOSPATIAL<br>Hackers Program<br>Hands-on)
 @snapend
