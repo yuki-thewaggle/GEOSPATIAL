@@ -13,7 +13,7 @@
 ---
 # @css[slide-title blue specified-font](ハンズオン講習会の流れ)
 
-@css[space-0]()
+@snap[slide-contents]
 
 @ol[numberlist](false)
 - Web基礎知識
@@ -27,81 +27,232 @@
 - 自分の緯度経度の取得
 @olend
 
+@snapend
+
 ---?color=#3A8FB7
-<dl class="breadcrumbs-wrap bluescale">
+@snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
 - [n. アジェンダ項目名]()
 @olend
-</dl>
+@snapend
 
-# @css[slide-title specified-font](テンプレートA)
+# @css[slide-title specified-font](テンプレートA - 大項目)
 
-@snap[west slide-contents]
+@snap[slide-contents]
 
-@box[rounded box-style border-rightblue](アジェンダ項目用の、<br>テンプレートです。)
+@box[rounded box-style-blue](アジェンダ項目（大項目）用の、テンプレートです。<br>項目の概要を、説明します。)
 
 @ol[numberlist](false)
-- このアジェンダ項目内の
-- 小項目を
-- ここに
-- 書いていきます
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+- a
 @olend
 
 @snapend
 
 ---
-<dl class="breadcrumbs-wrap">
+@snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
+- [k. ここまで]()
 @olend
-</dl>
+@snapend
 
-# @css[slide-title blue specified-font](テンプレートB)
+# @css[slide-title blue specified-font](テンプレートB - 言葉・概念の意味)
 
-@snap[west slide-contents]
-@box[rounded box-style](概要を<br>ここに書きます。)
-	引用文献
-	説明
-作業内容
+@snap[slide-contents]
+
+@snap[quote-wrap]
+@quote[<ul><li>ユーザインタフェース<ul><li>ユーザインタフェース1</li><li>ユーザインタフェース2</li></ul></li><li>文字列が表示されるウィンドウに出力</li><li>キーボード等から文字列を入力</li></ul>](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
+@quote[キーボード等から文字列を入力](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
+@snapend
 
 @snapend
 
 ---
-<dl class="breadcrumbs-wrap">
+@snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
+- [k. ここまで]()
 @olend
-</dl>
+@snapend
 
-# @css[slide-title blue specified-font](テンプレートC)
-	1. CUI
-		* 概要
-			https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース
-			- ユーザインタフェース
-				機械と人間との伝達を行うもの
-			- 文字列が表示されるウィンドウに出力する
-			- キーボード等から文字列を入力する
-		* 起動方法
-			- Windows
-				* コマンドプロント
-				 	起動方法
-			- MacOS
-				* ターミナル
-				* 起動方法
+# @css[slide-title blue specified-font](テンプレートC - Bのテーブル版)
+
+@snap[slide-contents]
+
+<table>
+<tr>
+	<th width="30%"/*適宜変更*/>型</th>
+	<th>表記例</td>
+</tr>
+<tr>
+	<td>整数</th>
+	<td>1</td>
+</tr><tr>
+	<td>整数(16進数)</th>
+	<td>0x1F</td>
+</tr>
+<tr>
+	<td>小数</th>
+	<td>1.0</td>
+</tr>
+<tr>
+	<td>論理値</th>
+	<td>true</td>
+</tr>
+<tr>
+	<td>アトム</th>
+	<td>:atom</td>
+</tr>
+<tr>
+	<td>文字列</th>
+	<td>"elixir"</td>
+</tr>
+<tr>
+	<td>リスト</th>
+	<td>[1, 2, 3]</td>
+</tr>
+<tr>
+	<td>タプル</th>
+	<td>{1, 2, 3}</td>
+</tr>
+</table>
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+# @css[slide-title blue specified-font](テンプレートD - 作業手順)
+
+@snap[slide-contents]
+
+@ol[numberlist](false)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+- 自分の緯度経度の取得
+- 自分の緯度経度の取得
+@olend
+
+@snapend
+
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+# @css[slide-title blue specified-font](テンプレートE - 手順詳細)
+
+@snap[slide-contents]
+
+@box[rounded box-style](手順詳細用の、テンプレートです。<br>この作業の目的を、ここに書きます。)
+
+@snap[left-column]
+@ol[numberlist](true)
+- 手順１や、
+- 手順２など、
+- ここに、書いていきます。
+- 書いていきます<br>書いていきます書いていきます。
+- a
+@olend
+@snapend
+
+@snap[right-column]
+@ol[numberlist start-6](true)
+- 手順5なら `start-6` と書き、
+- 書いていきます。
+- 書いていきます。
+- 書いていきます。
+- a
+- a
+@olend
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+# @css[slide-title blue specified-font](テンプレートF - 手順ゴール)
+
+@snap[slide-contents]
+
+@img[goal-image](template/img/environment/postgresql.png)
+
+@snapend
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+# @css[slide-title blue specified-font](テンプレートG - ソースコード)
+
+@snap[slide-contents]
+@snap[gist-box]
+
+@fa[external-link]
+<u>https://gist.github.com/Yoosuke/4b171606c9390418467b961085894915</u>
+
+@gist[html zoom-07](Yoosuke/4b171606c9390418467b961085894915)
+
+@[1](sample1)
+@[2,4](sample2)
+@[6-8](sample3)
+@[21](sample6)
+
+@snapend
+@snapend
 
 ---?color=#3A8FB7
-<dl class="breadcrumbs-wrap bluescale">
+@snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
 - [2. 環境構築]()
 - 
 @olend
-</dl>
+@snapend
 
 # @css[slide-title specified-font](（例）環境構築)
 
@@ -122,14 +273,14 @@
 @snapend
 
 ---
-<dl class="breadcrumbs-wrap">
+@snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
 - [1. Web基礎知識]()
 - [3. テキストエディタ]()
 - [1. 概要]()
 @olend
-</dl>
+@snapend
 
 # @css[slide-title blue specified-font](（例）Firefoxのダウンロード)
 
@@ -147,8 +298,6 @@
 ---
 @css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title blue specified-font](（例）ソースコード)
-
-@css[space-0]()
 
 @gist[html zoom-05](Yoosuke/4b171606c9390418467b961085894915)
 
