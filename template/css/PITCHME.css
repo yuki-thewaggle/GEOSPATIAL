@@ -143,8 +143,8 @@ dl.bluescale .breadcrumbs a::before {
 
 dl.bluescale .breadcrumbs li:first-child a        { background:        #0B346E !important; z-index: 2 !important; }
 dl.bluescale .breadcrumbs li:first-child a:after  { border-left-color: #0B346E !important; z-index: 2 !important; }
-dl.bluescale .breadcrumbs li:last-child a         { background:        #CCE4D7 !important; z-index: 1 !important; }
-dl.bluescale .breadcrumbs li:last-child a:after   { border-left-color: #CCE4D7 !important; z-index: 1 !important; }
+dl.bluescale .breadcrumbs li:last-child a         { background:        #71B9CB !important; z-index: 1 !important; }
+dl.bluescale .breadcrumbs li:last-child a:after   { border-left-color: #71B9CB !important; z-index: 1 !important; }
 
 .breadcrumbs li:last-child a {
   left: -0.05em !important;
@@ -155,11 +155,7 @@ dl.bluescale .breadcrumbs li:last-child a:after   { border-left-color: #CCE4D7 !
 }
 
 dl.bluescale .breadcrumbs li:last-child a {
-  left: -0.05em !important;
-	cursor: default !important;
-	pointer-events: none !important;
-	color: black !important;
-	border-radius: 0 5px 5px 0 !important;
+	color: white !important;
 }
 .breadcrumbs li:last-child a:hover {
 	background: none !important;

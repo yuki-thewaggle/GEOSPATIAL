@@ -1,21 +1,3 @@
-<dl class="breadcrumbs-wrap">
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
-- [1. Web基礎知識]()
-- [3. テキストエディタ]()
-- [1. 概要]()
-@olend
-</dl>
-
----?color=#3A8FB7
-
-<dl class="breadcrumbs-wrap bluescale">
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
-- [1. Web基礎知識]()
-@olend
-</dl>
-
 ---?color=#3A8FB7
 
 @snap[west]
@@ -46,7 +28,81 @@
 @olend
 
 ---?color=#3A8FB7
-@css[page-number blue](（レイアウト変更します）[2] 環境構築)
+<dl class="breadcrumbs-wrap bluescale">
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+@olend
+</dl>
+
+# @css[slide-title specified-font](テンプレートA)
+
+@snap[west slide-contents]
+
+@box[rounded box-style border-rightblue](アジェンダ項目用の、<br>テンプレートです。)
+
+@ol[numberlist](false)
+- このアジェンダ項目内の
+- 小項目を
+- ここに
+- 書いていきます
+@olend
+
+@snapend
+
+---
+<dl class="breadcrumbs-wrap">
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+@olend
+</dl>
+
+# @css[slide-title blue specified-font](テンプレートB)
+
+@snap[west slide-contents]
+@box[rounded box-style](概要を<br>ここに書きます。)
+	引用文献
+	説明
+作業内容
+
+@snapend
+
+---
+<dl class="breadcrumbs-wrap">
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+@olend
+</dl>
+
+# @css[slide-title blue specified-font](テンプレートC)
+	1. CUI
+		* 概要
+			https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース
+			- ユーザインタフェース
+				機械と人間との伝達を行うもの
+			- 文字列が表示されるウィンドウに出力する
+			- キーボード等から文字列を入力する
+		* 起動方法
+			- Windows
+				* コマンドプロント
+				 	起動方法
+			- MacOS
+				* ターミナル
+				* 起動方法
+
+---?color=#3A8FB7
+<dl class="breadcrumbs-wrap bluescale">
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [2. 環境構築]()
+- 
+@olend
+</dl>
+
 # @css[slide-title specified-font](（例）環境構築)
 
 @snap[west slide-contents]
@@ -66,6 +122,14 @@
 @snapend
 
 ---
+<dl class="breadcrumbs-wrap">
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [1. Web基礎知識]()
+- [3. テキストエディタ]()
+- [1. 概要]()
+@olend
+</dl>
 
 # @css[slide-title blue specified-font](（例）Firefoxのダウンロード)
 
