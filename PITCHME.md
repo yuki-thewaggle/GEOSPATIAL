@@ -1,24 +1,9 @@
 <dl class="breadcrumbs-wrap">
-<div class="breadcrumbs">
- <nav>
-   <ul>
-     <li><a href="/5">ホーム</a></li>
-     <li><a href="#">首都圏エリア</a></li>
-     <li><a href="#">東京23区</a></li>
-     <li class="active"><a href="#">中野駅</a></li>
-   </ul>
- </nav>
-</div>
-</dl>
-
----
-
-<dl class="breadcrumbs-wrap">
 @ol[breadcrumbs](false)
-- [ホーム](5)
-- [首都圏エリア]()
-- [東京23区]()
-- [中野駅]()
+- [ハンズオン講習会の流れ](5)
+- [1. Web基礎知識]()
+- [3. テキストエディタ]()
+- [1. 概要]()
 @olend
 </dl>
 
