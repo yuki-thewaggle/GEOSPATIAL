@@ -2,8 +2,8 @@
 
 @snap[west top-left specified-font]
 
-@snap[byline color4]
-<span style="margin-left:8px;">@size[0.75em](GEOSPATIAL Hackers Program Hands-on)</span>
+@snap[byline headline-detail color4]
+@size[0.75em](GEOSPATIAL Hackers Program Hands-on)
 @snapend
 
 @snap[headline]
@@ -246,9 +246,14 @@
 
 @img[goal-image](template/img/environment/postgresql.png)
 
-白をひいてリストを書く
+|
+
+@snap[over-goal-image]
+sample
+@snapend
 
 @snapend
+
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
