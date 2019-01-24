@@ -60,6 +60,31 @@
   width: 50% !important;
 }
 
+/* Box Style */
+
+.box-style {
+  position: relative !important;
+  top: 0px !important;
+  border: none !important;
+  font-size: 1.2em !important;
+  padding-top: 1em !important;
+  margin-bottom: 20px !important;
+  background-color: rgba(255,255,255,0.1) !important;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
+  border: rgb(240,240,240) solid 1px !important;
+}
+
+.box-style-blue {
+  position: relative !important;
+  top: 0px !important;
+  border: none !important;
+  font-size: 1.2em !important;
+  padding-top: 20px !important;
+  margin-bottom: 20px !important;
+  background-color: white !important;
+  color: #3A8FB7 !important;
+}
+
 /* Gist */
 
 .gist-box {
@@ -102,12 +127,12 @@
 
 /* Bread Crumb */
 
-.reveal .breadcrumbs-wrap {
+.breadcrumbs-wrap {
   position: fixed !important;
   top:  0px !important;
-  left: 0px !important;
-  margin: 0px !important;
+  left: 20px !important;
 }
+
 .breadcrumbs *, .breadcrumbs *:after, .breadcrumbs *:before {
 	-webkit-box-sizing: border-box !important;
 	        box-sizing: border-box !important;
@@ -115,46 +140,44 @@
 .breadcrumbs {
 	overflow: hidden !important;
 	width: 100% !important;
-	margin: 5px 0px 0px 0px !important;
+	margin: 0 !important;
 	padding: 0 !important;
-	list-style: none !important;
+  list-style: none !important;
+}
+.breadcrumbs ol {
+  padding-top:  -20px !important;
 }
 .breadcrumbs li {
 	display: inline-block !important;
-	padding: 0 !important;
-	margin: 0 0 0.5em 0 !important;
+  margin-left: -0.08em !important;
 }
 .breadcrumbs a {
-	position: relative !important;
+  position: relative !important;
 	display: inline-block !important;
 	margin: 0 !important;
-	padding: 0.7em 1em 0.7em 2em !important;
+	padding: 0.8em 1em 0.8em 2em !important;
 	text-decoration: none !important;
 	color: #ffffff !important;
   font-size: 0.35em !important;
 }
-.breadcrumbs li:first-child a {
-	padding-left: 1em !important;
-	border-radius: 5px 0 0 5px !important;
-}
 .breadcrumbs a::after,
 .breadcrumbs a::before {
 	position: absolute;
-	top: 50% !important;
-  right: -1.47em !important;
-	margin-top: -1.3em !important;
+	top: 51% !important;
+  right: -1.46em !important;
+	margin-top: -1.48em !important;
 	content: '' !important;
-	border-top: 1.3em solid transparent !important;
-	border-bottom: 1.3em solid transparent !important;
-	border-left: 1.47em solid !important;
+	border-top: 1.48em solid transparent !important;
+  border-bottom: 1.48em solid transparent !important;
+  border-left: 1.5em solid !important;
 	}
 .breadcrumbs a::after {
-	z-index: 2 !important;
+  z-index: 2 !important;
 }
 .breadcrumbs a::before {
 	z-index: 1 !important;
-	right: -2em !important;
-	border-left-color: #ffffff !important;
+	right: -1.8em !important;
+  border-left-color: #ffffff !important;
 }
 .bluescale .breadcrumbs a::before {
   border-left-color: #3A8FB7 !important;
@@ -174,6 +197,11 @@
 .bluescale .breadcrumbs li:last-child  a       { background:        #FFFFFF !important; z-index: 1 !important; }
 .bluescale .breadcrumbs li:last-child  a:after { border-left-color: #FFFFFF !important; z-index: 1 !important; }
 
+.breadcrumbs li:first-child a {
+  left: 0 !important;
+  margin-left: 5px !important;
+  border-radius: 5px 0 0 5px;
+}
 .breadcrumbs li:last-child a {
   left: 0 !important;
 	cursor: default !important;
@@ -319,18 +347,19 @@
 
 .slide-title {
   position: fixed !important;
-  top: 100px !important;
-  left: 0px !important;
+  top: 1.7em !important;
+  left: 20px !important;
   font-size: 0.9em !important;
   text-align: center !important;
   border-bottom: solid 2px gainsboro !important;
   padding-bottom: 10px !important;
-  width: 950px !important;
+  margin-right: 20px !important;
+  width: 98% !important;
   color: #0B346E;
 }
 
 .detail-comment {
-  font-size: 0.8em !important;
+  font-size: 0.6em !important;
   margin-left: 22px !important;
 }
 
@@ -339,7 +368,7 @@
 .slide-contents {
   position: fixed !important;
   top: 200px !important;
-  left: 0px !important;
+  left: 20px !important;
   font-size: 0.8em !important;
   display: inline-block !important;
   text-align: left !important;
@@ -358,31 +387,6 @@
 }
 .slide-contents th {
   background-color: rgba(0,0,0,0.03) !important;
-}
-
-/* Box Style */
-
-.box-style {
-  position: relative !important;
-  top: 0px !important;
-  border: none !important;
-  font-size: 1.2em !important;
-  padding-top: 20px !important;
-  margin-bottom: 20px !important;
-  background-color: rgba(255,255,255,0.1) !important;
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
-  border: rgb(240,240,240) solid 1px !important;
-}
-
-.box-style-blue {
-  position: relative !important;
-  top: 0px !important;
-  border: none !important;
-  font-size: 1.2em !important;
-  padding-top: 20px !important;
-  margin-bottom: 20px !important;
-  background-color: white !important;
-  color: #3A8FB7 !important;
 }
 
 /* Intro Template Styles */

@@ -17,15 +17,15 @@
 @snap[slide-contents]
 
 @ol[numberlist numberlist-color1](false)
-- Web基礎知識 @css[detail-comment](説明文説明文説明文説明文説明文)
-- 環境構築 - 説明文説明文説明文説明文説明文
-- APIServerの構築 - 説明文説明文説明文説明文説明文
-- 地図の表示 - 説明文説明文説明文説明文説明文
-- 外部API呼び出し - 説明文説明文説明文説明文説明文
-- DB操作 - 説明文説明文説明文説明文説明文
-- 内部API呼び出し - 説明文説明文説明文説明文説明文
-- 地図へのポイント追加 - 説明文説明文説明文説明文説明文
-- 自分の緯度経度の取得 - 説明文説明文説明文説明文説明文
+- Web基礎知識				@css[detail-comment](説明文説明文説明文説明文説明文)
+- 環境構築					@css[detail-comment](説明文説明文説明文説明文説明文)
+- APIServerの構築			@css[detail-comment](説明文説明文説明文説明文説明文)
+- 地図の表示				@css[detail-comment](説明文説明文説明文説明文説明文)
+- 外部API呼び出し			@css[detail-comment](説明文説明文説明文説明文説明文)
+- DB操作					@css[detail-comment](説明文説明文説明文説明文説明文)
+- 内部API呼び出し			@css[detail-comment](説明文説明文説明文説明文説明文)
+- 地図へのポイント追加			@css[detail-comment](説明文説明文説明文説明文説明文)
+- 自分の緯度経度の取得			@css[detail-comment](説明文説明文説明文説明文説明文)
 @olend
 
 @snapend
@@ -33,7 +33,7 @@
 ---?color=#3A8FB7
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
+- [ハンズオン講習会の流れ](#/1)
 - [n. アジェンダ項目名]()
 @olend
 @snapend
@@ -46,7 +46,7 @@
 
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
+- [ハンズオン講習会の流れ](#/1)
 - [n. アジェンダ項目名]()
 @olend
 @snapend
@@ -72,7 +72,7 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
+- [ハンズオン講習会の流れ](#/1)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
 - [k. ここまで]()
@@ -93,7 +93,7 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
+- [ハンズオン講習会の流れ](#/1)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
 - [k. ここまで]()
@@ -147,19 +147,19 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
+- [ハンズオン講習会の流れ](#/1)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
 - [k. ここまで]()
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートD - 作業手順)
+### @css[slide-title specified-font](テンプレートD - 作業説明)
 
 @snap[slide-contents]
 
 @snap[left-column]
-@ol[numberlist numberlist-color4](false)
+@ol[numberlist numberlist-color3](false)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -169,12 +169,11 @@
 - 内部API呼び出し
 - 地図へのポイント追加
 - 自分の緯度経度の取得
-- 自分の緯度経度の取得
 @olend
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color4 start-11](false)
+@ol[numberlist  numberlist-color3 start-11](false)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -209,7 +208,7 @@
 @box[rounded box-style](手順詳細用の、テンプレートです。<br>この作業の目的を、ここに書きます。)
 
 @snap[left-column]
-@ol[numberlist](true)
+@ol[numberlist numberlist-color4](true)
 - 手順１や、
 - 手順２など、
 - ここに、書いていきます。
@@ -219,7 +218,7 @@
 @snapend
 
 @snap[right-column]
-@ol[numberlist start-6](true)
+@ol[numberlist numberlist-color4 start-6](true)
 - 手順6なら `start-6` と書き、
 - 書いていきます。
 - 手順詳細の、
