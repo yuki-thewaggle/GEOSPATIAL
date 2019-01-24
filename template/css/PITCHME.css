@@ -71,10 +71,11 @@
   font-size: 1.2em !important;
   padding-top: 0.5em !important;
   margin-bottom: 0.7em !important;
+  margin-right: 20px !important;
   /* background-color: rgba(255,255,255,0.1) !important; */
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05) !important;
   border: rgb(240,240,240) solid 1px !important;
-  width: 99% !important;
+  width: 100% !important;
 }
 
 .box-style-blue {
@@ -91,8 +92,9 @@
 
 /* Quote */
 .quote-wrap {
-  width: 95% !important;
+  width: 96% !important;
   margin-left: 0.01em !important;
+  margin-right: 20px !important;
 }
 
 /* override quote-text */
@@ -155,9 +157,10 @@
 }
 .gist-box code {
   position: relative;
-  width: 96% !important;
+  width: 97% !important;
   height : 20em !important;
   padding: 1.5em !important;
+  margin-right: 20px !important;
   background-color: rgba(255,255,255,0.1) !important;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
   border: rgb(240,240,240) solid 1px !important;
@@ -377,7 +380,7 @@
   border-bottom: solid 2px gainsboro !important;
   padding-bottom: 10px !important;
   margin-right: 20px !important;
-  width: 98% !important;
+  width: 95% !important;
   color: #0B346E;
 }
 
@@ -397,7 +400,10 @@
   display: inline-block !important;
   text-align: left !important;
   vertical-align: top !important;
-  width: 950px !important;
+  /* width: 950px !important; */
+  margin-right: 20px !important;
+  width: 95% !important;
+
 }
 
 .slide-contents table {

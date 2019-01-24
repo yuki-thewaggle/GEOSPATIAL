@@ -1,12 +1,13 @@
 # 構成
 
-# Web基礎知識
+# 基礎知識	-	Webの仕組みやプログラミングに必要な知識を学ぶ
 	1. Webの仕組み
 		https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
 		https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
 		* クライアント
 			Webブラウザ
 		* サーバ
+		* データベース
 		* リクエストとレスポンス
 		* インターネット接続
 		* ウェブページ
@@ -57,7 +58,7 @@
 		* 文字列 "elixir"
 		* リスト [1, 2, 3]
 		* タプル {1, 2, 3}
-# 環境構築
+# 環境構築	-	地図アプリを作るために必要な設定をする
 	1. CUI
 		1. 概要
 			https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース
@@ -98,7 +99,7 @@
 	1. Phoenixframework
 		1. 概要
 		1. ダウンロードとインストール
-# APIServerの構築
+# APIServerの構築	-	地図アプリを提供するためのシステムを作る
 	1. プロジェクトファイルの生成
 		1. 概要
 		1. 使用するソフトウェア
@@ -146,19 +147,20 @@
 		1. 概要
 		1. 使用するソフトウェア
 		1. 作業内容
-# 地図の表示
+# 地図の表示	-	まずは地図を表示してみる
 	1. leaflet.js
 		1. 概要
 		1. 使用するソフトウェア
 	1. Mapの設定
 	1. leaflet.jsの仕様
 	1. 表示の確認
-# 外部API呼び出し
+# 外部API呼び出し	-	公開されている地図システムを利用する
 	1. APIを扱うパッケージの追加
-# DB操作
+# DB操作	-	データ群を扱う
 	1. DB操作の追加
-# 内部API呼び出し
+# 内部API呼び出し	-	ツールを使って地図アプリを配信する
 	1. Vue.jsとaxiosを使ってAPIを呼出す
+	1. フレームワークとは
 	1. CDNを使用する為のタグを追加する
 	1. 表示
 	1. 更新
