@@ -1,30 +1,31 @@
 ---?color=#3A8FB7
 
-@snap[west]
-# @css[headline top-left specified-font](GEOSPATIAL<br>Hackers Program<br>Hands-on)
+@snap[west top-left specified-font]
+
+@snap[byline color4]
+<span style="margin-left:8px;">@size[0.75em](GEOSPATIAL Hackers Program Hands-on)</span>
 @snapend
 
----?color=#3A8FB7
-
-@snap[west]
-# @css[sub-headline specified-font](オープンデータを<br>利用して<br>地図アプリを作ろう!)
+@snap[headline]
+# オープンデータを<br>利用して<br>地図アプリを作ろう!
+@snapend
 @snapend
 
 ---
-# @css[slide-title blue specified-font](ハンズオン講習会の流れ)
+### @css[slide-title specified-font](ハンズオン講習会の流れ)
 
 @snap[slide-contents]
 
-@ol[numberlist](false)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
+@ol[numberlist numberlist-color1](false)
+- Web基礎知識 @css[detail-comment](説明文説明文説明文説明文説明文)
+- 環境構築 - 説明文説明文説明文説明文説明文
+- APIServerの構築 - 説明文説明文説明文説明文説明文
+- 地図の表示 - 説明文説明文説明文説明文説明文
+- 外部API呼び出し - 説明文説明文説明文説明文説明文
+- DB操作 - 説明文説明文説明文説明文説明文
+- 内部API呼び出し - 説明文説明文説明文説明文説明文
+- 地図へのポイント追加 - 説明文説明文説明文説明文説明文
+- 自分の緯度経度の取得 - 説明文説明文説明文説明文説明文
 @olend
 
 @snapend
@@ -37,13 +38,26 @@
 @olend
 @snapend
 
-# @css[slide-title specified-font](テンプレートA - 大項目)
+@snap[west headline specified-font]
+## アジェンダ項目名
+@snapend
+
+---
+
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+@olend
+@snapend
+
+### @css[slide-title specified-font](テンプレートA - 大項目)
 
 @snap[slide-contents]
 
-@box[rounded box-style-blue](アジェンダ項目（大項目）用の、テンプレートです。<br>項目の概要を、説明します。)
+@box[rounded box-style](アジェンダ項目（大項目）用の、テンプレートです。<br>項目の概要を、説明します。)
 
-@ol[numberlist](false)
+@ol[numberlist numberlist-color2](false)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -65,7 +79,7 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](テンプレートB - 言葉・概念の意味)
+### @css[slide-title specified-font](テンプレートB - 言葉・概念の意味)
 
 @snap[slide-contents]
 
@@ -86,7 +100,7 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](テンプレートC - Bのテーブル版)
+### @css[slide-title specified-font](テンプレートC - Bのテーブル版)
 
 @snap[slide-contents]
 
@@ -140,11 +154,27 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](テンプレートD - 作業手順)
+### @css[slide-title specified-font](テンプレートD - 作業手順)
 
 @snap[slide-contents]
 
-@ol[numberlist](false)
+@snap[left-column]
+@ol[numberlist numberlist-color4](false)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+- 自分の緯度経度の取得
+@olend
+@snapend
+
+@snap[right-column]
+@ol[numberlist  numberlist-color4 start-11](false)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -157,6 +187,7 @@
 - 自分の緯度経度の取得
 - 自分の緯度経度の取得
 @olend
+@snapend
 
 @snapend
 
@@ -171,7 +202,7 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](テンプレートE - 手順詳細)
+### @css[slide-title specified-font](テンプレートE - 手順詳細)
 
 @snap[slide-contents]
 
@@ -189,10 +220,10 @@
 
 @snap[right-column]
 @ol[numberlist start-6](true)
-- 手順5なら `start-6` と書き、
+- 手順6なら `start-6` と書き、
 - 書いていきます。
-- 書いていきます。
-- 書いていきます。
+- 手順詳細の、
+- 番号の色をかえようかな。
 - a
 - a
 @olend
@@ -210,12 +241,14 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](テンプレートF - 手順ゴール)
+### @css[slide-title specified-font](テンプレートF - 手順ゴール)
 
 @snap[slide-contents]
 
 @img[goal-image](template/img/environment/postgresql.png)
 
+白をひいてリストを書く
+
 @snapend
 ---
 @snap[breadcrumbs-wrap]
@@ -227,7 +260,7 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](テンプレートG - ソースコード)
+### @css[slide-title specified-font](テンプレートG - ソースコード)
 
 @snap[slide-contents]
 @snap[gist-box]
@@ -296,7 +329,7 @@
 @snapend
 
 ---
-@css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
+@css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title blue specified-font](（例）ソースコード)
 
 @gist[html zoom-05](Yoosuke/4b171606c9390418467b961085894915)
@@ -306,13 +339,13 @@
 @[6-8](sample3)
 
 ---
-@css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
+@css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title blue specified-font](（例）Webページを埋め込む)
 
 <iframe class="iframe-style" src="http://nipponcolors.com/#chigusa"></iframe>
 
 ---
-@css[page-number lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
+@css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
 # @css[slide-title specified-font](（例）Webの仕組み)
 
 @snap[west slide-contents]
