@@ -57,6 +57,7 @@
 
 @box[rounded box-style](アジェンダ項目（大項目）用の、テンプレートです。<br>項目の概要を、説明します。)
 
+@snap[left-column]
 @ol[numberlist numberlist-color2](false)
 - アジェンダ項目内の小項目
 - 小項目
@@ -66,6 +67,21 @@
 - a
 - a
 @olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color2](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+- a
+@olend
+@snapend
+
 
 @snapend
 
@@ -219,7 +235,7 @@
 
 @snap[right-column]
 @ol[numberlist numberlist-color4 start-6](true)
-- 手順6なら `start-6` と書き、
+- 手順6なら`start-6`と書き、
 - 書いていきます。
 - 手順詳細の、
 - 番号の色をかえようかな。
@@ -246,11 +262,27 @@
 
 @img[goal-image](template/img/environment/postgresql.png)
 
-|
-
-@snap[over-goal-image]
-sample
 @snapend
+
+---?image=template/img/environment/postgresql.png&size=50% auto&opacity=30
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+### @css[slide-title specified-font](テンプレートG - 手順ゴール条件)
+
+@snap[slide-contents margin-left1]
+
+@ul[itemlist](false)
+- 条件１
+- 条件２
+- 条件３
+@ulend
 
 @snapend
 
@@ -264,7 +296,7 @@ sample
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートG - ソースコード)
+### @css[slide-title specified-font](テンプレートH - ソースコード)
 
 @snap[slide-contents]
 @snap[gist-box]
