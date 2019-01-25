@@ -1,3 +1,68 @@
+---?color=#3A8FB7
+@snap[breadcrumbs-wrap bluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+@olend
+@snapend
+
+@snap[west headline]
+## 基礎知識
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [1. Web（World Wide Web）とは]()
+@olend
+@snapend
+
+### @css[slide-title](Web（World Wide Web）とは)
+
+@snap[slide-contents]
+
+@snap[quote-wrap]
+
+@quote[<ul><li>World Wide Web（ワールド・ワイド・ウェブ、略名：WWW）は、Web（ウェブ）とも呼ばれる</li><li>「インターネット」という表現がワールド・ワイド・ウェブを指す場合もある</li><li>世界中に張り巡らしたような、文書間のつながり</li><li>HTMLやXHTMLといったハイパーテキストの記述言語が使用される</li></ul>](https://ja.wikipedia.org/wiki/World_Wide_Web)
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [2. Webページとは]()
+@olend
+@snapend
+
+### @css[slide-title](Webページとは)
+
+@quote[ウェブ上にあり、ウェブブラウザで閲覧可能な、ページ単位の文書](https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8)
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [2. Webの仕組み]()
+@olend
+@snapend
+
+### @css[slide-title](Webの仕組み)
+
+@snap[slide-contents]
+
+@snap[quote-wrap]
+
+@quote[<ul><li>Webにおける情報の基礎的な単位はページ（Webページ、ウェブページ）](http://e-words.jp/w/Web.html)
+
+@quote[<ul><li>ウェブページのコピーが<strong>サーバー</strong>から<strong>クライアント</strong>にダウンロードされ、ユーザーのウェブブラウザーに表示されます。<ul><li>クライアント：<br>インターネットに接続されたコンピューターやスマートフォンなど</li><li>サーバー：<br>ウェブページ、サイト、アプリを保存しているコンピューター</li></ul></li></ul>](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+@snapend
+
 ---?color=#9F79F7
 # @css[headline](Webの)
 # @css[headline](基礎知識)

@@ -17,15 +17,17 @@
 @snap[slide-contents]
 
 @ol[numberlist numberlist-color1](false)
-- Web基礎知識				@css[detail-comment](説明文説明文説明文説明文説明文)
-- 環境構築					@css[detail-comment](説明文説明文説明文説明文説明文)
-- APIServerの構築			@css[detail-comment](説明文説明文説明文説明文説明文)
-- 地図の表示				@css[detail-comment](説明文説明文説明文説明文説明文)
-- 外部API呼び出し			@css[detail-comment](説明文説明文説明文説明文説明文)
-- DB操作					@css[detail-comment](説明文説明文説明文説明文説明文)
-- 内部API呼び出し			@css[detail-comment](説明文説明文説明文説明文説明文)
-- 地図へのポイント追加			@css[detail-comment](説明文説明文説明文説明文説明文)
-- 自分の緯度経度の取得			@css[detail-comment](説明文説明文説明文説明文説明文)
+- 基礎知識			@css[detail-comment](Webの仕組みやプログラミングに必要な知識を学ぶ)
+- 環境構築			@css[detail-comment](地図アプリを作るために必要な設定をする)
+- APIサーバの構築	@css[detail-comment](地図アプリを提供するためのシステムを作る)
+- 地図の表示		@css[detail-comment](まずは地図を表示してみる)
+- 外部APIの呼び出し		@css[detail-comment](公開されている地図システムを利用する)
+- DBの操作			@css[detail-comment](データ群を扱う)
+- 内部APIの呼び出し		@css[detail-comment](ツールを使って地図アプリを配信する)
+- 地図へのポイント追加	@css[detail-comment](説明文説明文説明文説明文説明文)
+- 自分の緯度経度の取得	@css[detail-comment](説明文説明文説明文説明文説明文)
+- CSSデータの読み込み	@css[detail-comment](説明文説明文説明文説明文説明文)
+- デプロイ				@css[detail-comment](説明文説明文説明文説明文説明文)
 @olend
 
 @snapend
@@ -348,122 +350,6 @@
 @[32](32)
 
 @snapend
-@snapend
-
----?color=#3A8FB7
-@snap[breadcrumbs-wrap bluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
-- [2. 環境構築]()
-- 
-@olend
-@snapend
-
-# @css[slide-title](（例）環境構築)
-
-@snap[west slide-contents]
-
-@box[rounded box-style](今回の開発に必要なシステムやソフトウェアを、<br>自分のPCで使えるように準備します。)
-
-@ol[numberlist](false)
-- Firefox
-- RestClient
-- テキストエディタ
-- Elixir
-- node.js
-- PostgreSQL
-- Phoenixframework
-@olend
-
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](5)
-- [1. Web基礎知識]()
-- [3. テキストエディタ]()
-- [1. 概要]()
-@olend
-@snapend
-
-# @css[slide-title blue](（例）Firefoxのダウンロード)
-
-@snap[south-east]
-@img[span-60 height-50 margin-right-0](template/img/environment/postgresql.png)
-@snapend
-
-@snap[west slide-contents]
-
-<u>[Firefox](https://www.mozilla.org/ja/firefox/new/)</u>を<br>
-ダウンロードします。
-
-@snapend
-
----
-@css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
-# @css[slide-title blue](（例）ソースコード)
-
-@gist[html zoom-05](Yoosuke/4b171606c9390418467b961085894915)
-
-@[1](sample1)
-@[2,4](sample2)
-@[6-8](sample3)
-
----
-@css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
-# @css[slide-title blue](（例）Webページを埋め込む)
-
-<iframe class="iframe-style" src="http://nipponcolors.com/#chigusa"></iframe>
-
----
-@css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
-# @css[slide-title](（例）Webの仕組み)
-
-@snap[west slide-contents]
-
-> https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
-> https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
-	
-* クライアント
-	Webブラウザ
-* サーバ
-* リクエストとレスポンス
-* インターネット接続
-* ウェブページ
-	ウェブブラウザに表示可能なドキュメント
-
-@snapend
-
----
-
-1. Webの仕組み
-2. HTML
-3. CSS
-4. JavaScript
-5. Elixir
-6. 型
-7. Elixirの型
----
-
----?color=#3a8fb7
-
-@snap[north-west]
-## The Agenda
-@snapend
-
-@snap[south-west list-content-concise span-80]
-@ol[numberlist](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
-@olend
 @snapend
 
 ---?include=template/md/basic-knowlede-webgis/PITCHME.md

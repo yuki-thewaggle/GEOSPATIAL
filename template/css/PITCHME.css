@@ -11,7 +11,6 @@
   font-family: "Lato", sans-serif !important;
 }
 
-
 /* Color */
 
 .green     { color: #227D51; }
@@ -102,12 +101,13 @@
 .quote-text {
   font-size: 0.9em !important;
   margin-top: 0 !important;
+  text-align: left !important;
 }
 .quote-text i:before {
   display: none !important;
 }
 .quote-text li {
-  margin-bottom: 0.2em !important;
+  margin-bottom: 0.5em !important;
 }
 .quote-text li li {
   margin-top: -0.01em !important;
@@ -121,8 +121,10 @@
   margin-bottom: 15px !important;
 }
 
-.quote-text.quote-attribution {
-  margin-left: 1em !important;
+
+.quote-text span.quote-attribution {
+  margin-left: 0.9em !important;
+  font-size: 0.4em !important;
 }
 
 
@@ -353,6 +355,7 @@
   letter-spacing: 0.01em;
   line-height: 1.5em !important;
   font-size: 2.5em !important;
+  margin: 0 20px !important;
  /*font-variant: small-caps !important;*/
 }
 
