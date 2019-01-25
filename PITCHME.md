@@ -256,7 +256,7 @@
 @olend
 @snapend
 
-### @css[slide-title](テンプレートF - 手順ゴール)
+### @css[slide-title](テンプレートF - 手順ゴール画像)
 
 @snap[slide-contents]
 
@@ -264,7 +264,7 @@
 
 @snapend
 
----?image=template/img/environment/postgresql.png&size=50% auto&opacity=30
+---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
@@ -304,7 +304,7 @@
 @fa[external-link]
 <u>https://gist.github.com/yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09</u>
 
-@gist[html zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
 
 @[1](1)
 @[2,4](2,4)
