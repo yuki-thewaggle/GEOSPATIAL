@@ -51,7 +51,7 @@
 @olend
 @snapend
 
-### @css[slide-title](テンプレートA - 大項目)
+### @css[slide-title](テンプレートA1 - 大項目)
 
 @snap[slide-contents]
 
@@ -80,6 +80,46 @@
 @olend
 @snapend
 
+@snapend
+
+---
+
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [n. アジェンダ項目名]()
+- [m. 中項目名]()
+@olend
+@snapend
+
+### @css[slide-title](テンプレートA2 - 大項目)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
 
 @snapend
 

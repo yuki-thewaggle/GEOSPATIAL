@@ -1,48 +1,60 @@
 # 構成
 
-# テンプレートA
-## テンプレートB
-### テンプレートC
-#### テンプレートD
-##### テンプレートE
-###### テンプレートF
-####### テンプレートG
-####### テンプレートH
+[A1] テンプレートA
+[A2]
+[B] テンプレートB
+[C] テンプレートC
+[D] テンプレートD
+[E] テンプレートE
+[F] テンプレートF
+[G] テンプレートG
+[H] テンプレートH
+
+<a> : 索引からリンクで飛んでこれるようにする単語
+<link> : <a>にリンクさせる単語
 
 # 基礎知識	-	Webの仕組みやプログラミングに必要な知識を学ぶ
-	1. Webの仕組み
+	## Webの仕組み
 		https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
 		https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
-		* クライアント
-			Webブラウザ
-		* サーバ
-		* データベース
-		* リクエストとレスポンス
-		* インターネット接続
-		* ウェブページ
+		* 説明１
+		* 説明２
+	## 用語解説
+		<a>クライアント
+		<a>Webブラウザ
+		<a>サーバ
+		<a>データベース
+		<a>リクエストとレスポンス
+		<a>インターネット接続
+		<a>ウェブページ
 			ウェブブラウザに表示可能なドキュメント
-	1. HTML
+	## HTMLとは
 		https://developer.mozilla.org/ja/docs/Web/HTML
+		* HTML（HyperText Markup Language　- ハイパーテキスト マークアップ ランゲージ）
 		* ウェブのもっとも基本的な構成要素
 		* ウェブページの基本レイアウトに従ってウェブページのコンテンツを記述し定義するもの
-		* ハイパーテキスト
+	## 用語解説
+		<a>HTML
+		<a>ハイパーテキスト
 			- ウェブページから別なページに接続するリンク
 			- ウェブサイト内でもウェブサイト間でも
 			- ウェブの基礎的な特徴
-		* マークアップ
+		<a>マークアップ
 			- たくさんの特殊な「要素」を用いる
-			- タグを利用
+			- <a>タグを利用
 				HTML のタグは、大文字と小文字の区別はありません。つまり、大文字でも、小文字でも、混在して書いても構いません。例えば、 <title> タグは <Title> や <TITLE> やその他の方法で書くことができます
-	1. CSS
+	## CSSとは
 		https://developer.mozilla.org/ja/docs/Web/CSS
 		* 体裁や見栄えを表現するために用いられる
-	1. JavaScript
+		<a>CSS
+	## JavaScriptとは
 		https://developer.mozilla.org/ja/docs/Web/JavaScript
 		* プログラミング言語
 		* Web ページでよく使用される
 		* Webページに動作を付ける
 		* 非ブラウザ環境においても多く使用されている
-	1. Elixir
+		<a>JavaScript
+	## Elixirとは
 		https://www.ossnews.jp/oss_info/Elixir
 		https://ja.m.wikipedia.org/wiki/Elixir_(プログラミング言語)
 		* プログラミング言語
@@ -51,12 +63,16 @@
 		* １つのマシンで数十万の処理を並行して行える
 			- 処理が早い
 		* 予想通りに物事が進まなくなった場合の対応を思い通りに保証できる
-	1. 型
+	## 用語解説
+		<a>Elixir
+		<a>プログラミング言語
+	## 型とは
 		https://ja.m.wikipedia.org/wiki/データ型
 		* データ（値）の種類に関する分類
 			- 0, 1, 2, -42 といったような値は整数型
 			- "foo", "Hello" といったような値は文字列型
-	1. Elixirの型
+		<a>型
+	## Elixirの主な型
 		https://elixirschool.com/ja/lessons/basics/basics/#%E3%82%A2%E3%83%88%E3%83%A0
 		https://elixirschool.com/ja/lessons/basics/collections/#タプル
 		* 整数 1
@@ -67,46 +83,66 @@
 		* 文字列 "elixir"
 		* リスト [1, 2, 3]
 		* タプル {1, 2, 3}
+		<a>Elixirの主な型
 # 環境構築	-	地図アプリを作るために必要な設定をする
-	1. CUI
-		1. 概要
+	## CUI
+		## 概要
+			* 作業の内容と目的
+			* 起動方法
+				- Windows
+					* コマンドプロント
+						起動方法
+				- MacOS
+					* ターミナル
+					* 起動方法
+		## CUIとは
 			https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース
 			- ユーザインタフェース
 				機械と人間との伝達を行うもの
 			- 文字列が表示されるウィンドウに出力する
 			- キーボード等から文字列を入力する
-		1. 起動方法
-			- Windows
-				* コマンドプロント
-				 	起動方法
-			- MacOS
-				* ターミナル
-				* 起動方法
+			<a>CUI
 	1. Firefox
-		1. 概要
-		1. ダウンロードとインストール
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+			* 手順
+		## Firefoxとは
+			<link>Webブラウザ
 	1. RESTClient
-		1. 概要
-		1. ダウンロードとインストール
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+			* 手順
+	## RESTClientとは
 	1. テキストエディタ
-		1. 概要
-		1. ダウンロードとインストール
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+			* 手順
 			お好みのものがあればそれをお使いください
 			Visual Studio Codeをお薦めします
 			※Windows
 				$ cd フォルダ
 				shell のパス設定いらない（インストール時に行う）
+		## テキストエディタとは
 	1. Elixir
-		1. 概要（説明ページへリンク）
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+		## Elixirとは
+			<link>Elixirとは
 		1. ダウンロードとインストール
 	1. node.js
-		1. 概要
-		1. ダウンロードとインストール
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+		## node.jsとは
+		1. 
 	1. PostgreSQL
-		1. 概要
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+		## PostgreSQLとは
 		1. ダウンロードとインストール
 	1. Phoenixframework
-		1. 概要
+		##### ダウンロードとインストール
+			* 作業の内容と目的
+		## Phoenixframeworkとは
 		1. ダウンロードとインストール
 # APIServerの構築	-	地図アプリを提供するためのシステムを作る
 	1. プロジェクトファイルの生成
@@ -183,6 +219,8 @@
 	1. GeoJsonに入れる
 # CSSデータを読み込む
 # デプロイ					
+
+---
 
 #メモ
   - 今、何やっているか？の進捗が確認できる事 (作業に連番を降る)
