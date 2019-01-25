@@ -140,6 +140,27 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
+@quote[<ul><li>ユーザインタフェース<ul><li>ユーザインタフェース1</li><li>ユーザインタフェース2</li></ul></li><li>文字列が表示されるウィンドウに出力</li></ul>](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
+@quote[<ul><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li></ul>](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+### @css[slide-title](テンプレートB - 言葉・概念の意味)
+
+@snap[slide-contents]
+
+@snap[quote-wrap]
 @quote[<ul><li>ユーザインタフェース<ul><li>ユーザインタフェース1</li><li>ユーザインタフェース2</li></ul></li><li>文字列が表示されるウィンドウに出力</li><li>キーボード等から文字列を入力</li></ul>](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
 @quote[キーボード等から文字列を入力](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
 @snapend

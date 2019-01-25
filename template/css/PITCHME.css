@@ -102,26 +102,27 @@
   font-size: 0.9em !important;
   margin-top: 0 !important;
   text-align: left !important;
+  font-size: 0;
 }
 .quote-text i:before {
   display: none !important;
 }
+.quote-text ul {
+  font-size: 1em;
+}
 .quote-text li {
   margin-bottom: 0.5em !important;
 }
-.quote-text li:first-child {
-  margin-top: -1em !important;
+.quote-text ul ul {
+  margin-top: 0.3em !important;
+  color: rgb(140,140,140);
 }
-.quote-text li li {
-  margin-top: -0.01em !important;
-  margin-left: -0.6em !important;
+.quote-text ul li li {
+  margin-top: -0.3em !important;
   color: rgb(140,140,140);
 }
 .quote-text li li:first-child {
   margin-top: 0.3em !important;
-}
-.quote-text li li:last-child {
-  margin-bottom: 15px !important;
 }
 
 .quote-text span.quote-attribution {
