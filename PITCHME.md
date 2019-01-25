@@ -1,6 +1,6 @@
 ---?color=#3A8FB7
 
-@snap[west top-left specified-font]
+@snap[west top-left]
 
 @snap[byline headline-detail color4]
 @size[0.75em](GEOSPATIAL Hackers Program Hands-on)
@@ -12,7 +12,7 @@
 @snapend
 
 ---
-### @css[slide-title specified-font](ハンズオン講習会の流れ)
+### @css[slide-title](ハンズオン講習会の流れ)
 
 @snap[slide-contents]
 
@@ -38,7 +38,7 @@
 @olend
 @snapend
 
-@snap[west headline specified-font]
+@snap[west headline]
 ## アジェンダ項目名
 @snapend
 
@@ -51,7 +51,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートA - 大項目)
+### @css[slide-title](テンプレートA - 大項目)
 
 @snap[slide-contents]
 
@@ -95,7 +95,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートB - 言葉・概念の意味)
+### @css[slide-title](テンプレートB - 言葉・概念の意味)
 
 @snap[slide-contents]
 
@@ -116,7 +116,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートC - Bのテーブル版)
+### @css[slide-title](テンプレートC - Bのテーブル版)
 
 @snap[slide-contents]
 
@@ -170,7 +170,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートD - 作業説明)
+### @css[slide-title](テンプレートD - 作業説明)
 
 @snap[slide-contents]
 
@@ -217,7 +217,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートE - 手順詳細)
+### @css[slide-title](テンプレートE - 手順詳細)
 
 @snap[slide-contents]
 
@@ -256,7 +256,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートF - 手順ゴール)
+### @css[slide-title](テンプレートF - 手順ゴール)
 
 @snap[slide-contents]
 
@@ -274,7 +274,7 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートG - 手順ゴール条件)
+### @css[slide-title](テンプレートG - 手順ゴール条件)
 
 @snap[slide-contents margin-left1]
 
@@ -296,20 +296,21 @@
 @olend
 @snapend
 
-### @css[slide-title specified-font](テンプレートH - ソースコード)
+### @css[slide-title](テンプレートH - ソースコード)
 
 @snap[slide-contents]
 @snap[gist-box]
 
 @fa[external-link]
-<u>https://gist.github.com/Yoosuke/4b171606c9390418467b961085894915</u>
+<u>https://gist.github.com/yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09</u>
 
-@gist[html zoom-07](Yoosuke/4b171606c9390418467b961085894915)
+@gist[html zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
 
-@[1](sample1)
-@[2,4](sample2)
-@[6-8](sample3)
-@[21](sample6)
+@[1](1)
+@[2,4](2,4)
+@[6-8](6-8)
+@[17-19](17-19)
+@[32](32)
 
 @snapend
 @snapend
@@ -323,7 +324,7 @@
 @olend
 @snapend
 
-# @css[slide-title specified-font](（例）環境構築)
+# @css[slide-title](（例）環境構築)
 
 @snap[west slide-contents]
 
@@ -351,7 +352,7 @@
 @olend
 @snapend
 
-# @css[slide-title blue specified-font](（例）Firefoxのダウンロード)
+# @css[slide-title blue](（例）Firefoxのダウンロード)
 
 @snap[south-east]
 @img[span-60 height-50 margin-right-0](template/img/environment/postgresql.png)
@@ -366,7 +367,7 @@
 
 ---
 @css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
-# @css[slide-title blue specified-font](（例）ソースコード)
+# @css[slide-title blue](（例）ソースコード)
 
 @gist[html zoom-05](Yoosuke/4b171606c9390418467b961085894915)
 
@@ -376,13 +377,13 @@
 
 ---
 @css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
-# @css[slide-title blue specified-font](（例）Webページを埋め込む)
+# @css[slide-title blue](（例）Webページを埋め込む)
 
 <iframe class="iframe-style" src="http://nipponcolors.com/#chigusa"></iframe>
 
 ---
 @css[lightblue](（レイアウト変更します）ハンズオン講習会の流れ[2] ＞ 環境構築[1] Firefox)
-# @css[slide-title specified-font](（例）Webの仕組み)
+# @css[slide-title](（例）Webの仕組み)
 
 @snap[west slide-contents]
 

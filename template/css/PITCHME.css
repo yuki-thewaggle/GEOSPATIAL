@@ -5,19 +5,13 @@
   src: url('/assets/fonts/raleway-regular-webfont.woff2')format('woff2'),
        url('/assets/fonts/Raleway-Regular.woff')format('woff');
 }
-@font-face {
-  font-family: 'Specified';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/assets/fonts/Product-Sans-Regular.woff')format('woff');
-}
-.specified-font {
-  font-family: 'Specified', sans-serif !important;
+
+* :not(.fa) {
+  color: rgb(80,80,80);
+  font-family: "Lato", sans-serif !important;
 }
 
-* {
-  color: rgb(80,80,80);
-}
+
 /* Color */
 
 .green     { color: #227D51; }
@@ -153,20 +147,25 @@
 .gist-box i {
   margin-left: 0.08em !important;
 }
-.gist-box a {
+.gist-box u a {
   font-size: 0.6em !important;
   top: -0.3em !important;
   margin-left: 0.3em !important;
 }
 .gist-box code {
-  position: relative;
-  height : 20em !important;
+  height : 50vh !important;
   padding: 1.5em !important;
   background-color: rgba(255,255,255,0.1) !important;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
   border: rgb(240,240,240) solid 1px !important;
 }
+.reveal .gist-box pre code {
+  overflow-y: scroll !important;
+  white-space: pre-wrap !important;
+}
+
 .gist-box .code-presenting-annotation {
+  width: 96% !important;
   text-align: center !important;
   padding: 0.5em !important;
   margin-top: 0.7em !important;
