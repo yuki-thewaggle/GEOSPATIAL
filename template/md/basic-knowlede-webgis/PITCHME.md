@@ -22,11 +22,13 @@
 ### @css[slide-title](Web（World Wide Web）とは)
 
 @snap[slide-contents]
-
 @snap[quote-wrap]
 
-@quote[<ul><li>World Wide Web（ワールド・ワイド・ウェブ、略名：WWW）は、Web（ウェブ）とも呼ばれる</li><li>「インターネット」という表現がワールド・ワイド・ウェブを指す場合もある</li><li>世界中に張り巡らしたような、文書間のつながり</li><li>HTMLやXHTMLといったハイパーテキストの記述言語が使用される</li></ul>](https://ja.wikipedia.org/wiki/World_Wide_Web)
+@quote[<ul><li>World Wide Web（ワールド・ワイド・ウェブ、略名：WWW）は、Web（ウェブ）とも呼ばれる</li><li>「インターネット」という表現がワールド・ワイド・ウェブを指す場合もある</li><li><span class="orange">世界中に張り巡らしたような、文書間のつながり</span ></li></ul>](https://ja.wikipedia.org/wiki/World_Wide_Web)
 
+@quote[<ul><li>Webにおける<span class="orange">情報の基礎的な単位</span>はページ（<span class="orange">Webページ</span>、ウェブページ）](http://e-words.jp/w/Web.html)
+
+@snapend
 @snapend
 
 ---
@@ -40,28 +42,117 @@
 
 ### @css[slide-title](Webページとは)
 
-@quote[ウェブ上にあり、ウェブブラウザで閲覧可能な、ページ単位の文書](https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8)
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<ul><li>ウェブ上にあり、ウェブブラウザで閲覧可能なページ単位の文書</li><li><span class="orange">HTML</span>（またはXHTML）と <span class="orange">スタイルシート</span>、画像データで構成</li><li>ウェブブラウザを使用して閲覧されることが一般的</li><li><span class="orange">JavaScript</span> などのスクリプト言語を使ってウェブページに動作をもたる場合がある</li></ul>](https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8)
+
+@snapend
+@snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/1)
 - [1. 基礎知識](#/12)
-- [2. Webの仕組み]()
+- [3. HTMLとは]()
+@olend
+@snapend
+
+### @css[slide-title](HTMLとは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<span class="orange">H</span>yper<span class="orange">T</span>ext <span class="orange">M</span>arkup <span class="orange">L</span>anguage（ハイパーテキスト マークアップ ランゲージ、HTML（エイチティーエムエル））](https://ja.wikipedia.org/wiki/HyperText_Markup_Language)
+
+@quote[<span class="orange">ハイパーテキスト</span>：<br>複数の文書（テキスト）を相互に関連付け、結び付ける仕組み](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88)
+
+
+@quote[<span class="orange">マークアップ言語</span>：<br>視覚表現や文章構造などを記述するための形式言語](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [4. CSSとは]()
+@olend
+@snapend
+
+### @css[slide-title](CSSとは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<ul><li><span class="orange">C</span>ascading <span class="orange">S</span>tyle <span class="orange">S</span>heets（CSS、カスケーディング・スタイル・シート、カスケード・スタイル・シート）</li><li>HTMLの要素をどのように修飾（表示）するかを指示する</li><li>文書の構造と体裁を分離させるという理念を実現する為に提唱された<span class="orange">スタイルシート</span>の一つ</li></ul>](https://ja.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+@quote[<span class="orange">スタイルシート</span>：<br>構造化文書などにおける表示形式を制御するしくみ](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%B7%E3%83%BC%E3%83%88)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [5. JavaScriptとは]()
+@olend
+@snapend
+
+### @css[slide-title](JavaScriptとは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<ul><li>JavaScript（ジャバスクリプト）</li><li>主にWebページに組み込まれたプログラムをWebブラウザ上で実行するために用いられる<span class="orange">プログラミング言語</span></li><li>HTMLファイル内に埋め込まれて記述</li></ul>](https://ja.wikipedia.org/wiki/JavaScript)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [6. Webの仕組み]()
 @olend
 @snapend
 
 ### @css[slide-title](Webの仕組み)
 
 @snap[slide-contents]
-
 @snap[quote-wrap]
 
-@quote[<ul><li>Webにおける情報の基礎的な単位はページ（Webページ、ウェブページ）](http://e-words.jp/w/Web.html)
-
-@quote[<ul><li>ウェブページのコピーが<strong>サーバー</strong>から<strong>クライアント</strong>にダウンロードされ、ユーザーのウェブブラウザーに表示されます。<ul><li>クライアント：<br>インターネットに接続されたコンピューターやスマートフォンなど</li><li>サーバー：<br>ウェブページ、サイト、アプリを保存しているコンピューター</li></ul></li></ul>](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+@quote[<ul><li>ウェブページのコピーが <span class="orange">サーバー</span> から <span class="orange">クライアント</span> にダウンロードされ、ユーザーのウェブブラウザーに表示されます</li><li><span class="orange">サーバー</span>：<br>ウェブページ、サイト、アプリを保存しているコンピューター</li><li><span class="orange">クライアント</span>：<br>インターネットに接続されたコンピューターやスマートフォンなどのデバイス</li></ul>](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 @snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [7. Elixirとは]()
+@olend
+@snapend
+
+### @css[slide-title](Elixirとは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[てst](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+@snapend
+@snapend
+
+<ul><li>高い基本性能</li><li>書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く速くメンテナンスしやすくするスタイル</li></ul>
 
 ---?color=#9F79F7
 # @css[headline](Webの)

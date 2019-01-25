@@ -109,6 +109,9 @@
 .quote-text li {
   margin-bottom: 0.5em !important;
 }
+.quote-text li:first-child {
+  margin-top: -1em !important;
+}
 .quote-text li li {
   margin-top: -0.01em !important;
   margin-left: -0.6em !important;
@@ -121,12 +124,13 @@
   margin-bottom: 15px !important;
 }
 
-
 .quote-text span.quote-attribution {
   margin-left: 0.9em !important;
-  font-size: 0.4em !important;
+  font-size: 0.5em !important;
 }
-
+.quote-text span.quote-attribution a {
+  border-bottom: solid 1px rgb(0,0,139) !important;
+}
 
 /* Image */
 .goal-image {

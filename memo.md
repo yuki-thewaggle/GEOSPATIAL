@@ -19,13 +19,14 @@
 		https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
 		* 説明１
 		* 説明２
-	1. Webページとは
-	
+	1. [B]Webページとは
 	0. [B]HTMLとは
 		https://developer.mozilla.org/ja/docs/Web/HTML
 		* HTML（HyperText Markup Language　- ハイパーテキスト マークアップ ランゲージ）
 		* ウェブのもっとも基本的な構成要素
 		* ウェブページの基本レイアウトに従ってウェブページのコンテンツを記述し定義するもの
+	0. [B]CSSとは
+	1. [B]JavaScriptとは
 	0. [B]Webの仕組み
 		https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
 		https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
@@ -50,7 +51,7 @@
 			- たくさんの特殊な「要素」を用いる
 			- <a>タグを利用
 				HTML のタグは、大文字と小文字の区別はありません。つまり、大文字でも、小文字でも、混在して書いても構いません。例えば、 <title> タグは <Title> や <TITLE> やその他の方法で書くことができます
-	0. [B]CSSとは
+	0. [B]CSS（スタイルシート）とは
 		https://developer.mozilla.org/ja/docs/Web/CSS
 		* 体裁や見栄えを表現するために用いられる
 		<a>CSS
