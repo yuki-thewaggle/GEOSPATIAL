@@ -92,7 +92,7 @@
 @olend
 @snapend
 
-### @css[slide-title](テンプレートA2 - 大項目)
+### @css[slide-title](テンプレートA2 - 中項目)
 
 @snap[slide-contents]
 
