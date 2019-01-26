@@ -1,3 +1,453 @@
+---?color=#3A8FB7
+@snap[breadcrumbs-wrap bluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+@olend
+@snapend
+
+@snap[west headline]
+## 環境構築
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+@olend
+@snapend
+
+### @css[slide-title](環境構築)
+
+@snap[slide-contents]
+
+@box[rounded box-style](地図アプリを作るために必要なPCの設定をします。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color2](false)
+- CUI
+- Firefox
+- RESTClient
+- テキストエディタ
+- node.js
+- PostgreSQL
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color2 start-7](false)
+- Phoenixframework
+@olend
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. CUI]()
+@olend
+@snapend
+
+### @css[slide-title](CUI)
+
+@snap[slide-contents]
+
+@box[rounded box-style](作業の内容と目的)
+
+@ol[numberlist numberlist-color3](false)
+- CUIとは
+- 起動方法（Windowsの場合）
+- 起動方法（Macの場合）
+- 確認
+@olend
+
+@snapend
+
+---
+
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. CUI]()
+- [0. CUIとは]()
+@olend
+@snapend
+
+### @css[slide-title](CUIとは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[CUIとは](https://sample.com)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. CUI]()
+- [k. 起動方法（Windowsの場合）]()
+@olend
+@snapend
+
+### @css[slide-title](起動方法（Windowsの場合）)
+
+@snap[slide-contents]
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+@olend
+@snapend
+
+@snap[right-column]
+@ol[numberlist  numberlist-color3 start-11](false)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. CUI]()
+- [k. 起動方法（Macの場合）]()
+@olend
+@snapend
+
+### @css[slide-title](起動方法（Macの場合）)
+
+@snap[slide-contents]
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+@olend
+@snapend
+
+@snap[right-column]
+@ol[numberlist  numberlist-color3 start-11](false)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+---
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. Firefox]()
+@olend
+@snapend
+
+### @css[slide-title](Firefox)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+
+
+---
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. RESTClient]()
+@olend
+@snapend
+
+### @css[slide-title](RESTClient)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+
+---
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. テキストエディタ]()
+@olend
+@snapend
+
+### @css[slide-title](テキストエディタ)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+
+---
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. node.js]()
+@olend
+@snapend
+
+### @css[slide-title](node.js)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+
+
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. PostgreSQL]()
+@olend
+@snapend
+
+### @css[slide-title](PostgreSQL)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+---
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/17)
+- [m. Phoenixframework]()
+@olend
+@snapend
+
+### @css[slide-title](Phoenixframework)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- a
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---?color=#F39F39
 # @css[headline](環境構築)
 

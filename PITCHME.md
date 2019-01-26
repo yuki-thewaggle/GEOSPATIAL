@@ -25,7 +25,7 @@
 
 @ol[numberlist numberlist-color1](false)
 - 基礎知識			@css[detail-comment](Webの仕組みやプログラミングに必要な知識を学ぶ)
-- 環境構築			@css[detail-comment](地図アプリを作るために必要な設定をする)
+- 環境構築			@css[detail-comment](地図アプリを作るために必要なPCの設定をする)
 - APIサーバの構築	@css[detail-comment](地図アプリを提供するためのシステムを作る)
 - 地図の表示		@css[detail-comment](まずは地図を表示してみる)
 - 外部APIの呼び出し		@css[detail-comment](公開されている地図システムを利用する)
@@ -35,6 +35,7 @@
 - 自分の緯度経度の取得	@css[detail-comment](説明文説明文説明文説明文説明文)
 - CSSデータの読み込み	@css[detail-comment](説明文説明文説明文説明文説明文)
 - デプロイ				@css[detail-comment](説明文説明文説明文説明文説明文)
+- 最後に全項目にページ内リンクを貼る				@css[detail-comment](説明文説明文説明文説明文説明文)
 @olend
 
 @snapend
@@ -52,7 +53,7 @@
 ---?color=#3A8FB7
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
+- [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 @olend
 @snapend
@@ -65,7 +66,7 @@
 
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
+- [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 @olend
 @snapend
@@ -105,7 +106,7 @@
 
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
+- [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 - [m. 中項目名]()
 @olend
@@ -145,7 +146,7 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
+- [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
 - [k. ここまで]()
@@ -166,7 +167,7 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
+- [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
 - [k. ここまで]()
@@ -220,7 +221,7 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
+- [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
 - [k. ここまで]()

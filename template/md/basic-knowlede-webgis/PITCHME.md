@@ -1,8 +1,8 @@
 ---?color=#3A8FB7
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 @olend
 @snapend
 
@@ -10,16 +10,57 @@
 ## 基礎知識
 @snapend
 
+
 ---
+
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
-- [1. Web（World Wide Web）とは]()
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 @olend
 @snapend
 
-### @css[slide-title](Web（World Wide Web）とは)
+### @css[slide-title](基礎知識)
+
+@snap[slide-contents]
+
+@box[rounded box-style](Webの仕組みやプログラミングに必要な知識を学びます。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color2](false)
+- [Webとは](#/5)
+- [Webページとは](#/6)
+- HTMLとは
+- 小項目
+- 小項目
+- 小項目
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color2](false)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 小項目
+- 小項目
+@olend
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
+- [1. Webとは]()
+@olend
+@snapend
+
+### @css[slide-title](Webとは)
 
 @snap[slide-contents]
 @snap[quote-wrap]
@@ -34,8 +75,8 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [2. Webページとは]()
 @olend
 @snapend
@@ -58,8 +99,8 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [3. HTMLとは]()
 @olend
 @snapend
@@ -82,8 +123,8 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [4. HTMLの書き方]()
 @olend
 @snapend
@@ -115,8 +156,8 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [5. CSSとは]()
 @olend
 @snapend
@@ -136,8 +177,8 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [6. CSSの書き方]()
 @olend
 @snapend
@@ -163,8 +204,8 @@ div {
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [7. JavaScriptとは]()
 @olend
 @snapend
@@ -182,8 +223,8 @@ div {
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [8. JavaScriptの書き方]()
 @olend
 @snapend
@@ -212,8 +253,8 @@ myHeading.textContent = "Hello World";
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [9. Webの仕組み]()
 @olend
 @snapend
@@ -231,8 +272,8 @@ myHeading.textContent = "Hello World";
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [10. Elixirとは]()
 @olend
 @snapend
@@ -250,8 +291,8 @@ myHeading.textContent = "Hello World";
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [11. Elixirの主な型]()
 @olend
 @snapend
@@ -315,8 +356,8 @@ myHeading.textContent = "Hello World";
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [1. 基礎知識](#/12)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
 - [12. 型とは]()
 @olend
 @snapend

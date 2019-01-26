@@ -14,7 +14,7 @@
 <link> : <a>にリンクさせる単語
 
 1. [A1]基礎知識	-	Webの仕組みやプログラミングに必要な知識を学ぶ
-	1. [B]Web（World Wide Web）とは
+<!--	1. [B]Web（World Wide Web）とは
 		https://developer.mozilla.org/ja/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
 		https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works
 		* 説明１
@@ -89,6 +89,7 @@
 		* リスト [1, 2, 3]
 		* タプル {1, 2, 3}
 		<a>Elixirの主な型
+-->
 2. [A1]環境構築	-	地図アプリを作るために必要な設定をする
 	1. [A2]CUI
 		* 作業の内容と目的
@@ -297,6 +298,14 @@
   - 技術選定・学習内容の編集：瑛佑　（映像）
   - ドキュメント編集長：松本
   - 調査・作業：多田
+
+ #最終確認事項
+ - 項目の採番
+ - 採番されている要素には全てページ内リンク
+ - 外部リンク先（青文字、下線）
+ - ページ内リンク（色普通、下線なし）
+ - 名称の大文字小文字、誤字脱字
+
 
 ---
 

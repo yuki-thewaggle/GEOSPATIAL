@@ -290,6 +290,10 @@
 
 /* ol */
 
+.reveal .numberlist a {
+  color: rgb(80,80,80);
+}
+
 .reveal ol.numberlist {
   width: 100%;
   text-align: left !important;
