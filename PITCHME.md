@@ -90,7 +90,7 @@
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color2](false)
+@ol[numberlist numberlist-color2 start-7](false)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目

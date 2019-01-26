@@ -2,7 +2,7 @@
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 @olend
 @snapend
 
@@ -14,7 +14,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 @olend
 @snapend
 
@@ -44,12 +44,25 @@
 
 @snapend
 
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](CUI)
+@snapend
+
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
-- [m. CUI]()
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
 @olend
 @snapend
 
@@ -73,8 +86,8 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
-- [m. CUI]()
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
 - [0. CUIとは]()
 @olend
 @snapend
@@ -93,8 +106,8 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
-- [m. CUI]()
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
 - [k. 起動方法（Windowsの場合）]()
 @olend
 @snapend
@@ -104,7 +117,7 @@
 @snap[slide-contents]
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](true)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -118,7 +131,7 @@
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color3 start-11](false)
+@ol[numberlist  numberlist-color4 start-11](true)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -138,8 +151,8 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
-- [m. CUI]()
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
 - [k. 起動方法（Macの場合）]()
 @olend
 @snapend
@@ -149,7 +162,7 @@
 @snap[slide-contents]
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](true)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -163,7 +176,7 @@
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color3 start-11](false)
+@ol[numberlist  numberlist-color4 start-11](true)
 - Web基礎知識
 - 環境構築
 - APIServerの構築
@@ -180,12 +193,35 @@
 @snapend
 
 ---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
+- [k. 確認]()
+@olend
+@snapend
+
+### @css[slide-title](確認)
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Firefox]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](Firefox)
+@snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 - [m. Firefox]()
 @olend
 @snapend
@@ -194,42 +230,47 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+@box[rounded box-style](何をするものか)
 
-@snap[left-column]
-@ol[numberlist numberlist-color3](false)
-- アジェンダ項目内の小項目
-- 小項目
-- 小項目
-- 小項目
-- 体言止め
-- a
+@ol[numberlist numberlist-color3](true)
+- 手順アクセスします
+- 手順ポチします
+- 手順展開します
 @olend
-@snapend
-
-
-@snap[right-column]
-@ol[numberlist numberlist-color3](false)
-- アジェンダ項目内の小項目
-- 小項目
-- 小項目
-- 小項目
-- 体言止め
-- ここまで
-@olend
-@snapend
 
 @snapend
-
-
-
----
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
+- [m. Firefox]()
+- [k. 確認]()
+@olend
+@snapend
+
+### @css[slide-title](確認)
+
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. RESTClient]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](RESTClient)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
 - [m. RESTClient]()
 @olend
 @snapend
@@ -238,41 +279,52 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+@box[rounded box-style](何をするものか)
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
-- アジェンダ項目内の小項目
-- 小項目
-- 小項目
-- 小項目
-- 体言止め
-- a
+@ol[numberlist numberlist-color3](true)
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
 @olend
 @snapend
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color3](false)
-- アジェンダ項目内の小項目
-- 小項目
-- 小項目
-- 小項目
-- 体言止め
-- ここまで
+@ol[numberlist numberlist-color3](true)
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
 @olend
 @snapend
 
 @snapend
 
 
----
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. テキストエディタ]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](テキストエディタ)
+@snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 - [m. テキストエディタ]()
 @olend
 @snapend
@@ -309,13 +361,24 @@
 @snapend
 
 
----
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. node.js]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](node.js)
+@snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 - [m. node.js]()
 @olend
 @snapend
@@ -352,13 +415,24 @@
 @snapend
 
 
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. PostgreSQL]()
+@olend
+@snapend
 
+@snap[west headline]
+## @color[white](PostgreSQL)
+@snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 - [m. PostgreSQL]()
 @olend
 @snapend
@@ -394,13 +468,24 @@
 
 @snapend
 
----
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Phoenixframework]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](Phoenixframework)
+@snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/17)
+- [2. 環境構築](#/18)
 - [m. Phoenixframework]()
 @olend
 @snapend

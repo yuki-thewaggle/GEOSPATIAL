@@ -222,10 +222,6 @@
 	right: -1.8em !important;
   border-left-color: #ffffff !important;
 }
-.bluescale .breadcrumbs a::before {
-  border-left-color: #3A8FB7 !important;
-}
-
 .breadcrumbs li:first-child  a       { background:        #0B346E !important; z-index: 6 !important; }
 .breadcrumbs li:first-child  a:after { border-left-color: #0B346E !important; z-index: 6 !important; }
 .breadcrumbs li:nth-child(2) a       { background:        #3A8FB7 !important; z-index: 5 !important; }
@@ -235,10 +231,15 @@
 .breadcrumbs li:nth-child(4) a       { background:        #93C5DD !important; z-index: 1 !important; }
 .breadcrumbs li:nth-child(4) a:after { border-left-color: #93C5DD !important; z-index: 1 !important; }
 
-.bluescale .breadcrumbs li:first-child a       { background:        #0B346E !important; z-index: 2 !important; }
-.bluescale .breadcrumbs li:first-child a:after { border-left-color: #0B346E !important; z-index: 2 !important; }
+.bluescale .breadcrumbs a::before       { border-left-color: #3A8FB7 !important; }
+.bluescale .breadcrumbs li:last-child a { color: #3A8FB7 !important; }
 .bluescale .breadcrumbs li:last-child  a       { background:        #FFFFFF !important; z-index: 1 !important; }
 .bluescale .breadcrumbs li:last-child  a:after { border-left-color: #FFFFFF !important; z-index: 1 !important; }
+
+.lightbluescale .breadcrumbs a::before       { border-left-color: #77B6D4 !important; }
+.lightbluescale .breadcrumbs li:last-child a { color: #77B6D4 !important; }
+.lightbluescale .breadcrumbs li:last-child  a       { background:        #FFFFFF !important; z-index: 1 !important; }
+.lightbluescale .breadcrumbs li:last-child  a:after { border-left-color: #FFFFFF !important; z-index: 1 !important; }
 
 .breadcrumbs li:first-child a {
   left: 0 !important;
@@ -251,9 +252,7 @@
 	pointer-events: none !important;
 	border-radius: 0 5px 5px 0 !important;
 }
-.bluescale .breadcrumbs li:last-child a {
-  color: #3A8FB7 !important;
-}
+
 .breadcrumbs li:last-child a:hover {
 	background: none !important;
 }
