@@ -67,7 +67,7 @@
 
 @quote[<ul><li>World Wide <span class="orange">Web</span>（WWW、ワールド・ワイド・ウェブ）</li><li>Web（ウェブ）とも呼ばれる</li><li>「<span class="orange">インターネット</span>」という表現が<br>ワールド・ワイド・ウェブを指す場合もある</li><li><span class="orange">世界中に張り巡らしたような、文書間のつながり</span></li></ul>](https://ja.wikipedia.org/wiki/World_Wide_Web)
 
-@quote[Webにおける<span class="orange">情報の基礎的な単位</span>はページ<br>（<span class="orange">Webページ</span>、ウェブページ）](http://e-words.jp/w/Web.html)
+@quote[Webにおける情報の基礎的な単位は<span class="orange">ページ</span><br>（<span class="orange">Webページ</span>、ウェブページ）](http://e-words.jp/w/Web.html)
 
 @snapend
 @snapend
