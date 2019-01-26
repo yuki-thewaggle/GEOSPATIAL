@@ -28,14 +28,6 @@
 
 /* Size */
 
-.height-50 {
-  height: 50% !important;
-}
-
-.width-100 {
-  width: 100% !important;
-}
-
 /* Space */
 
 .space-0 {
@@ -49,17 +41,13 @@
 /* Layout */
 
 .left-column {
-  position: relative !important;
-  top: 0 !important;
-  left: 0 !important;
   width: 50% !important;
+  float: left;
 }
 
 .right-column {
-  position: relative !important;
-  top: 0 !important;
-  left: 50% !important;
   width: 50% !important;
+  float: right;
 }
 
 /* Box Style */
@@ -73,7 +61,7 @@
   margin-right: 20px !important;
   /* background-color: rgba(255,255,255,0.1) !important; */
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05) !important;
-  border: rgb(240,240,240) solid 1px !important;
+  border: 1px solid rgb(240,240,240) !important;
   width: 100% !important;
 }
 
@@ -136,8 +124,10 @@
 /* Image */
 .goal-image {
   position: relative !important;
-  left: 10% !important;
-  width: 80% !important;
+  left: 10vw !important;
+  width: 80vw !important;
+  object-fit: contain;
+  height: 60vh !important;
   text-align: center !important;
   margin: 0 !important;
 }
@@ -164,7 +154,7 @@
   padding: 1.5em !important;
   background-color: rgba(255,255,255,0.1) !important;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
-  border: rgb(240,240,240) solid 1px !important;
+  border: 1px solid rgb(240,240,240) !important;
 }
 .reveal .gist-box pre code {
   overflow-y: scroll !important;
@@ -303,8 +293,6 @@
 
 .reveal ol.numberlist {
   width: 100%;
-  position: absolute !important;
-  left: 0 !important;
   text-align: left !important;
   margin-left: 0 !important;
 }
@@ -359,13 +347,13 @@
 .headline h1, .headline h2 {
   letter-spacing: 0.01em;
   line-height: 1.5em !important;
-  font-size: 2.5em !important;
+  font-size: 2.4em !important;
   margin: 0 20px !important;
  /*font-variant: small-caps !important;*/
 }
 
 .headline-detail {
-  margin-left: 0.2em !important;
+  margin-left: 0.7em !important;
 }
 
 .headline-detail span {
@@ -412,7 +400,24 @@
   /* width: 950px !important; */
   margin-right: 20px !important;
   width: 95% !important;
-
+}
+.slide-contents .code-contents {
+  width: 100%;
+  /* max-height: 60vh;
+  overflow-y: scroll; */
+}
+.slide-contents code {
+  white-space: pre-wrap;
+}
+.slide-contents .code-presenting-annotation {
+    width: 96% !important;
+    /* text-align: center !important; */
+    padding: 0.5em 0.5em 0.5em 1em !important;
+    margin-top: 0.7em !important;
+    border-radius: 0 !important;
+}
+.slide-contents .code-presenting-annotation span {
+  margin-right: 2em !important;
 }
 
 .slide-contents table {
@@ -422,7 +427,7 @@
   font-size: 0.9em !important;
 }
 .slide-contents table, tr, th, td {
-  border: rgb(240,240,240) solid 1px !important;
+  border: 1px solid rgb(240,240,240) !important;
 }
 .slide-contents th {
   background-color: #77B6D4 !important;

@@ -12,6 +12,13 @@
 @snapend
 
 ---
+### @css[slide-title](本日のゴールイメージ)
+
+@snap[slide-contents]
+@img[goal-image](template/img/finish.png)
+@snapend
+
+---
 ### @css[slide-title](ハンズオン講習会の流れ)
 
 @snap[slide-contents]
@@ -22,7 +29,7 @@
 - APIサーバの構築	@css[detail-comment](地図アプリを提供するためのシステムを作る)
 - 地図の表示		@css[detail-comment](まずは地図を表示してみる)
 - 外部APIの呼び出し		@css[detail-comment](公開されている地図システムを利用する)
-- DBの操作			@css[detail-comment](データ群を扱う)
+- DBの操作			@css[detail-comment](使いたいデータを登録する)
 - 内部APIの呼び出し		@css[detail-comment](ツールを使って地図アプリを配信する)
 - 地図へのポイント追加	@css[detail-comment](説明文説明文説明文説明文説明文)
 - 自分の緯度経度の取得	@css[detail-comment](説明文説明文説明文説明文説明文)
@@ -31,6 +38,16 @@
 @olend
 
 @snapend
+
+---?include=template/md/basic-knowlede-webgis/PITCHME.md
+---?include=template/md/environment/PITCHME.md
+---?include=template/md/Building-APIServer/PITCHME.md
+---?include=template/md/Show-map/PITCHME.md
+---?include=template/md/External-API-call/PITCHME.md
+---?include=template/md/DB-operation/PITCHME.md
+---?include=template/md/Internal-API-call/PITCHME.md
+---?include=template/md/points-to-the-map/PITCHME.md
+---?include=template/md/own-latitude-longitude/PITCHME.md
 
 ---?color=#3A8FB7
 @snap[breadcrumbs-wrap bluescale]
@@ -121,27 +138,6 @@
 - 体言止め
 - ここまで
 @olend
-@snapend
-
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/1)
-- [n. アジェンダ項目名]()
-- [m. 小項目名]()
-- [k. ここまで]()
-@olend
-@snapend
-
-### @css[slide-title](テンプレートB - 言葉・概念の意味)
-
-@snap[slide-contents]
-
-@snap[quote-wrap]
-@quote[<ul><li>ユーザインタフェース<ul><li>ユーザインタフェース1</li><li>ユーザインタフェース2</li></ul></li><li>文字列が表示されるウィンドウに出力</li></ul>](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
-@quote[<ul><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li><li>キーボード等から文字列を入力</li></ul>](https://ja.m.wikipedia.org/wiki/キャラクタユーザインタフェース)
 @snapend
 
 @snapend
@@ -372,16 +368,6 @@
 
 @snapend
 @snapend
-
----?include=template/md/basic-knowlede-webgis/PITCHME.md
----?include=template/md/environment/PITCHME.md
----?include=template/md/Building-APIServer/PITCHME.md
----?include=template/md/Show-map/PITCHME.md
----?include=template/md/External-API-call/PITCHME.md
----?include=template/md/DB-operation/PITCHME.md
----?include=template/md/Internal-API-call/PITCHME.md
----?include=template/md/points-to-the-map/PITCHME.md
----?include=template/md/own-latitude-longitude/PITCHME.md
 
 ---
 利用サービス

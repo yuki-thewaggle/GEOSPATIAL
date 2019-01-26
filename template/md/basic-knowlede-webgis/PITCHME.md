@@ -48,6 +48,11 @@
 @quote[<ul><li>ウェブ上にあり、ウェブブラウザで閲覧可能なページ単位の文書</li><li><span class="orange">HTML</span>（またはXHTML）と <span class="orange">スタイルシート</span>、画像データで構成</li><li>ウェブブラウザを使用して閲覧されることが一般的</li><li><span class="orange">JavaScript</span> などのスクリプト言語を使って<br>ウェブページに動作をもたる場合がある</li></ul>](https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8)
 
 @snapend
+
+* 文章の構造を定義する　<a href="#/6">@css[orange](HTML)</a>
+* レイアウトなど装飾するのが　<a href="#/">@css[orange](スタイルシート（CSS）)</a>
+* 機能をつけるのが <a href="#/">@css[orange](JavaScript)</a>
+
 @snapend
 
 ---
@@ -79,7 +84,41 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/1)
 - [1. 基礎知識](#/12)
-- [4. CSSとは]()
+- [4. HTMLの書き方]()
+@olend
+@snapend
+
+### @css[slide-title](HTMLの書き方)
+
+@snap[slide-contents]
+@snap[code-contents]
+
+```
+<html>
+    <head>
+        （文書のタイトルや、CSSやJavaScriptへのリンク、）
+        （メタデータ（データの説明データ）などを記述します。）
+        （Webブラウザーには表示されません。）   
+    </head>
+    <body>
+        （文章や画像などを記述します。）
+    </body>
+</html>
+```
+
+@[0](「&lt;html&gt;」「&lt;head&gt;」などを タグ と呼びます。)
+@[0](タグで文書の構造や意味などを指定します。)
+@[0](&lt;html&gt;指定したい部分&lt;/html&gt; のように囲みます。)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [5. CSSとは]()
 @olend
 @snapend
 
@@ -100,7 +139,34 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/1)
 - [1. 基礎知識](#/12)
-- [5. JavaScriptとは]()
+- [6. CSSの書き方]()
+@olend
+@snapend
+
+### @css[slide-title](CSSの書き方)
+
+@snap[slide-contents]
+@snap[code-contents]
+
+```
+div {
+    width: 300px;
+    height: 500px;
+    color: red;
+}
+```
+
+@[0](（適応する対象を指定します）{<br><span></span>（スタイルの種類を選びます）:（値を設定します）;<br>})
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [7. JavaScriptとは]()
 @olend
 @snapend
 
@@ -119,7 +185,37 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/1)
 - [1. 基礎知識](#/12)
-- [6. Webの仕組み]()
+- [8. JavaScriptの書き方]()
+@olend
+@snapend
+
+### @css[slide-title](JavaScriptの書き方)
+
+@snap[slide-contents]
+@snap[code-contents]
+
+
+```
+var myHeading = document.querySelector('h1');
+```
+
+@[0](「h1」という要素を「myHeading」という名前で操作できるようにします。)
+
+```
+myHeading.textContent = "Hello World";
+```
+
+@[0](「myHeading」のテキスト内容（textContent）を「Hello World」に設定します。)
+@[0](この結果、Webページのh1タグが「Hello World」という言葉になって表示されます。)
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [9. Webの仕組み]()
 @olend
 @snapend
 
@@ -138,7 +234,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/1)
 - [1. 基礎知識](#/12)
-- [7. Elixirとは]()
+- [10. Elixirとは]()
 @olend
 @snapend
 
@@ -147,21 +243,95 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>Elixir（エリクサー）</li><li>高い基本性能</li><li>書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く/速く/メンテナンスしやすくするスタイル</li></ul>](https://www.ossnews.jp/oss_info/Elixir)
+@quote[<ul><li>Elixir（エリクサー）</li><li>プログラミング言語</li><li>高い基本性能、書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く/速く/メンテナンスしやすくするスタイル</li><li>開発用ツールセットが用意されています<ul><li>ビルドツール「 <span class="orange">mix（ミックス）<span>」</li></ul></li><li>Webフレームワーク「 <span class="orange">Phoenix（フェニックス）</span>」が人気</li></ul>](https://www.ossnews.jp/oss_info/Elixir)
 
 @snapend
 @snapend
 
 ---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [11. Elixirの主な型]()
+@olend
+@snapend
 
+### @css[slide-title](Elixirの主な型)
 
----?color=#9F79F7
+@snap[slide-contents]
 
+@snap[left-column]
+<table>
+<tr>
+	<th width="45%">型</th>
+	<th>表記例</th>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);">整数</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);">整数(16進数)</td>
+	<td>0x1F</td>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);">小数</td>
+	<td>1.0</td>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);">論理値</td>
+	<td>true</td>
+</tr>
+</table>
+@snapend
 
-<ul><li>高い基本性能</li>
-<li>書きやすい高生産性</li>
-<li>１つのマシン内で数十万のプロセスが同時に動作</li>
-<li>コードを短く速くメンテナンスしやすくするスタイル</li></ul>
+@snap[right-column]
+<table>
+<tr>
+	<th width="45%">型</th>
+	<th>表記例</th>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);"><u>[アトム](https://elixirschool.com/ja/lessons/basics/basics/#%E3%82%A2%E3%83%88%E3%83%A0)</u></td>
+	<td>:atom</td>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);">文字列</td>
+	<td>"elixir"</td>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);"><u>[リスト](https://elixirschool.com/ja/lessons/basics/collections/#%E3%83%AA%E3%82%B9%E3%83%88)</u></td>
+	<td>[1, 2, 3]</td>
+</tr>
+<tr>
+	<td style="background-color:rgba(0,0,0,0.1);"><u>[タプル](https://elixirschool.com/ja/lessons/basics/collections/#%E3%82%BF%E3%83%97%E3%83%AB)</u></td>
+	<td>{1, 2, 3}</td>
+</tr>
+</table>
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/1)
+- [1. 基礎知識](#/12)
+- [12. 型とは]()
+@olend
+@snapend
+
+### @css[slide-title](型とは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<ul><li>データ（値）の種類に関する分類<ul><li>0, 1, 2, -42 といったような値は整数型</li><li>"foo", "Hello" といったような値は文字列型</li></ul></li></ul>](https://ja.m.wikipedia.org/wiki/データ型)
+
+@snapend
+@snapend
+
 
 
 ---
@@ -221,17 +391,3 @@ var myHeading = document.querySelector('h1');
 myHeading.textContent = "Hello World";  
 
 ```
----
-@snap[midopoint north-west text-06]
-### Elixirの型
-@snapend
-
-* 基本的な型	値の例
-* 整数	1
-* 整数(16進数)	0x1F
-* 小数	1.0
-* 論理値	true
-* アトム	:atom
-* 文字列	"elixir"
-* リスト	[1, 2, 3]
-* タプル	{1, 2, 3}
