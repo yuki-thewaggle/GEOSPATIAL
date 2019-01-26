@@ -315,7 +315,7 @@
 
 @snap[slide-contents]
 
-@img[goal-image](template/img/environment/postgresql.png)
+@img[goal-image to-center](template/img/environment/postgresql.png)
 
 @snapend
 

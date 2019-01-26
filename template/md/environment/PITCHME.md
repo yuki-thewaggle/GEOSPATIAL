@@ -39,6 +39,7 @@
 @snap[right-column]
 @ol[numberlist numberlist-color2 start-7](false)
 - Phoenixframework
+- リンクつけるのを忘れない
 @olend
 @snapend
 
@@ -69,14 +70,31 @@
 ### @css[slide-title](CUI)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
+- [0. CUIの起動](#/20)
+@olend
+@snapend
+
+### @css[slide-title](CUIの起動)
+
+@snap[slide-contents]
 
 @box[rounded box-style](作業の内容と目的)
 
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](false)
 - CUIとは
 - 起動方法（Windowsの場合）
 - 起動方法（Macの場合）
 - 確認
+- リンクつけるのを忘れない
 @olend
 
 @snapend
@@ -223,16 +241,33 @@
 - [ハンズオン講習会の流れ](#/2)
 - [2. 環境構築](#/18)
 - [m. Firefox]()
+- [k. Firefox]()
 @olend
 @snapend
 
 ### @css[slide-title](Firefox)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Firefox]()
+- [k. Firefoxのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](Firefoxのインストール)
+
+@snap[slide-contents]
 
 @box[rounded box-style](何をするものか)
 
-@ol[numberlist numberlist-color3](true)
+@ol[numberlist numberlist-color4](true)
 - 手順アクセスします
 - 手順ポチします
 - 手順展開します
@@ -272,17 +307,34 @@
 - [ハンズオン講習会の流れ](#/2)
 - [2. 環境構築](#/18)
 - [m. RESTClient]()
+- [k. RESTClient]()
 @olend
 @snapend
 
 ### @css[slide-title](RESTClient)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. RESTClient]()
+- [k. RESTClientのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](RESTClientのインストール)
+
+@snap[slide-contents]
 
 @box[rounded box-style](何をするものか)
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](true)
+@ol[numberlist numberlist-color4](true)
 - 手順
 - 手順
 - 手順
@@ -294,7 +346,7 @@
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color3](true)
+@ol[numberlist numberlist-color4 start-6](true)
 - 手順
 - 手順
 - 手順
@@ -305,6 +357,18 @@
 @snapend
 
 @snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. RESTClient]()
+- [k. 確認]()
+@olend
+@snapend
+
+### @css[slide-title](確認)
 
 
 ---?color=#77B6D4
@@ -326,17 +390,34 @@
 - [ハンズオン講習会の流れ](#/2)
 - [2. 環境構築](#/18)
 - [m. テキストエディタ]()
+- [k. テキストエディタ]()
 @olend
 @snapend
 
 ### @css[slide-title](テキストエディタ)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. テキストエディタ]()
+- [k. テキストエディタのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](テキストエディタのインストール)
+
+@snap[slide-contents]
 
 @box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -348,7 +429,7 @@
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4 start-6](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -360,6 +441,17 @@
 
 @snapend
 
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. テキストエディタ]()
+- [k. 確認]()
+@olend
+@snapend
+
+### @css[slide-title](確認)
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
@@ -380,17 +472,34 @@
 - [ハンズオン講習会の流れ](#/2)
 - [2. 環境構築](#/18)
 - [m. node.js]()
+- [k. node.js]()
 @olend
 @snapend
 
 ### @css[slide-title](node.js)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. node.js]()
+- [k. node.jsのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](node.jsのインストール)
+
+@snap[slide-contents]
 
 @box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -402,7 +511,7 @@
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4 start-6](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -414,6 +523,17 @@
 
 @snapend
 
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. node.js]()
+- [k. 確認]()
+@olend
+@snapend
+
+### @css[slide-title](確認)
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
@@ -434,17 +554,34 @@
 - [ハンズオン講習会の流れ](#/2)
 - [2. 環境構築](#/18)
 - [m. PostgreSQL]()
+- [k. PostgreSQL]()
 @olend
 @snapend
 
 ### @css[slide-title](PostgreSQL)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. PostgreSQL]()
+- [k. PostgreSQLのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](PostgreSQLのインストール)
+
+@snap[slide-contents]
 
 @box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -456,7 +593,7 @@
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4 start-6](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -467,6 +604,18 @@
 @snapend
 
 @snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. PostgreSQL]()
+- [k. 確認]()
+@olend
+@snapend
+
+### @css[slide-title](確認)
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
@@ -487,29 +636,44 @@
 - [ハンズオン講習会の流れ](#/2)
 - [2. 環境構築](#/18)
 - [m. Phoenixframework]()
+- [k. Phoenixframework]()
 @olend
 @snapend
 
 ### @css[slide-title](Phoenixframework)
 
 @snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Phoenixframework]()
+- [k. Phoenixframeworkのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](Phoenixframeworkのインストール)
+
+@snap[slide-contents]
 
 @box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
 - 小項目
 - 体言止め
-- a
 @olend
 @snapend
 
-
 @snap[right-column]
-@ol[numberlist numberlist-color3](false)
+@ol[numberlist numberlist-color4 start-6](true)
 - アジェンダ項目内の小項目
 - 小項目
 - 小項目
@@ -522,7 +686,17 @@
 @snapend
 
 
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Phoenixframework]()
+- [k. 確認]()
+@olend
+@snapend
 
+### @css[slide-title](確認)
 
 
 
