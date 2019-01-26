@@ -15,7 +15,7 @@
 ### @css[slide-title](本日のゴールイメージ)
 
 @snap[slide-contents]
-@img[goal-image](template/img/finish.png)
+@img[goal-image to-center](template/img/finish.png)
 @snapend
 
 ---
