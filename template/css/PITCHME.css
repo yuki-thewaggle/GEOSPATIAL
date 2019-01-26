@@ -124,7 +124,6 @@
 /* Image */
 .goal-image {
   position: relative !important;
-  left: 10vw !important;
   width: 80vw !important;
   object-fit: contain;
   height: 60vh !important;
