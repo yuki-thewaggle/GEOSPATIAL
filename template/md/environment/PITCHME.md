@@ -222,6 +222,20 @@
 
 ### @css[slide-title](確認)
 
+@snap[slide-contents]
+
+@snap[left-column]
+@ul[itemlist](false)
+- （mixが打てたらok）
+- （文章変える）
+@ulend
+@snapend
+
+@snap[right-column]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+@snapend
+
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
@@ -287,6 +301,9 @@
 
 ### @css[slide-title](確認)
 
+@snap[slide-contents]
+
+@snapend
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]

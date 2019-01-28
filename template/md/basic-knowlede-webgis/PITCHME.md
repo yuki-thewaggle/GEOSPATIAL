@@ -86,7 +86,7 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>ウェブ上にあり、ウェブブラウザで閲覧可能なページ単位の文書</li><li><span class="orange">HTML</span>（またはXHTML）と <span class="orange">スタイルシート</span>、画像データで構成</li><li>ウェブブラウザを使用して閲覧されることが一般的</li><li><span class="orange">JavaScript</span> などのスクリプト言語を使って<br>ウェブページに動作をもたる場合がある</li></ul>](https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8)
+@quote[<ul><li>ウェブ上にあり、ウェブブラウザで閲覧可能なページ単位の文書</li><li><span class="orange">HTML</span>（またはXHTML）と <span class="orange">スタイルシート</span>、画像データで構成</li><li>ウェブブラウザを使用して閲覧されることが一般的</li><li><span class="orange">JavaScript</span> などのスクリプト言語を使って<br>ウェブページに動作をもたる場合がある</li></ul>](https://ja.wikipedia.org/wiki/ウェブページ)
 
 @snapend
 
@@ -112,10 +112,10 @@
 
 @quote[<span class="orange">H</span>yper<span class="orange">T</span>ext <span class="orange">M</span>arkup <span class="orange">L</span>anguage（ハイパーテキスト マークアップ ランゲージ、HTML（エイチティーエムエル））](https://ja.wikipedia.org/wiki/HyperText_Markup_Language)
 
-@quote[<span class="orange">ハイパーテキスト</span>：<br>複数の文書（テキスト）を相互に関連付け、結び付ける仕組み](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88)
+@quote[<span class="orange">ハイパーテキスト</span>：<br>複数の文書（テキスト）を相互に関連付け、結び付ける仕組み](https://ja.wikipedia.org/wiki/ハイパーテキスト)
 
 
-@quote[<span class="orange">マークアップ言語</span>：<br>視覚表現や文章構造などを記述するための形式言語](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E)
+@quote[<span class="orange">マークアップ言語</span>：<br>視覚表現や文章構造などを記述するための形式言語](https://ja.wikipedia.org/wiki/マークアップ言語)
 
 @snapend
 @snapend
@@ -167,9 +167,9 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li><span class="orange">C</span>ascading <span class="orange">S</span>tyle <span class="orange">S</span>heets（CSS、<br>カスケーディング・スタイル・シート、<br>カスケード・スタイル・シート）</li><li>HTMLの要素をどのように修飾（表示）するかを指示する</li><li>文書の構造と体裁を分離させる<br>という理念を実現する為に提唱された<span class="orange">スタイルシート</span>の一つ</li></ul>](https://ja.wikipedia.org/wiki/Cascading_Style_Sheets)
+@quote[<ul><li><span class="orange">C</span>ascading <span class="orange">S</span>tyle <span class="orange">S</span>heets（CSS、<br>カスケーディング・スタイル・シート）</li><li>HTMLの要素をどのように修飾（表示）するかを指示する</li><li>文書の構造と体裁を分離させる<br>という理念を実現する為に提唱された<span class="orange">スタイルシート</span>の一つ</li></ul>](https://ja.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-@quote[<span class="orange">スタイルシート</span>：<br>構造化文書などにおける表示形式を制御するしくみ](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%B7%E3%83%BC%E3%83%88)
+@quote[<span class="orange">スタイルシート</span>：<br>構造化文書などにおける表示形式を制御するしくみ](https://ja.wikipedia.org/wiki/スタイルシート)
 
 @snapend
 @snapend

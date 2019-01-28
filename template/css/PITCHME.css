@@ -44,12 +44,17 @@
   width: 50% !important;
   float: left;
 }
+.left-column * :not(ol,li) {
+  display: inline-block;
+}
 
 .right-column {
   width: 50% !important;
   float: right;
 }
-
+.right-column * :not(ol,li) {
+  display: inline-block;
+}
 
 .to-center {
   max-width: calc(100% - 40px);
@@ -132,10 +137,17 @@
 /* Image */
 .goal-image {
   position: relative !important;
+  width: 100%;
   max-height: 55vh !important;
   max-width: 80vw !important;
   object-fit: contain;
   margin: 0 !important;
+}
+
+.images-box {
+  /* height: 55vh !important; */
+  display: block !important;
+  height: 10vh;
 }
 
 .slide-contents :has(.goal-image){

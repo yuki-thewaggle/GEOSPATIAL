@@ -1,3 +1,316 @@
+---?color=#3A8FB7
+@snap[breadcrumbs-wrap bluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+@olend
+@snapend
+
+@snap[west headline]
+## APIサーバーの構築
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+@olend
+@snapend
+
+### @css[slide-title](APIサーバーの構築)
+
+@snap[slide-contents]
+
+@box[rounded box-style](地図アプリを提供するためのシステムを作ります。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color2 width-60](false)
+- プロジェクトの作成
+- Webサーバーの確認
+- サーバーの起動
+- サーバーの終了方法
+- フォルダ移動
+- DBの作成
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color2 start-7](false)
+- JSONデータの作成
+- Router.ex の設定
+- マイグレーション
+- RESTClient の設定
+- RESTClientで GET
+- RESTClientで POST
+@olend
+@snapend
+
+@snapend
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [1. プロジェクトの作成]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](プロジェクトの作成)
+@snapend
+
+---
+
+---
+
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [1. プロジェクトの作成]()
+@olend
+@snapend
+
+### @css[slide-title](プロジェクトの作成)
+
+@snap[slide-contents]
+
+@box[rounded box-style](作業の内容と目的,使用するソフトウェア)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
+@olend
+@snapend
+
+
+@snap[right-column]
+@ol[numberlist numberlist-color3](false)
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
+- 手順
+@olend
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [1. プロジェクトの作成]()
+- [k. 手順]()
+@olend
+@snapend
+
+### @css[slide-title](手順)
+
+@snap[slide-contents]
+
+@snap[left-column]
+@ol[numberlist numberlist-color4](true)
+- Web基礎知識
+- 環境構築
+- APIServerの構築
+- 地図の表示
+- 外部API呼び出し
+- DB操作
+- 内部API呼び出し
+- 地図へのポイント追加
+- 自分の緯度経度の取得
+@olend
+@snapend
+
+@snap[right-column]
+@snap[images-box]
+
+@img[](template/img/Building-APIServer/1-ctr-c.png)
+@img[](template/img/Building-APIServer/5-localhost.png)
+@snapend
+
+@snapend
+@snapend
+
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [2. Webサーバーの確認]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](Webサーバーの確認)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [3. サーバーの起動]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](サーバーの起動)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [4. サーバーの終了方法]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](サーバーの終了方法)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [5. フォルダ移動]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](フォルダ移動)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [6. DBの作成]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](DBの作成)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [7. JSONデータの作成]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](JSONデータの作成)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [8. Router.ex の設定]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](Router.ex の設定)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [9. マイグレーション]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](マイグレーション)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [10. RESTClient の設定]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](RESTClient の設定)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [11. RESTClientで GET]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](RESTClientで GET)
+@snapend
+
+---
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. APIサーバーの構築]()
+- [12. RESTClientで POST]()
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](RESTClientで POST)
+@snapend
+
+---
+
+---
+
 ---?color=#EFBB24
 # @css[headline](APIServerの構築)
 
