@@ -318,6 +318,10 @@
   color: rgb(80,80,80);
 }
 
+.reveal .numberlist u a {
+  color: rgb(0,0,139);
+}
+
 .reveal ol.numberlist {
   width: 100%;
   text-align: left !important;
@@ -325,6 +329,8 @@
 }
 .reveal ol.numberlist li {
     list-style-type: none !important;
+    text-indent: -1.55em;
+    padding-left: 1.55em;
 }
 .reveal ol.numberlist li {
   position: relative !important;

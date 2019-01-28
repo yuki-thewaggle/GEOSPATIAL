@@ -262,7 +262,7 @@
 ### @css[slide-title](Firefox)
 
 @snap[slide-contents]
-@img[goal-image to-center](template/img/environment/postgresql.png)
+@img[goal-image to-center](template/img/environment/Firefox.png)
 @snapend
 
 ---
@@ -279,12 +279,12 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](何をするものか)
+@box[rounded box-style](Firefoxは、高速かつ軽量なWebブラウザーです。<br>拡張機能が豊富であるという特徴があります。)
 
 @ol[numberlist numberlist-color4](true)
-- 手順アクセスします
-- 手順ポチします
-- 手順展開します
+- <u>[Firefoxのダウンロードページ](https://www.mozilla.org/ja/firefox/new/)</u>にアクセスします
+- 「今すぐダウンロード」ボタンをクリックします
+- ダウンロードしたインストーラーを起動してインストールします
 @olend
 
 @snapend

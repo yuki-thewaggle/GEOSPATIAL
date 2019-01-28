@@ -304,6 +304,72 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+### @css[slide-title](テンプレートE2 - 手順詳細&コード)
+
+@snap[slide-contents]
+
+@box[rounded box-style](作業の内容と目的,使用するソフトウェア)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](false)
+- 手順
+- 手順
+@olend
+@snapend
+
+
+@snap[right-column]
+@snap[gist-box half-gist-box]
+
+@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+
+@[1](説明)
+@[2](説明)
+
+@snapend
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+### @css[slide-title](テンプレートE3 - 手順詳細&画像)
+
+@snap[slide-contents]
+
+@box[rounded box-style](作業の内容と目的,使用するソフトウェア)
+
+@snap[left-column]
+@ol[numberlist numberlist-color3](true)
+- 手順
+- 手順
+@olend
+@snapend
+
+@snap[right-column]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](5)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()
