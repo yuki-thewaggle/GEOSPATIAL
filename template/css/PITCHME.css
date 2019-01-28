@@ -144,6 +144,12 @@
   margin: 0 !important;
 }
 
+.images-box {
+  /* height: 55vh !important; */
+  display: block !important;
+  height: 10vh;
+}
+
 .slide-contents :has(.goal-image){
   text-align: center;
 }
