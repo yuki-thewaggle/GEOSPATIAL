@@ -1,0 +1,424 @@
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.6.4
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise>dir C:\Windows\
+ ドライブ C のボリューム ラベルは Windows です
+ ボリューム シリアル番号は 582E-3E35 です
+
+ C:\Windows のディレクトリ
+
+2019/01/16  23:09    <DIR>          .
+2019/01/16  23:09    <DIR>          ..
+2018/04/12  08:38    <DIR>          addins
+2018/05/30  09:16    <DIR>          appcompat
+2018/12/19  11:43    <DIR>          apppatch
+2019/01/28  06:44    <DIR>          AppReadiness
+2019/01/11  16:22    <DIR>          assembly
+2019/01/11  16:01    <DIR>          bcastdvr
+2018/04/12  08:34            67,072 bfsvc.exe
+2018/04/12  08:38    <DIR>          Boot
+2018/04/12  08:38    <DIR>          Branding
+2019/01/24  09:33    <DIR>          CbsTemp
+2018/05/29  15:51            14,624 comsetup.log
+2018/05/29  15:14    <DIR>          Containers
+2016/07/16  20:43            33,498 CoreSingleLanguage.xml
+2018/03/25  22:15    <DIR>          CSC
+2017/03/14  04:50                12 csup.txt
+2018/04/12  08:38    <DIR>          Cursors
+2018/05/27  08:59             1,310 DDACLSys.log
+2018/05/29  15:50    <DIR>          debug
+2018/05/29  15:52             7,623 diagerr.xml
+2018/04/12  08:38    <DIR>          diagnostics
+2018/05/29  15:52             7,623 diagwrn.xml
+2018/04/13  01:31    <DIR>          DigitalLocker
+2018/12/27  19:48            95,448 DPINST.LOG
+2018/05/29  15:48             4,179 DtcInstall.log
+2018/05/29  15:12    <DIR>          en-US
+2018/07/06  23:17         3,932,672 explorer.exe
+2018/04/12  08:38    <DIR>          GameBarPresenceWriter
+2018/04/12  08:38    <DIR>          Globalization
+2018/05/29  15:22    <DIR>          Help
+2018/06/16  02:30         1,054,720 HelpPane.exe
+2018/04/12  08:34            17,920 hh.exe
+2018/04/12  08:38    <DIR>          IdentityCRL
+2018/04/13  01:31    <DIR>          IME
+2018/12/19  11:43    <DIR>          ImmersiveControlPanel
+2019/01/11  21:27    <DIR>          INF
+2018/04/12  08:38    <DIR>          InfusedApps
+2018/04/12  08:38    <DIR>          InputMethod
+2018/04/13  01:31    <DIR>          ja-JP
+2017/03/14  21:39        14,991,013 ja-jp.log
+2018/04/12  08:38    <DIR>          L2Schemas
+2019/01/10  20:06    <DIR>          LiveKernelReports
+2019/01/25  16:03    <DIR>          Logs
+2017/03/14  05:55             8,306 machineinfo.sav
+2017/03/14  05:55            74,058 MFGSTAT.zip
+2018/04/12  08:34            43,131 mib.bin
+2019/01/25  16:03    <DIR>          Microsoft.NET
+2018/04/12  08:38    <DIR>          Migration
+2018/04/12  08:38    <DIR>          ModemLogs
+2018/03/25  19:04            56,540 Modules.log
+2018/04/12  08:34           245,760 notepad.exe
+2018/07/14  04:20             1,951 NvContainerRecovery.bat
+2018/09/12  19:23             1,951 NvTelemetryContainerRecovery.bat
+2018/05/29  15:16    <DIR>          OCR
+2018/04/12  08:38    <DIR>          Offline Web Pages
+2018/05/29  15:52    <DIR>          Panther
+2018/04/12  08:38    <DIR>          Performance
+2018/12/28  10:22           108,488 PFRO.log
+2018/04/12  08:38    <DIR>          PLA
+2018/10/16  09:41    <DIR>          PolicyDefinitions
+2019/01/28  07:07    <DIR>          Prefetch
+2018/08/22  11:00    <DIR>          PrintDialog
+2018/04/12  08:33            36,112 Professional.xml
+2018/05/29  15:14    <DIR>          Provisioning
+2018/04/12  08:34           336,384 regedit.exe
+2018/05/29  15:52    <DIR>          Registration
+2018/04/13  01:36    <DIR>          RemotePackages
+2018/04/12  08:38    <DIR>          rescache
+2018/04/12  08:38    <DIR>          Resources
+2017/10/31  13:54           225,248 RtsCM64.exe
+2017/10/31  11:42             3,034 RtsCM64.xml
+2018/04/12  08:38    <DIR>          SchCache
+2018/05/29  15:10    <DIR>          schemas
+2018/04/13  01:36    <DIR>          security
+2018/05/29  15:16    <DIR>          ServiceProfiles
+2018/04/12  08:38    <DIR>          ServiceState
+2018/05/29  15:12    <DIR>          servicing
+2018/05/29  15:22    <DIR>          Setup
+2018/06/29  15:30                 0 setuperr.log
+2018/12/19  11:43    <DIR>          ShellComponents
+2018/11/15  13:36    <DIR>          ShellExperiences
+2018/04/13  01:36    <DIR>          SKB
+2018/05/29  15:52    <DIR>          SoftwareDistribution
+2018/04/12  08:38    <DIR>          Speech
+2018/04/12  08:38    <DIR>          Speech_OneCore
+2018/04/12  08:34           130,560 splwow64.exe
+2018/03/25  20:00    <DIR>          symbols
+2018/12/27  19:48               568 Synaptics.log
+2018/12/27  19:48             2,272 Synaptics.PD.log
+2018/04/12  08:38    <DIR>          System
+2016/07/16  20:45               219 system.ini
+2019/01/28  07:04    <DIR>          System32
+2018/05/29  15:09    <DIR>          SystemApps
+2018/04/13  01:36    <DIR>          SystemResources
+2019/01/22  10:28    <DIR>          SysWOW64
+2018/04/12  08:38    <DIR>          TAPI
+2019/01/11  16:02    <DIR>          Tasks
+2019/01/28  07:14    <DIR>          Temp
+2019/01/11  16:01    <DIR>          TextInput
+2018/04/12  08:38    <DIR>          tracing
+2018/05/29  15:17    <DIR>          twain_32
+2018/04/12  08:34            65,536 twain_32.dll
+2018/04/12  08:38    <DIR>          Vss
+2018/04/12  08:38    <DIR>          WaaS
+2018/04/12  08:38    <DIR>          Web
+2018/05/29  15:09    <DIR>          WebManagement
+2016/07/16  20:45                92 win.ini
+2019/01/22  09:14               276 WindowsUpdate.log
+2018/04/12  08:34            11,776 winhlp32.exe
+2019/01/16  23:14    <DIR>          WinSxS
+2018/04/12  08:33           316,640 WMSysPr9.prx
+2018/04/12  08:34            11,264 write.exe
+              36 個のファイル          21,907,880 バイト
+              77 個のディレクトリ  36,879,216,640 バイトの空き領域
+
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise>cd C:\Users\yukim\TheWaggle
+
+C:\Users\yukim\TheWaggle>dir
+ ドライブ C のボリューム ラベルは Windows です
+ ボリューム シリアル番号は 582E-3E35 です
+
+ C:\Users\yukim\TheWaggle のディレクトリ
+
+2019/01/28  07:05    <DIR>          .
+2019/01/28  07:05    <DIR>          ..
+2019/01/28  06:58    <DIR>          EduvationSummit2018
+2019/01/28  07:18    <DIR>          GEOSPATIAL
+2018/10/05  16:58    <DIR>          Vantan
+2018/04/18  13:47               279 アイデア_20180418_タイピングソフト.txt
+2018/04/11  21:22            11,950 ザワッグル講師虎の巻_20180411.md
+2018/04/11  21:22            41,372 ザワッグル講師虎の巻_20180411.md.html
+2018/12/14  09:40    <DIR>          自社開発
+               3 個のファイル              53,601 バイト
+               6 個のディレクトリ  36,877,684,736 バイトの空き領域
+
+C:\Users\yukim\TheWaggle>cd GEOSPATIAL
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL>dir
+ ドライブ C のボリューム ラベルは Windows です
+ ボリューム シリアル番号は 582E-3E35 です
+
+ C:\Users\yukim\TheWaggle\GEOSPATIAL のディレクトリ
+
+2019/01/28  07:18    <DIR>          .
+2019/01/28  07:18    <DIR>          ..
+2019/01/28  07:00    <DIR>          GEOSPATIAL
+               0 個のファイル                   0 バイト
+               3 個のディレクトリ  36,877,672,448 バイトの空き領域
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL>mix phx.new gismap
+ mix phx.new gismap
+ * creating gismap/config/config.exs
+* creating gismap/config/dev.exs
+* creating gismap/config/prod.exs
+* creating gismap/config/prod.secret.exs
+* creating gismap/config/test.exs
+* creating gismap/lib/gismap/application.ex
+* creating gismap/lib/gismap.ex
+* creating gismap/lib/gismap_web/channels/user_socket.ex
+* creating gismap/lib/gismap_web/views/error_helpers.ex
+* creating gismap/lib/gismap_web/views/error_view.ex
+* creating gismap/lib/gismap_web/endpoint.ex
+* creating gismap/lib/gismap_web/router.ex
+* creating gismap/lib/gismap_web.ex
+* creating gismap/mix.exs
+* creating gismap/README.md
+* creating gismap/.formatter.exs
+* creating gismap/.gitignore
+* creating gismap/test/support/channel_case.ex
+* creating gismap/test/support/conn_case.ex
+* creating gismap/test/test_helper.exs
+* creating gismap/test/gismap_web/views/error_view_test.exs
+* creating gismap/lib/gismap_web/gettext.ex
+* creating gismap/priv/gettext/en/LC_MESSAGES/errors.po
+* creating gismap/priv/gettext/errors.pot
+* creating gismap/lib/gismap/repo.ex
+* creating gismap/priv/repo/migrations/.formatter.exs
+* creating gismap/priv/repo/seeds.exs
+* creating gismap/test/support/data_case.ex
+* creating gismap/lib/gismap_web/controllers/page_controller.ex
+* creating gismap/lib/gismap_web/templates/layout/app.html.eex
+* creating gismap/lib/gismap_web/templates/page/index.html.eex
+* creating gismap/lib/gismap_web/views/layout_view.ex
+* creating gismap/lib/gismap_web/views/page_view.ex
+* creating gismap/test/gismap_web/controllers/page_controller_test.exs
+* creating gismap/test/gismap_web/views/layout_view_test.exs
+* creating gismap/test/gismap_web/views/page_view_test.exs
+* creating gismap/assets/webpack.config.js
+* creating gismap/assets/.babelrc
+* creating gismap/assets/css/app.css
+* creating gismap/assets/css/phoenix.css
+* creating gismap/assets/js/app.js
+* creating gismap/assets/js/socket.js
+* creating gismap/assets/package.json
+* creating gismap/assets/static/robots.txt
+* creating gismap/assets/static/images/phoenix.png
+* creating gismap/assets/static/favicon.ico
+
+Fetch and install dependencies? [Yn]
+We are almost there! The following steps are missing:
+
+    $ cd gismap
+    $ mix deps.get
+    $ cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development
+
+Then configure your database in config/dev.exs and run:
+
+    $ mix ecto.create
+
+Start your Phoenix app with:
+
+    $ mix phx.server
+
+You can also run your app inside IEx (Interactive Elixir) as:
+
+    $ iex -S mix phx.server
+
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL>cd gismap
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap>
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap>mix archive.install hex phx_new 1.4.0
+Resolving Hex dependencies...
+Dependency resolution completed:
+New:
+[32m  phx_new 1.4.0[0m
+* Getting phx_new (Hex package)
+All dependencies are up to date
+Compiling 10 files (.ex)
+Generated phx_new app
+Generated archive "phx_new-1.4.0.ez" with MIX_ENV=prod
+Found existing entry: c:/Users/yukim/.mix/archives/phx_new-1.4.0
+Are you sure you want to replace it with "phx_new-1.4.0.ez"? [Yn] Y
+* creating c:/Users/yukim/.mix/archives/phx_new-1.4.0
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap>mix deps.get
+Resolving Hex dependencies...
+Dependency resolution completed:
+New:
+[32m  connection 1.0.4[0m
+[32m  cowboy 2.6.1[0m
+[32m  cowlib 2.7.0[0m
+[32m  db_connection 2.0.3[0m
+[32m  decimal 1.6.0[0m
+[32m  ecto 3.0.6[0m
+[32m  ecto_sql 3.0.4[0m
+[32m  file_system 0.2.6[0m
+[32m  gettext 0.16.1[0m
+[32m  jason 1.1.2[0m
+[32m  mime 1.3.1[0m
+[32m  phoenix 1.4.0[0m
+[32m  phoenix_ecto 4.0.0[0m
+[32m  phoenix_html 2.13.1[0m
+[32m  phoenix_live_reload 1.2.0[0m
+[32m  phoenix_pubsub 1.1.1[0m
+[32m  plug 1.7.1[0m
+[32m  plug_cowboy 2.0.1[0m
+[32m  plug_crypto 1.0.0[0m
+[32m  postgrex 0.14.1[0m
+[32m  ranch 1.7.1[0m
+[32m  telemetry 0.3.0[0m
+* Getting phoenix (Hex package)
+* Getting phoenix_pubsub (Hex package)
+* Getting phoenix_ecto (Hex package)
+* Getting ecto_sql (Hex package)
+* Getting postgrex (Hex package)
+* Getting phoenix_html (Hex package)
+* Getting phoenix_live_reload (Hex package)
+* Getting gettext (Hex package)
+* Getting jason (Hex package)
+* Getting plug_cowboy (Hex package)
+* Getting cowboy (Hex package)
+* Getting plug (Hex package)
+* Getting mime (Hex package)
+* Getting plug_crypto (Hex package)
+* Getting cowlib (Hex package)
+* Getting ranch (Hex package)
+* Getting file_system (Hex package)
+* Getting connection (Hex package)
+* Getting db_connection (Hex package)
+* Getting decimal (Hex package)
+* Getting ecto (Hex package)
+* Getting telemetry (Hex package)
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap>cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development
+npm WARN deprecated babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read babeljs.io/env to update!
+npm WARN deprecated nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN assets No description
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 972 packages from 593 contributors and audited 14977 packages in 54.395s
+found 0 vulnerabilities
+
+
+
+   ╭───────────────────────────────────────────────────────────────╮
+   │                                                               │
+   │      New minor version of npm available! 6.4.1 -> 6.7.0       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v6.7.0   │
+   │               Run npm install -g npm to update!               │
+   │                                                               │
+   ╰───────────────────────────────────────────────────────────────╯
+
+Hash: b9641d0ecef2b0845a5b
+Version: webpack 4.4.0
+Time: 2130ms
+Built at: 2019-1-28 07:26:43
+                Asset       Size       Chunks             Chunk Names
+       ../css/app.css   10.6 KiB  ./js/app.js  [emitted]  ./js/app.js
+               app.js   7.23 KiB  ./js/app.js  [emitted]  ./js/app.js
+       ../favicon.ico   1.23 KiB               [emitted]
+        ../robots.txt  202 bytes               [emitted]
+../images/phoenix.png   13.6 KiB               [emitted]
+[../deps/phoenix_html/priv/static/phoenix_html.js] 2.17 KiB {./js/app.js} [built]
+[./css/app.css] 39 bytes {./js/app.js} [built]
+[./js/app.js] 493 bytes {./js/app.js} [built]
+   [0] multi ./js/app.js 28 bytes {./js/app.js} [built]
+    + 2 hidden modules
+Child mini-css-extract-plugin node_modules/css-loader/index.js!css/app.css:
+    [./node_modules/css-loader/index.js!./css/app.css] ./node_modules/css-loader!./css/app.css 288 bytes {mini-css-extract-plugin} [built]
+    [./node_modules/css-loader/index.js!./css/phoenix.css] ./node_modules/css-loader!./css/phoenix.css 10.9 KiB {mini-css-extract-plugin} [built]
+        + 1 hidden module
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap\assets>mix ecto.create
+** (Mix) The task "ecto.create" could not be found
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap\assets>mix phx.server
+** (Mix) The task "phx.server" could not be found
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap\assets>cd ../
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap>mix ecto.create
+==> file_system
+Compiling 7 files (.ex)
+Generated file_system app
+==> connection
+Compiling 1 file (.ex)
+Generated connection app
+==> gettext
+Compiling 1 file (.yrl)
+Compiling 1 file (.erl)
+Compiling 20 files (.ex)
+Generated gettext app
+===> Compiling ranch
+===> Compiling telemetry
+==> decimal
+Compiling 1 file (.ex)
+Generated decimal app
+==> jason
+Compiling 8 files (.ex)
+Generated jason app
+==> db_connection
+Compiling 16 files (.ex)
+Generated db_connection app
+==> ecto
+Compiling 54 files (.ex)
+warning: Inspect.Algebra.surround_many/5 is deprecated. Use Inspect.Algebra.container_doc/6 instead
+Found at 3 locations:
+  lib/ecto/changeset.ex:2755
+  lib/ecto/query/inspect.ex:16
+  lib/ecto/query/inspect.ex:30
+
+Generated ecto app
+==> phoenix_pubsub
+Compiling 13 files (.ex)
+Generated phoenix_pubsub app
+===> Compiling cowlib
+===> Compiling cowboy
+==> mime
+Compiling 2 files (.ex)
+Generated mime app
+==> postgrex
+Compiling 61 files (.ex)
+Generated postgrex app
+==> ecto_sql
+Compiling 23 files (.ex)
+Generated ecto_sql app
+==> plug_crypto
+Compiling 4 files (.ex)
+Generated plug_crypto app
+==> plug
+Compiling 1 file (.erl)
+Compiling 38 files (.ex)
+warning: System.stacktrace/0 outside of rescue/catch clauses is deprecated. If you want to support only Elixir v1.7+, you must access __STACKTRACE__ inside a rescue/catch. If you want to support earlier Elixir versions, move System.stacktrace/0 inside a rescue/catch
+  lib/plug/conn/wrapper_error.ex:23
+
+Generated plug app
+==> phoenix_html
+Compiling 8 files (.ex)
+Generated phoenix_html app
+==> plug_cowboy
+Compiling 5 files (.ex)
+Generated plug_cowboy app
+==> phoenix
+Compiling 67 files (.ex)
+Generated phoenix app
+==> phoenix_live_reload
+Compiling 4 files (.ex)
+Generated phoenix_live_reload app
+==> phoenix_ecto
+Compiling 6 files (.ex)
+Generated phoenix_ecto app
+==> gismap
+Compiling 13 files (.ex)
+Generated gismap app
+The database for Gismap.Repo has already been created
+
+C:\Users\yukim\TheWaggle\GEOSPATIAL\gismap>
