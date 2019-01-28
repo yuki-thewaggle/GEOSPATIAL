@@ -11,6 +11,16 @@
   font-family: "Lato", sans-serif !important;
 }
 
+/* Select */
+
+.not-selectable {
+  -ms-user-select: none; /* IE 10+ */
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
 /* Color */
 
 .green     { color: #227D51; }
@@ -310,6 +320,10 @@
   height: 0.2em;
   border-radius: 0;
   background-color: rgb(140,140,140);
+}
+
+.itemlist li {
+  margin-top: 0.5em !important;
 }
 
 /* ol */

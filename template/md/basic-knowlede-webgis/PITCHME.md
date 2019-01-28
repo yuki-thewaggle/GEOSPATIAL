@@ -90,7 +90,7 @@
 
 @snapend
 
-* 文章の構造を定義する　<a href="#/6">@css[orange](HTML)</a>
+* 文章の構造を定義する　<a href="#/">@css[orange](HTML)</a>
 * レイアウトなど装飾するのが　<a href="#/">@css[orange](スタイルシート（CSS）)</a>
 * 機能をつけるのが <a href="#/">@css[orange](JavaScript)</a>
 

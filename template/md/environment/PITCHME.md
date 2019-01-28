@@ -115,9 +115,35 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[CUIとは](https://sample.com)
+@quote[<ul><li><span class="orange">C</span>haracter <span class="orange">U</span>ser <span class="orange">I</span>nterface（キャラクタユーザインタフェース）</li><li><a href="#/"><span class="orange">ユーザインタフェース</span></a>の様式</li><li>キーボード等からの文字列を<a href="#/"><span class="orange">入力</span></a>とする</li><li>文字列が表示されるウィンドウを<a href="#/"><span class="orange">出力</span></a>とする</li></ul>](https://ja.wikipedia.org/wiki/キャラクタユーザインタフェース)
 
 @snapend
+@snapend
+
+---
+
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [1. CUI](#/20)
+- [0. ユーザインタフェースとは]()
+@olend
+@snapend
+
+### @css[slide-title](ユーザインタフェースとは)
+
+@snap[slide-contents]
+
+@snap[quote-wrap]
+
+@quote[<ul><li>コンピュータと人間の間での情報をやりとりする</li><li>ユーザインタフェースは以下の手段を提供する<ul><li><span class="orange">入力</span>：<br>ユーザーがシステムを操作する手段</li><li><span class="orange">出力</span>：<br>ユーザーが操作した結果システムが生成したものを提示する手段</li></ul></li></ul>](https://ja.wikipedia.org/wiki/ユーザインタフェース)
+
+@snapend
+
+- Macは「ターミナル」
+- Windowsは「コマンドプロンプト」
+
 @snapend
 
 ---
@@ -136,31 +162,14 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
+- <span class="not-selectable">検索ボックスに<br>「</span>コマンドプロンプト<span class="not-selectable">」<br>と記入します。</span>
+- 「コマンドプロンプト<br>デスクトップアプリ」<br>をクリックします。
+- コマンドプロンプトが起動します。
 @olend
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color4 start-11](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
-- ここまで
-@olend
+@img[goal-image to-center](template/img/environment/CUI-windows.png)
 @snapend
 
 @snapend
@@ -181,33 +190,15 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
+- Dock/*表現変える*/からLaunchpadを開く
+- 「ターミナル」と入力して検索
+- ターミナルーを選択
 @olend
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color4 start-11](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
-- ここまで
-@olend
+@img[goal-image to-center](template/img/environment/CUI-terminal.png)
 @snapend
-
 @snapend
 
 ---
@@ -226,8 +217,8 @@
 
 @snap[left-column]
 @ul[itemlist](false)
-- （mixが打てたらok）
-- （文章変える）
+- このような画面が表示を確認/*文言変える*/
+- 起動
 @ulend
 @snapend
 
@@ -282,9 +273,12 @@
 @box[rounded box-style](Firefoxは、高速かつ軽量なWebブラウザーです。<br>拡張機能が豊富であるという特徴があります。)
 
 @ol[numberlist numberlist-color4](true)
-- <u>[Firefoxのダウンロードページ](https://www.mozilla.org/ja/firefox/new/)</u>にアクセスします
-- 「今すぐダウンロード」ボタンをクリックします
-- ダウンロードしたインストーラーを起動してインストールします
+- <u>[Firefoxのダウンロードページ](https://www.mozilla.org/ja/firefox/new/)</u>にアクセスします。
+- 「今すぐダウンロード」ボタンをクリックします。
+- ダウンロードしたファイルをクリックして起動します。
+- Windows
+- Mac
+- インストールされます。
 @olend
 
 @snapend
@@ -302,6 +296,18 @@
 ### @css[slide-title](確認)
 
 @snap[slide-contents]
+
+@snap[left-column]
+@ul[itemlist](false)
+- PC上に<br>Firefox のアイコンがある
+- アイコンから<br>Firefox が起動する
+- Firefox で<br>Webサイトなどが閲覧できる
+@ulend
+@snapend
+
+@snap[right-column]
+@img[goal-image to-center](template/img/environment/Firefox-installed-windows.png)
+@snapend
 
 @snapend
 

@@ -305,6 +305,7 @@
  - 外部リンク先（青文字、下線）
  - ページ内リンク（色普通、下線なし）
  - 名称の大文字小文字、誤字脱字
+ - 文章中のページ内リンクは<a href="#/">で検索
 
 
 ---
@@ -365,3 +366,10 @@ Are you sure you want to install "phx_new-1.4.0.ez"? [Yn] Y
 `dir` 現在のフォルダの中身を表示する
 `cd （移動したいフォルダ）`  フォルダを移動する
 `cd`  現在のフォルダの位置（パス）を表示する
+
+
+---
+
+@quote[Macは、ターミナルと呼ぶ](https://developer.apple.com/library/archive/technotes/tn2002/tn2071.html#//apple_ref/doc/uid/DTS10003098)
+
+@quote[Windowsは、コマンドプロンプトと呼ぶ](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
