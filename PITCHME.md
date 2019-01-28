@@ -329,7 +329,7 @@
 @olend
 @snapend
 
-### @css[slide-title](テンプレートG - 手順ゴール条件)
+### @css[slide-title](テンプレートG1 - 手順ゴール条件)
 
 @snap[slide-contents margin-left1]
 
@@ -338,6 +338,34 @@
 - 条件２
 - 条件３
 @ulend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+### @css[slide-title](テンプレートG2 - ゴール条件&画像)
+
+@snap[slide-contents]
+
+@snap[left-column]
+@ul[itemlist](false)
+- 条件１
+- 条件２
+- 条件３
+@ulend
+@snapend
+
+@snap[right-column]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
 
 @snapend
 
