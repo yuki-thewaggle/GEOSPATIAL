@@ -115,7 +115,12 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[CUIとは](https://sample.com)
+@quote[CUIとは<br><span class="orange">C</span>haracter <span class="orange">U</span>ser <span class="orange">I</span><br>
+キャラクタユーザインタフェース (character user interface, CUI)[1]、キャラクタベースユーザインタフェース (character-based user interface, CUI) [2]、コンソールユーザインタフェース (console user interface, CUI) [3]、またはコマンドラインインタフェース (command line interface, CLI) [4]は、キーボード等[5]からの文字列[6]を入力とし、文字列が表示されるウィンドウや古くはラインプリンタで印字される文字などを出力とする、ユーザインタフェースの様式である。もっぱらグラフィカルユーザインタフェース (GUI) の対義語として使われる。](https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9)
+
+@quote[Macは、ターミナルと呼ぶ](https://developer.apple.com/library/archive/technotes/tn2002/tn2071.html#//apple_ref/doc/uid/DTS10003098)
+
+@quote[Windowsは、コマンドプロンプトと呼ぶ](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
 @snapend
 @snapend
@@ -136,31 +141,14 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
+- 検索ボックスを使用し、「cmd」と記入
+- 「コマンドプロンプト」を選択
+
 @olend
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color4 start-11](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
-- ここまで
-@olend
+
 @snapend
 
 @snapend
@@ -181,31 +169,14 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
+- DockからLaunchpadを開く
+- 「ターミナル」と入力して検索
+- ターミナルーを選択
 @olend
 @snapend
 
 @snap[right-column]
-@ol[numberlist  numberlist-color4 start-11](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
-- ここまで
-@olend
+
 @snapend
 
 @snapend
@@ -226,8 +197,8 @@
 
 @snap[left-column]
 @ul[itemlist](false)
-- （mixが打てたらok）
-- （文章変える）
+- このような画面が表示を確認
+- 起動
 @ulend
 @snapend
 
