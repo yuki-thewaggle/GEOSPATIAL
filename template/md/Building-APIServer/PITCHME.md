@@ -64,8 +64,6 @@
 
 ---
 
----
-
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
@@ -82,25 +80,20 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color3](false)
-- 手順
-- 手順
-- 手順
-- 手順
-- 手順
-- 手順
+- プロジェクトの作成
+- パッケージの取り込み
+- モジュールバンドラの導入
+- フォルダの移動
+- DBの作成
+- サーバーの起動
 @olend
 @snapend
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color3](false)
-- 手順
-- 手順
-- 手順
-- 手順
-- 手順
-- 手順
-@olend
+@snap[goal-image]
+@img[](template/img/Building-APIServer/1-ctr-c.png)
+@snapend
 @snapend
 
 @snapend
@@ -119,30 +112,26 @@
 
 @snap[slide-contents]
 
+@box[rounded box-style](作業の内容と目的,使用するソフトウェア)
+
 @snap[left-column]
-@ol[numberlist numberlist-color4](true)
-- Web基礎知識
-- 環境構築
-- APIServerの構築
-- 地図の表示
-- 外部API呼び出し
-- DB操作
-- 内部API呼び出し
-- 地図へのポイント追加
-- 自分の緯度経度の取得
+@ol[numberlist numberlist-color3](false)
+- mix phx.new gismap
+- Y
 @olend
 @snapend
 
+
 @snap[right-column]
-@snap[images-box]
+@snap[gist-box half-gist-box]
 
-@img[](template/img/Building-APIServer/1-ctr-c.png)
-@img[](template/img/Building-APIServer/5-localhost.png)
-@snapend
+@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+
+@[1](プロジェクトを「gismap」という名前で作成します)
+@[2](関連するファイルをインストールをします)
 
 @snapend
 @snapend
-
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
