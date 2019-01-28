@@ -311,6 +311,27 @@
 
 # Windowsメモ
 
+
+We are almost there! The following steps are missing:
+
+    $ cd gismap
+    $ mix deps.get
+    $ cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development
+
+Then configure your database in config/dev.exs and run:
+
+    ($ cd ../)
+    $ mix ecto.create
+
+Start your Phoenix app with:
+
+    $ mix phx.server
+
+You can also run your app inside IEx (Interactive Elixir) as:
+
+    $ iex -S mix phx.server
+
+
 ### Phoenix v1.4 のインストール
 - 管理者権限でコマンドプロンプトを起動する
 - 入力するコマンドは同じ `mix archive.install hex phx_new 1.4.0`
@@ -336,3 +357,11 @@ Are you sure you want to install "phx_new-1.4.0.ez"? [Yn] Y
 ### Visual Studio Code の使い方
 - 管理者権限で Visual Studio Code を起動する
 - 入力するコマンドを `code .` から `code . -r` に変える
+
+---
+
+### コマンド
+`explorer （表示したいフォルダ）`  エクスプローラーでフォルダを開く
+`dir` 現在のフォルダの中身を表示する
+`cd （移動したいフォルダ）`  フォルダを移動する
+`cd`  現在のフォルダの位置（パス）を表示する
