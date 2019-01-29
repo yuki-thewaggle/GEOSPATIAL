@@ -37,7 +37,8 @@
             - 直近AED位置情報取得API　を利用する、例に乗っているURLをhttps://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185
 	1. 確認
             - 利用するとデータが取得できる事を確認する。
-	1. RestClient の操作
+1. RestClient の操作
+	1. RestClient での確認
             - Firefoxのブラウザから、RestClientを起動し、URLに　https://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185
 			を入力する
             - MethodはGetで、send すると、 ステータスコード　200 OKで JSONデータが取得されている事を確認する
@@ -187,11 +188,12 @@
             -     get "/", PageController, :index
             -     resources "/locations", LocationController
             - end
-            - 期日をしたら、保存し、コンソールから次のコマンドを打ちます。　mix ecto.migrate
-1. テスト
-	1. 表示の確認
+            - 期日をしたら、保存し、コンソールから次のコマンドを打ちます。
+			- mix ecto.migrate
+		1. 表示の確認
             - 追加できたら、iex -S mix phx.server でサーバーを立ち上げて、ブラウザで確認します。
-            - ブラウザから、http://localhost:4000/locations　でページが表示される事を確認します。
+            - ブラウザから、http://localhost:4000/locations　でページが表示される事を確認します。1. WebページからDBへの追加
+
 	1. Webページからのデータ追加
             - New Location をクリックして、Latitude、Longitude、Locationname にデータを入れて見ましょう。
             - 例えば、文京区のAEDのオープンデータを確認して見ます。
