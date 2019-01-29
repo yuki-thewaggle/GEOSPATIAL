@@ -283,7 +283,7 @@ myHeading.textContent = "Hello World";
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>Elixir（エリクサー）</li><li>プログラミング言語</li><li>高い基本性能、書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く/速く/メンテナンスしやすくするスタイル</li><li>開発用ツールセットが用意されています<ul><li>ビルドツール「 <span class="orange">mix（ミックス）<span>」</li></ul></li><li>Webフレームワーク「 <span class="orange">Phoenix（フェニックス）</span>」が人気</li></ul>](https://www.ossnews.jp/oss_info/Elixir)
+@quote[<ul><li>Elixir（エリクサー）</li><li>プログラミング言語</li><li>高い基本性能、書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く/速く/メンテナンスしやすくするスタイル</li><li>開発用ツールセットが用意されています<ul><li>ビルドツール「 <span class="orange">mix（ミックス）</span>」</li></ul></li><li>Web<a href="#/"><span class="orange">フレームワーク</span></a>「 <span class="orange">Phoenix（フェニックス）</span>」が人気</li></ul>](https://www.ossnews.jp/oss_info/Elixir)
 
 @snapend
 @snapend
@@ -293,7 +293,45 @@ myHeading.textContent = "Hello World";
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [1. 基礎知識](#/4)
-- [11. Elixirの主な型]()
+- [11. フレームワークとは]()
+@olend
+@snapend
+
+### @css[slide-title](フレームワークとは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<ul><li>汎用的な機能や基本的な制御構造をまとめた<span class="orange">半完成品</span></li><li>開発者がコードを記述して機能を追加、拡張する</li></ul>](http://e-words.jp/w/フレームワーク.html)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
+- [12. 型とは]()
+@olend
+@snapend
+
+### @css[slide-title](型とは)
+
+@snap[slide-contents]
+@snap[quote-wrap]
+
+@quote[<ul><li>データ（値）の種類に関する分類<ul><li>0, 1, 2, -42 といったような値は整数型</li><li>"foo", "Hello" といったような値は文字列型</li></ul></li></ul>](https://ja.m.wikipedia.org/wiki/データ型)
+
+@snapend
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [1. 基礎知識](#/4)
+- [13. Elixirの主な型]()
 @olend
 @snapend
 
@@ -353,21 +391,4 @@ myHeading.textContent = "Hello World";
 
 @snapend
 
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
-- [12. 型とは]()
-@olend
-@snapend
 
-### @css[slide-title](型とは)
-
-@snap[slide-contents]
-@snap[quote-wrap]
-
-@quote[<ul><li>データ（値）の種類に関する分類<ul><li>0, 1, 2, -42 といったような値は整数型</li><li>"foo", "Hello" といったような値は文字列型</li></ul></li></ul>](https://ja.m.wikipedia.org/wiki/データ型)
-
-@snapend
-@snapend
