@@ -1,3 +1,5 @@
+1. 基礎知識
+1. 環境構築
 1. Phoenix プロジェクトの作成	template/md/create-a-new-project
 	1. プロジェクトの作成
             - mix phx.new aedmap

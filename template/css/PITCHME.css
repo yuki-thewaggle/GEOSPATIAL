@@ -427,6 +427,11 @@
   width: 95% !important;
   color: #0B346E;
 }
+.slide-title.smaller-font {
+  font-size: 0.8em !important;
+  margin-top: 0.4em !important;
+}
+
 
 .detail-comment {
   font-size: 0.6em !important;
