@@ -1,4 +1,4 @@
-1. Phoenix プロジェクトの作成
+1. Phoenix プロジェクトの作成	template/md/create-a-new-project
 	1. プロジェクトの作成
             - mix phx.new aedmap
             - Y
@@ -11,7 +11,7 @@
             - ブラウザで http://localhost:4000 を確認
 	1. サーバーの終了
             - Ctr + C を２回でサーバーをシャットダウン
-1. Elixir モジュールの追加
+1. Elixir モジュールの追加	template/md/add-modules
 	1. モジュールとは
 	1. Visual Studio Code の起動
             - ターミナル上で、 code . でVscodeを起動する
@@ -25,11 +25,11 @@
             - コンソール画面で、 mix deps.get をして、smallexがインストールされている事をコンソールに出力される結果から確認する
 	1. smallex の使い方
             - hex の smallex　から、Online documentation のリンク先に飛んで、Json.getの使い方を説明
-1. プロジェクトのテスト方法
+1. プロジェクトのテスト方法		template/md/how-to-test-Elixir-project
 	1. Elixir のテスト
             - iex -S mix phx.severでサーバーを立ち上げると、iexが起動しているのでコンソール上で、Elixirをテストできるようになる
 			https://elixirschool.com/ja/lessons/basics/iex-helpers/
-1. APIの利用
+1. APIの利用	template/md/external-API
 	1. APIとは
 	1. AEDオープンデータプラットフォーム
             - APIは、今回はAEDオープンデータプラットフォームのAPIを利用する。http://hatsunejournal.jp/w8/AEDOpendata/
@@ -37,13 +37,13 @@
             - 直近AED位置情報取得API　を利用する、例に乗っているURLをhttps://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185
 	1. 確認
             - 利用するとデータが取得できる事を確認する。
-1. RestClient の操作
+1. RestClient の操作	template/md/use-RestClient
 	1. RestClient での確認
             - Firefoxのブラウザから、RestClientを起動し、URLに　https://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185
 			を入力する
             - MethodはGetで、send すると、 ステータスコード　200 OKで JSONデータが取得されている事を確認する
 			- 無事に確認が取れたら、このような機能をElixirに実装していくと説明する
-1. 外部データの取得と抽出
+1. 外部データの取得と抽出	template/md/external-API-data
 	1. 外部データの取得
             - まず、コンソール上で、Json.get("https://aed.azure-mobile.net", "/api/NearAED?lat=35.96&lng=136.185")をするとデータが取得できる事を確認する。
 	1. Elixir の特徴
@@ -62,7 +62,7 @@
             - ここから、Map.getを利用して、"Latitude" のデータを取得したいと思います。
             - latitude = Map.get( result, "Latitude" )
             - これで、latitudeには、35.959898　のデータが取得できました。
-1. 抽出データのWebページ表示
+1. 抽出データのWebページ表示	template/md/display-data-on-web-page
 	1. 抽出したデータの実装
             - では、Json.getで取得したデータを取り出すまでできたので、Web上にそのデータを表示する事を実装していきましょう。
 	1. HTMLファイルの変更方法
@@ -87,7 +87,7 @@
             - <%= locationName　%><br>
 	1. テスト
             - これで、ブラウザに、無事にAPIで取得したデータの緯度経度、ロケーションの名称を表示する事ができました。
-1. 地図のWebページ表示
+1. 地図のWebページ表示	template/md/display-map-on-web-page
             - 続いて、このデータを利用して地図に表示できるようにしたいと思います。
 	1. leaflet.js とは
             - 地図を利用するのに、今回は簡単に使える leafletjs というJSのモジュールを使います。https://leafletjs.com/
@@ -160,7 +160,7 @@
             - このように地図タイルを変更する事も簡単にできます。
 
             - 今回は、オープンストリートマップのタイルで進めます。
-1. 地点データの追加
+1. 地点データの追加		template/md/add-location-data
 	1. 外部データからの追加
             - それでは、地図を描画している箇所を理解した所で、APIのデータを追加できるようにしましょう。
 			- 
@@ -583,3 +583,17 @@ Are you sure you want to install "phx_new-1.4.0.ez"? [Yn] Y
 @quote[Macは、ターミナルと呼ぶ](https://developer.apple.com/library/archive/technotes/tn2002/tn2071.html#//apple_ref/doc/uid/DTS10003098)
 
 @quote[Windowsは、コマンドプロンプトと呼ぶ](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+
+
+---
+
+カットしたインクルード
+---?include=template/md/basic-knowlede-webgis/PITCHME.md
+---?include=template/md/environment/PITCHME.md
+---?include=template/md/Building-APIServer/PITCHME.md
+---?include=template/md/Show-map/PITCHME.md
+---?include=template/md/External-API-call/PITCHME.md
+---?include=template/md/DB-operation/PITCHME.md
+---?include=template/md/Internal-API-call/PITCHME.md
+---?include=template/md/points-to-the-map/PITCHME.md
+---?include=template/md/own-latitude-longitude/PITCHME.md

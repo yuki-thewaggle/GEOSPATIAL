@@ -42,13 +42,16 @@
 
 ---?include=template/md/basic-knowlede-webgis/PITCHME.md
 ---?include=template/md/environment/PITCHME.md
----?include=template/md/Building-APIServer/PITCHME.md
----?include=template/md/Show-map/PITCHME.md
----?include=template/md/External-API-call/PITCHME.md
----?include=template/md/DB-operation/PITCHME.md
----?include=template/md/Internal-API-call/PITCHME.md
----?include=template/md/points-to-the-map/PITCHME.md
----?include=template/md/own-latitude-longitude/PITCHME.md
+---?include=template/md/create-a-new-project/PITCHME.md
+---?include=template/md/add-modules/PITCHME.md
+---?include=template/md/how-to-test-Elixir-project/PITCHME.md
+---?include=template/md/external-API/PITCHME.md
+---?include=template/md/use-RestClient/PITCHME.md
+---?include=template/md/external-API-data/PITCHME.md
+---?include=template/md/display-data-on-web-page/PITCHME.md
+---?include=template/md/display-map-on-web-page/PITCHME.md
+---?include=template/md/add-location-data/PITCHME.md
+
 
 ---?color=#3A8FB7
 @snap[breadcrumbs-wrap bluescale]
