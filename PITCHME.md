@@ -307,6 +307,31 @@
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](5)
+- [n. アジェンダ項目名]()
+- [m. 小項目名]()
+- [k. ここまで]()
+@olend
+@snapend
+
+### @css[slide-title](テンプレートE0 - 手順詳細ワイド)
+
+@snap[slide-contents]
+
+@box[rounded box-style](手順詳細用の、テンプレートです。<br>この作業の目的を、ここに書きます。)
+
+@ol[numberlist numberlist-color4](true)
+- 手順１や、
+- 手順２など、
+- ここに、書いていきます。
+- 書いていきます書いていきます書いていきます。
+@olend
+
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [n. アジェンダ項目名]()
 - [m. 小項目名]()

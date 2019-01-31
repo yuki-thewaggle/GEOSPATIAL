@@ -119,3 +119,11 @@
 [QGIS](https://www.qgis.org/ja/site/)
 
 [地図タイル](https://wiki.openstreetmap.org/wiki/JA:%E3%82%BF%E3%82%A4%E3%83%AB)
+
+[モジュール](http://e-words.jp/w/モジュール.html)
+
+[パッケージマネージャー](https://www.weblio.jp/content/パッケージ管理システム)
+
+[hex](https://hex.pm/)
+
+

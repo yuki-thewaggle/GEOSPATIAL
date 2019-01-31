@@ -22,7 +22,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Phoenix を使ってWebプロジェクトを作成します。)
+@box[rounded box-style](Phoenix を利用してWebプロジェクトを作成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color2](false)
@@ -31,7 +31,7 @@
 - [データベースの作成](#/)
 - [アプリケーションの起動](#/)
 - [Webサイトの確認](#/)
-- [サーバーの終了](#/)
+- [アプリケーションの終了](#/)
 @olend
 @snapend
 
@@ -63,7 +63,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](プロジェクトのフォルダ構成と<br>必要なソースコードを生成します。)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、プロジェクトのフォルダ構成と<br>必要なソースコードを生成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -111,7 +111,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](プロジェクトのフォルダに移動します。)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>プロジェクトのフォルダに移動します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -158,7 +158,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](データを保存するための機能を作成します。)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>データを保存するための機能を作成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -205,7 +205,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](サーバーを実行してアプリケーションを起動します。)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、サーバーを実行して<br>アプリケーションを起動します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -251,7 +251,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](アプリケーションが起動して<br>Webサイトが見られるようになったことを確認します。)
+@box[rounded box-style](<span class="orange">Webブラウザー</span>を使って、アプリケーションが起動して<br>Webサイトが見られるようになったことを確認します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
@@ -263,7 +263,7 @@
 
 @snap[right-column]
 @snap[imagebox]
-@img[](template/img/finish.png)
+@img[](template/img/create-a-new-project/5-localhost.png)
 @snapend
 @snapend
 
@@ -274,12 +274,12 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [6. サーバーの終了](#/)
+- [6. アプリケーションの終了](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](サーバーの終了)
+## @color[white](アプリケーションの終了)
 @snapend
 
 ---
@@ -287,32 +287,20 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [6. サーバーの終了](#/)
+- [6. アプリケーションの終了](#/)
 @olend
 @snapend
 
-### @css[slide-title](サーバーの終了)
+### @css[slide-title](アプリケーションの終了)
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>起動しているアプリケーションを終了します。)
 
-@snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+@ol[numberlist numberlist-color4](true)
+- Windowsの場合は「<span class="orange">Ctrl + C</span>」を2回入力します。
+- Macの場合は「<span class="orange">control + C</span>」を2回入力します。
+- アプリケーションが終了します。
 @olend
-@snapend
-
-@snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
-@snapend
 
 @snapend

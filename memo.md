@@ -8,11 +8,11 @@
         - cd aedmap
 	1. データベースの作成
         - mix ecto.create
-	1. サーバーの起動
+	1. アプリケーションの起動
         - mix phx.server
 	1. Webサイトの確認
         - ブラウザで http://localhost:4000 を確認
-	1. サーバーの終了
+	1. アプリケーションの終了
         - Ctr + C を２回でサーバーをシャットダウン
 1. Elixir モジュールの追加	template/md/add-modules
 	1. モジュールとは

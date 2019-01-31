@@ -156,11 +156,14 @@
 
 .right-column .imagebox {
   height: 40vh !important;
-  text-align: center !important;
+  text-align: right !important;
 }
 .right-column .imagebox img {
   object-fit: contain;
   margin: 0;
+}
+.right-column img {
+  text-align: right;
 }
 
 /* Gist */
