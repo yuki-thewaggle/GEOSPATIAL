@@ -136,12 +136,12 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [8. 外部データの取得と抽出](#/)
-- [3. 取得したデータの抽出（%{ } マップ型のデータ）](#/)
+- [3. 取得したデータの抽出（マップ型）](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](取得したデータの<br>抽出（マップ型の<br>データ）)
+## @color[white](取得したデータの<br>抽出（マップ型）)
 @snapend
 
 ---
@@ -149,11 +149,11 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [8. 外部データの取得と抽出](#/)
-- [3. 取得したデータの抽出（%{ } マップ型のデータ）](#/)
+- [3. 取得したデータの抽出（マップ型）](#/)
 @olend
 @snapend
 
-### @css[slide-title smaller-font](取得したデータの抽出<br>（マップ型のデータ）)
+### @css[slide-title smaller-font](取得したデータの抽出（マップ型）)
 
 @snap[slide-contents]
 
@@ -184,12 +184,12 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [8. 外部データの取得と抽出](#/)
-- [4. 取得したデータの抽出（"Latitude" のデータ）](#/)
+- [4. 取得したデータの抽出（"Latitude"）](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](取得したデータの<br>抽出（"Latitude" <br>のデータ）)
+## @color[white](取得したデータの<br>抽出（"Latitude" ）)
 @snapend
 
 ---
@@ -197,11 +197,11 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [8. 外部データの取得と抽出](#/)
-- [4. 取得したデータの抽出（"Latitude" のデータ）](#/)
+- [4. 取得したデータの抽出（"Latitude"）](#/)
 @olend
 @snapend
 
-### @css[slide-title smaller-font](取得したデータの抽出<br>（"Latitude" のデータ）)
+### @css[slide-title smaller-font](取得したデータの抽出（"Latitude" ）)
 
 @snap[slide-contents]
 

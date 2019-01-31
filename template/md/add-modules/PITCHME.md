@@ -95,7 +95,7 @@
 @snapend
 
 @snap[west headline]
-## @color[white](Visual Studio Code の起動)
+## @color[white](Visual Studio Code<br>の起動)
 @snapend
 
 ---
@@ -107,7 +107,7 @@
 @olend
 @snapend
 
-### @css[slide-title](Visual Studio Code<br>の起動)
+### @css[slide-title](Visual Studio Code の起動)
 
 @snap[slide-contents]
 
