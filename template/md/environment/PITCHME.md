@@ -306,9 +306,11 @@
 @snapend
 
 @snap[right-column]
+@snap[imagebox]
 @img[goal-image to-center](template/img/environment/Firefox-installed_windows.png)
 @img[goal-image to-center](template/img/environment/Firefox-installed_browser.png)
 @img[goal-image to-center](template/img/environment/Firefox-installed_browser.png)
+@snapend
 @snapend
 
 @snapend

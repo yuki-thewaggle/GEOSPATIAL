@@ -27,8 +27,9 @@
 @snap[left-column]
 @ol[numberlist numberlist-color2](false)
 - [プロジェクトの作成](#/)
+- [フォルダの移動](#/)
 - [データベースの作成](#/)
-- [サーバーの起動](#/)
+- [アプリケーションの起動](#/)
 - [Webサイトの確認](#/)
 - [サーバーの終了](#/)
 @olend
@@ -62,7 +63,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](プロジェクトのフォルダ構成と<br>必要なソースコードを生成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -89,7 +90,54 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [2. データベースの作成](#/)
+- [2. フォルダの移動](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](フォルダの移動)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. Phoenix プロジェクトの作成](#/)
+- [2. フォルダの移動](#/)
+@olend
+@snapend
+
+### @css[slide-title](フォルダの移動)
+
+@snap[slide-contents]
+
+@box[rounded box-style](プロジェクトのフォルダに移動します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color4](false)
+- cd aedmap
+@olend
+@snapend
+
+@snap[right-column]
+@snap[gist-box half-gist-box]
+
+@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+
+@[1](説明)
+
+@snapend
+@snapend
+
+@snapend
+
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [3. Phoenix プロジェクトの作成](#/)
+- [3. データベースの作成](#/)
 @olend
 @snapend
 
@@ -102,7 +150,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [2. データベースの作成](#/)
+- [3. データベースの作成](#/)
 @olend
 @snapend
 
@@ -110,12 +158,11 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](データを保存するための機能を作成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+- mix ecto.create
 @olend
 @snapend
 
@@ -137,12 +184,12 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [3. サーバーの起動](#/)
+- [4. アプリケーションの起動](#/)
 @olend
 @snapend
 
 @snap[west headline]
-## @color[white](サーバーの起動)
+## @color[white](アプリケーションの起動)
 @snapend
 
 ---
@@ -150,20 +197,19 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [3. サーバーの起動](#/)
+- [4. アプリケーションの起動](#/)
 @olend
 @snapend
 
-### @css[slide-title](サーバーの起動)
+### @css[slide-title](アプリケーションの起動)
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](サーバーを実行してアプリケーションを起動します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+- mix phx.server
 @olend
 @snapend
 
@@ -173,7 +219,6 @@
 @gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
 
 @[1](説明)
-@[2](説明)
 
 @snapend
 @snapend
@@ -185,7 +230,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [4. Webサイトの確認](#/)
+- [5. Webサイトの確認](#/)
 @olend
 @snapend
 
@@ -198,7 +243,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [4. Webサイトの確認](#/)
+- [5. Webサイトの確認](#/)
 @olend
 @snapend
 
@@ -206,23 +251,19 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](アプリケーションが起動して<br>Webサイトが見られるようになったことを確認します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+@ol[numberlist numberlist-color4](true)
+- Firefox を立ち上げます。
+- <span class="not-selectable">URLに</span><br><u>http://localhost:4000</u><br><span class="not-selectable">を貼り付けて開きます。</span>
+- 画像のようなページが表示されます。
 @olend
 @snapend
 
 @snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
+@snap[imagebox]
+@img[](template/img/finish.png)
 @snapend
 @snapend
 
@@ -233,7 +274,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [5. サーバーの終了](#/)
+- [6. サーバーの終了](#/)
 @olend
 @snapend
 
@@ -246,7 +287,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [3. Phoenix プロジェクトの作成](#/)
-- [5. サーバーの終了](#/)
+- [6. サーバーの終了](#/)
 @olend
 @snapend
 
