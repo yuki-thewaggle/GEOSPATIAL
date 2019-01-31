@@ -88,7 +88,7 @@
 @olend
 @snapend
 
-### @css[slide-title](AEDオープンデータプラットフォーム)
+### @css[slide-title smaller-font](AEDオープンデータプラットフォーム)
 
 @snap[slide-contents]
 @img[goal-image to-center](template/img/environment/Firefox.png)
@@ -103,16 +103,16 @@
 @olend
 @snapend
 
-### @css[slide-title smaller-font](AEDオープンデータプラットフォームとは)
+### @css[slide-title smallest-font](AEDオープンデータプラットフォームとは)
 
 @snap[slide-contents]
 
 @box[rounded box-style](今回は<u>[AEDオープンデータプラットフォーム](http://hatsunejournal.jp/w8/AEDOpendata/)</u>を利用します。これは、AEDの設置箇所に関する情報を取得できるAPIです。)
 
 @ol[numberlist numberlist-color4](false)
-- <u>http://hatsunejournal.jp/w8/AEDOpendata/</u>にアクセスします。
+- Webブラウザーを使って、<u>http://hatsunejournal.jp/w8/AEDOpendata/</u>にアクセスします。
 - 画面上部のメニューから **API** をクリックします。
-- 
+- 利用できるAPIを確認します。
 @olend
 
 @snapend
@@ -127,7 +127,7 @@
 @snapend
 
 @snap[west headline]
-## @color[white](直近AED位置情報取得API)
+## @color[white](直近AED位置情報<br>取得API)
 @snapend
 
 ---
@@ -143,25 +143,12 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](**Webブラウザー** を使って、<br>ある地点から直近のAED位置情報を取得してみます。)
 
-@snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+@ol[numberlist numberlist-color4](true)
+- <u>https://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185</u> にアクセスします。
+- これは、**北緯（lat）35.96** 、 **東経（lng）136.185** の地点から最も近いAEDの情報です。
 @olend
-@snapend
-
-@snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
-@snapend
 
 @snapend
 
@@ -191,22 +178,20 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](**Webブラウザー** を使って、<br>任意の地点から直近のAED情報を取得してみます。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+- 例えば、東京駅の<br>**北緯（lat）35.68**<br>**東経（lng）139.767** だと<br><u>@size[0.7em](https://aed.azure-mobile.net/api/NearAED?lat=35.68&lng=139.767)</u>です。
 @olend
 @snapend
 
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[json zoom-06](yuki-thewaggle/8d5c582ba46e0350acc6fcba0d66439c)
 
-@[1](説明)
-@[2](説明)
+@[0](先程とは別の情報が取得できることを確認します。)
 
 @snapend
 @snapend
