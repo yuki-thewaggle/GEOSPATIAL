@@ -129,6 +129,11 @@
   margin-top: 0.3em !important;
 }
 
+.reveal .quote-text .not-linkable a {
+  color: rgb(80,80,80);
+  pointer-events: none;
+}
+
 .quote-text span.quote-attribution {
   margin-left: 0.9em !important;
   font-size: 0.5em !important;

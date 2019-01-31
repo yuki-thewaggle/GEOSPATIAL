@@ -185,7 +185,7 @@
 @ol[numberlist numberlist-color4](false)
 - 画面上部のメニューから「<span class="orange">View</span>」 > 「<span class="orange">Explorer</span>」 をクリックします。
 - 画面の左側に「<span class="orange">EXPLORER</span>」という枠が開きます。
-- 「EXPLORER」から「<span class="orange">deps</span>」> 「<span class="orange">phoenix</span>」>「<span class="orange">mix.exs</span>」を捜してクリックします。
+- 「EXPLORER」の中を、下にスクロールして「<span class="orange">mix.exs</span>」を捜してクリックします。
 @olend
 
 @snapend
@@ -216,7 +216,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、<br>smallex というAPIを取得するのに便利なモジュールを実際に追加します。)
+@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、smallex という<br>APIを取得するのに便利なモジュールを実際に追加します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -263,7 +263,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>smallexがインストールされていることを確認します。Windowsでの確認方法を確立する！！！)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>smallexがインストールされていることを確認します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -276,8 +276,7 @@
 
 @gist[zoom-09](yuki-thewaggle/6225d47bfe950aa8255afb72b2a26718)
 
-@[1](説明)
-@[2](説明)
+@[40](smallex0.2.3 の記述があります。)
 
 @snapend
 @snapend
@@ -311,21 +310,23 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>Json.get（ドメイン, パス）</li><ul><li>Json.get（"https://api.github.com", "/rate_limit" ）</li><li>https://api.github.com/rate_limit のJSON APIを取得</li></ul></li></ul>](https://hexdocs.pm/smallex/Json.html#get/3)
+@quote[<ul><li>Json.get&#40;ドメイン, パス&#41;</li><ul><li>Json.get&#40;"<span class="not-linkable">https://api.github.com</span>", "/rate_limit"&#41; と記述<br>&#8594; https://api.github.com/rate_limit のJSON APIを取得</li></ul></li></ul>](https://hexdocs.pm/smallex/Json.html#get/3)
 @snapend
 
 @snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- result = Json.get("https://aed.azure-mobile.net","/api/NearAED?lat=35.96&lng=136.185")
+@ol[numberlist numberlist-color4](true)
+- CUIを使って、以下のコマンドを貼り付けます。
+- iex -S mix phx.server
+- <span style="font-size:0.7em;">result = Json.get("https://api.github.com", "/rate_limit")</span>
 @olend
 @snapend
 
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[json zoom-05](yuki-thewaggle/1a1e2d5395161b615fa70cb0e392b1c7)
 
-@[1-5](（説明します。)
+@[0](このようにデータが取得できます。)
 
 @snapend
 @snapend
@@ -358,7 +359,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Windowsの場合、文字が別の文字で表示されてしまうときは、以下のコマンドを入力してください。)
+@box[rounded box-style](WindowsのCUIで、表示される文字が別の文字に変換されてしまうときは、以下のコマンドを入力してください。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -367,13 +368,7 @@
 @snapend
 
 @snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1-5](（説明します。)
-
-@snapend
+@img[goal-image to-center](template/img/environment/postgresql.png)
 @snapend
 
 @snapend
