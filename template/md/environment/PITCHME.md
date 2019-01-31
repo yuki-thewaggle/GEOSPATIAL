@@ -30,14 +30,15 @@
 - Firefox
 - RESTClient
 - テキストエディタ
+- Elixir
 - node.js
-- PostgreSQL
 @olend
 @snapend
 
 
 @snap[right-column]
 @ol[numberlist numberlist-color2 start-7](false)
+- PostgreSQL
 - Phoenixframework
 - リンクつけるのを忘れない
 @olend
@@ -478,6 +479,59 @@
 
 ### @css[slide-title](確認)
 
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Elixir]()
+@olend
+@snapend
+
+### @css[slide-title](Elixir)
+
+@snap[slide-contents]
+@img[goal-image to-center](template/img/environment/postgresql.png)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [2. 環境構築](#/18)
+- [m. Elixir]()
+- [k. Elixirのインストール]()
+@olend
+@snapend
+
+### @css[slide-title](Elixirのインストール)
+
+@snap[slide-contents]
+
+@box[rounded box-style](中項目用の、テンプレートです。<br>項目の概要を、説明します。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color4](true)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+@olend
+@snapend
+
+@snap[right-column]
+@ol[numberlist numberlist-color4 start-6](true)
+- アジェンダ項目内の小項目
+- 小項目
+- 小項目
+- 小項目
+- 体言止め
+- ここまで
+@olend
+@snapend
+
+@snapend
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)

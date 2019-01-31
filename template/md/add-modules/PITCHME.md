@@ -29,9 +29,16 @@
 - [モジュールとは](#/)
 - [Visual Studio Code の起動](#/)
 - [モジュールの追加方法](#/)
+- [mix.exs のオープン](#/)
 - [smallex の追加](#/)
 - [確認](#/)
+@olend
+@snapend
+
+@snap[right-column]
+@ol[numberlist numberlist-color2](false)
 - [smallex の使い方](#/)
+- [CUIで文字化けが起こるとき](#/)
 @olend
 @snapend
 
@@ -152,7 +159,43 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [4. Phoenix Elixir モジュールの追加](#/)
-- [4. smallex の追加](#/)
+- [4. mix.exs のオープン](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](mix.exs のオープン)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [4. Phoenix Elixir モジュールの追加](#/)
+- [4. mix.exs のオープン](#/)
+@olend
+@snapend
+
+### @css[slide-title](mix.exs のオープン)
+
+@snap[slide-contents]
+
+@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、<br>mix.exs というファイルを開きます。)
+
+@ol[numberlist numberlist-color4](false)
+- 画面上部のメニューから「<span class="orange">View</span>」 > 「<span class="orange">Explorer</span>」 をクリックします。
+- 画面の左側に「<span class="orange">EXPLORER</span>」という枠が開きます。
+- 「EXPLORER」から「<span class="orange">deps</span>」> 「<span class="orange">phoenix</span>」>「<span class="orange">mix.exs</span>」を捜してクリックします。
+@olend
+
+@snapend
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [4. Phoenix Elixir モジュールの追加](#/)
+- [5. smallex の追加](#/)
 @olend
 @snapend
 
@@ -165,7 +208,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [4. Phoenix Elixir モジュールの追加](#/)
-- [4. smallex の追加](#/)
+- [5. smallex の追加](#/)
 @olend
 @snapend
 
@@ -173,13 +216,11 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、<br>smallex というAPIを取得するのに便利なモジュールを実際に追加します。２ページに分ける！！！！)
+@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、<br>smallex というAPIを取得するのに便利なモジュールを実際に追加します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix.exs というファイルを開きます。画面左側にある柱「EXPLORER」から「<span class="orange">deps > phoenix > mix.exs</span>」を捜してクリックします。
-- defp deps do の次の行に、以下を貼り付けます。
-    - {:smallex, "~> 0.2.3"},
+- {:smallex, "~> 0.2.3"},
 @olend
 @snapend
 
@@ -188,9 +229,8 @@
 
 @gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
 
-@[1-5](（defp deps doのブロックをハイライト）この部分に加筆します。)
-@[2](行末に `,` と記入します。)
-@[2](`{:smallex, "~> 0.2.3"},` と記入します。)
+@[1-5](（defp deps doのブロックをハイライト）この区分の中に加筆します。)
+@[2](この行に `{:smallex, "~> 0.2.3"},` と記入します。)
 
 @snapend
 @snapend
@@ -202,7 +242,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [4. Phoenix Elixir モジュールの追加](#/)
-- [5. 確認](#/)
+- [6. 確認](#/)
 @olend
 @snapend
 
@@ -215,7 +255,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [4. Phoenix Elixir モジュールの追加](#/)
-- [5. 確認](#/)
+- [6. 確認](#/)
 @olend
 @snapend
 
@@ -223,7 +263,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>smallexがインストールされていることを確認します。)
+@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>smallexがインストールされていることを確認します。Windowsでの確認方法を確立する！！！)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -232,8 +272,13 @@
 @snapend
 
 @snap[right-column]
-@snap[imagebox]
-@img[](template/img/environment/postgresql.png)
+@snap[gist-box half-gist-box]
+
+@gist[zoom-09](yuki-thewaggle/6225d47bfe950aa8255afb72b2a26718)
+
+@[1](説明)
+@[2](説明)
+
 @snapend
 @snapend
 
@@ -244,7 +289,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [4. Phoenix Elixir モジュールの追加](#/)
-- [6. smallex の使い方](#/)
+- [7. smallex の使い方](#/)
 @olend
 @snapend
 
@@ -257,7 +302,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [4. Phoenix Elixir モジュールの追加](#/)
-- [6. smallex の使い方](#/)
+- [7. smallex の使い方](#/)
 @olend
 @snapend
 
@@ -265,12 +310,13 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>起動しているアプリケーションを終了します。)
+@snap[quote-wrap]
+@quote[<ul><li>Json.get（ドメイン, パス）</li><ul><li>Json.get（"https://api.github.com", "/rate_limit" ）</li><li>https://api.github.com/rate_limit のJSON APIを取得</li></ul></li></ul>](https://hexdocs.pm/smallex/Json.html#get/3)
+@snapend
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+- result = Json.get("https://aed.azure-mobile.net","/api/NearAED?lat=35.96&lng=136.185")
 @olend
 @snapend
 
@@ -279,8 +325,53 @@
 
 @gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
 
-@[1](説明)
-@[2](説明)
+@[1-5](（説明します。)
+
+@snapend
+@snapend
+
+@snapend
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [4. Phoenix Elixir モジュールの追加](#/)
+- [8. CUIで文字化けが起こるとき](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](CUIで文字化けが起こるとき)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [4. Phoenix Elixir モジュールの追加](#/)
+- [8. CUIで文字化けが起こるとき](#/)
+@olend
+@snapend
+
+### @css[slide-title](CUIで文字化けが起こるとき)
+
+@snap[slide-contents]
+
+@box[rounded box-style](Windowsの場合、文字が別の文字で表示されてしまうときは、以下のコマンドを入力してください。)
+
+@snap[left-column]
+@ol[numberlist numberlist-color4](false)
+- chcp 65001
+@olend
+@snapend
+
+@snap[right-column]
+@snap[gist-box half-gist-box]
+
+@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+
+@[1-5](（説明します。)
 
 @snapend
 @snapend

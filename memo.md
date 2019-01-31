@@ -21,6 +21,7 @@
 	1. モジュールの追加方法
         - mix.exs ファイルを開いて、 defp deps do の中に 追加のモジュールを書き込むと案内する
         - 追加のモジュールについては、Elixirは hex というパッケージマネージャを利用する
+	1. mix.exs のオープン
 	1. smallex の追加
         - hex から　smallex　という　APIを取得するのに便利なモジュールを追加
         - {:smallex, "~> 0.2.3"}, を defp deps do の中に追加して、保存する
@@ -28,6 +29,8 @@
         - コンソール画面で、 mix deps.get をして、smallexがインストールされている事をコンソールに出力される結果から確認する
 	1. smallex の使い方
         - hex の smallex　から、Online documentation のリンク先に飛んで、Json.getの使い方を説明
+	1. CUIで文字化けが起こるとき
+		- chcp 65001
 1. プロジェクトのテスト方法		template/md/how-to-test-Elixir-project
 	1. Elixir のテスト
         - iex -S mix phx.severでサーバーを立ち上げると、iexが起動しているのでコンソール上で、Elixirをテストできるようになる
