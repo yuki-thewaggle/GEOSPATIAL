@@ -7,9 +7,12 @@
 }
 
 * :not(.fa) {
-  color: rgb(80,80,80);
   font-family: "Lato", sans-serif !important;
 }
+* :not(.fa, strong) {
+  color: rgb(80,80,80);
+}
+
 
 /* Select */
 
@@ -36,7 +39,12 @@
   background-color: #3A8FB7 !important;
 }
 
-/* Size */
+/* Font */
+strong {
+  font-weight: normal !important;
+  color: #F05E1C;
+}
+
 
 /* Space */
 

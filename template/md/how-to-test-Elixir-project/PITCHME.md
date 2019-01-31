@@ -58,11 +58,11 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、Elixirで行った開発をテストします。)
+@box[rounded box-style](**CUI** を使って、Elixirで行った開発をテストします。)
 
 @ol[numberlist numberlist-color4](false)
 - iex -S mix phx.sever<span class="not-selectable"> と入力します。</span>
-- <u>[IEx](https://elixirschool.com/ja/lessons/basics/iex-helpers/)</u> が起動して、<span class="orange">iex(1)></span> という文字が表示されます。
+- <u>[IEx](https://elixirschool.com/ja/lessons/basics/iex-helpers/)</u> が起動して、**`iex(1)>`** という文字が表示されます。
 - プログラムを一行分入力してEnterキーを押します。
 - 入力した一行分が実行されます。
 - このようにして、素早いフィードバックを得ながら Elixir をテストすることができます。

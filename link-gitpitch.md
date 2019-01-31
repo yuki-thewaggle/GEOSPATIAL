@@ -78,7 +78,7 @@
 
 [localhost](https://en.wikipedia.org/wiki/Localhost)
 
-[API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+[API](https://developer.mozilla.org/ja/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
 
 [JSON](https://www.json.org/json-ja.html)
 
@@ -127,3 +127,5 @@
 [hex](https://hex.pm/)
 
 [IEx](https://elixirschool.com/ja/lessons/basics/iex-helpers/)
+
+[AEDオープンデータプラットフォーム](http://hatsunejournal.jp/w8/AEDOpendata/)

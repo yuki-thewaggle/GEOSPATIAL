@@ -38,6 +38,7 @@
 1. APIの利用	template/md/external-API
 	1. APIとは
 	1. AEDオープンデータプラットフォーム
+	1. AEDオープンデータプラットフォームとは
         - APIは、今回はAEDオープンデータプラットフォームのAPIを利用する。http://hatsunejournal.jp/w8/AEDOpendata/
 	1. 直近AED位置情報取得API
         - 直近AED位置情報取得API　を利用する、例に乗っているURLをhttps://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185

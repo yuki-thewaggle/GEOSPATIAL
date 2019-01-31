@@ -88,7 +88,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style](CUIの起動方法を確認します。)
 
 @ol[numberlist numberlist-color4](false)
 - CUIとは
@@ -114,11 +114,14 @@
 ### @css[slide-title](CUIとは)
 
 @snap[slide-contents]
+
 @snap[quote-wrap]
-
-@quote[<ul><li><span class="orange">C</span>haracter <span class="orange">U</span>ser <span class="orange">I</span>nterface（キャラクタユーザインタフェース）</li><li><a href="#/"><span class="orange">ユーザインタフェース</span></a>の様式</li><li>キーボード等からの文字列を<a href="#/"><span class="orange">入力</span></a>とする</li><li>文字列が表示されるウィンドウを<a href="#/"><span class="orange">出力</span></a>とする</li></ul>](https://ja.wikipedia.org/wiki/キャラクタユーザインタフェース)
-
+@quote[<ul><li>**C**haracter **U**ser **I**nterface（キャラクタユーザインタフェース）</li><li><a href="#/">**ユーザインタフェース**</a>の様式</li><li>キーボード等からの文字列を<a href="#/">**入力**</a>とする</li><li>文字列が表示されるウィンドウを<a href="#/">**出力**</a>とする</li></ul>](https://ja.wikipedia.org/wiki/キャラクタユーザインタフェース)
 @snapend
+
+- Macは「**ターミナル**」
+- Windowsは「**コマンドプロンプト**」
+
 @snapend
 
 ---
@@ -135,16 +138,11 @@
 ### @css[slide-title](ユーザインタフェースとは)
 
 @snap[slide-contents]
-
 @snap[quote-wrap]
 
-@quote[<ul><li>コンピュータと人間の間での情報をやりとりする</li><li>ユーザインタフェースは以下の手段を提供する<ul><li><span class="orange">入力</span>：<br>ユーザーがシステムを操作する手段</li><li><span class="orange">出力</span>：<br>ユーザーが操作した結果システムが生成したものを提示する手段</li></ul></li></ul>](https://ja.wikipedia.org/wiki/ユーザインタフェース)
+@quote[<ul><li>コンピュータと人間の間での情報をやりとりする</li><li>ユーザインタフェースは以下の手段を提供する<ul><li>**入力**：<br>ユーザーがシステムを操作する手段</li><li>**出力**：<br>ユーザーが操作した結果システムが生成したものを提示する手段</li></ul></li></ul>](https://ja.wikipedia.org/wiki/ユーザインタフェース)
 
 @snapend
-
-- Macは「ターミナル」
-- Windowsは「コマンドプロンプト」
-
 @snapend
 
 ---
@@ -163,8 +161,8 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- <span class="not-selectable">検索ボックスに<br>「</span>コマンドプロンプト<span class="not-selectable">」<br>と記入します。</span>
-- 「コマンドプロンプト<br>デスクトップアプリ」<br>をクリックします。
+- <span class="not-selectable">検索ボックスに<br>「</span>**コマンドプロンプト**<span class="not-selectable">」<br>と記入します。</span>
+- 「**コマンドプロンプト<br>デスクトップアプリ**」<br>をクリックします。
 - コマンドプロンプトが起動します。
 @olend
 @snapend
@@ -191,9 +189,10 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- Dock/*表現変える*/からLaunchpadを開く
-- 「ターミナル」と入力して検索
-- ターミナルーを選択
+- 画面端にあるメニューバー <u>**[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)**</u> から <u>**[Launchpad](https://support.apple.com/ja-jp/HT202635)**</u>をクリックします。
+- <span class="not-selectable">検索ボックスに「</span> **ターミナル** <span class="not-selectable">」と入力して検索します。</span>
+- **ターミナル** をクリックします。
+- ターミナルが起動します。
 @olend
 @snapend
 
@@ -218,8 +217,7 @@
 
 @snap[left-column]
 @ul[itemlist](false)
-- このような画面が表示を確認/*文言変える*/
-- 起動
+- このように、CUIが起動したことを確認します。
 @ulend
 @snapend
 
@@ -275,10 +273,10 @@
 
 @ol[numberlist numberlist-color4](true)
 - <u>[Firefoxのダウンロードページ](https://www.mozilla.org/ja/firefox/new/)</u>にアクセスします。
-- 「今すぐダウンロード」ボタンをクリックします。
+- 「**今すぐダウンロード**」ボタンをクリックします。
 - ダウンロードしたファイルをクリックして起動します。
-- Windows
-- Mac
+- Windowsの場合、インストールを許可します。
+- Macの場合、アイコンをフォルダにドラッグします。
 - インストールされます。
 @olend
 

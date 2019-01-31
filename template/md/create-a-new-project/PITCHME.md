@@ -63,7 +63,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、プロジェクトのフォルダ構成と<br>必要なソースコードを生成します。)
+@box[rounded box-style](**CUI**を使って、プロジェクトのフォルダ構成と<br>必要なソースコードを生成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -111,7 +111,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>プロジェクトのフォルダに移動します。)
+@box[rounded box-style](**CUI**を使って、<br>プロジェクトのフォルダに移動します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -158,7 +158,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>データを保存するための機能を作成します。)
+@box[rounded box-style](**CUI**を使って、<br>データを保存するための機能を作成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -205,7 +205,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、サーバーを実行して<br>アプリケーションを起動します。)
+@box[rounded box-style](**CUI**を使って、サーバーを実行して<br>アプリケーションを起動します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -251,7 +251,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">Webブラウザー</span>を使って、アプリケーションが起動して<br>Webサイトが見られるようになったことを確認します。)
+@box[rounded box-style](**Webブラウザー**を使って、アプリケーションが起動して<br>Webサイトが見られるようになったことを確認します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
@@ -295,11 +295,11 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>起動しているアプリケーションを終了します。)
+@box[rounded box-style](**CUI**を使って、<br>起動しているアプリケーションを終了します。)
 
 @ol[numberlist numberlist-color4](true)
-- Windowsの場合は「<span class="orange">Ctrl + C</span>」を2回入力します。
-- Macの場合は「<span class="orange">control + C</span>」を2回入力します。
+- Windowsの場合は「**Ctrl + C**」を2回入力します。
+- Macの場合は「**control + C**」を2回入力します。
 - アプリケーションが終了します。
 @olend
 
