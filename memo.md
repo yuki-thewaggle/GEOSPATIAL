@@ -1,6 +1,6 @@
 1. 基礎知識
-1. 環境構築
-1. Phoenix プロジェクトの作成	template/md/create-a-new-project
+2. 環境構築
+3. Phoenix プロジェクトの作成	template/md/create-a-new-project
 	1. プロジェクトの作成
         - mix phx.new aedmap
         - Y
@@ -14,7 +14,7 @@
         - ブラウザで http://localhost:4000 を確認
 	1. アプリケーションの終了
         - Ctr + C を２回でサーバーをシャットダウン
-1. Elixir モジュールの追加	template/md/add-modules
+4. Elixir モジュールの追加	template/md/add-modules
 	1. モジュールとは
 	1. Visual Studio Code の起動
         - ターミナル上で、 code . でVscodeを起動する
@@ -31,11 +31,11 @@
         - hex の smallex　から、Online documentation のリンク先に飛んで、Json.getの使い方を説明
 	1. CUIで文字化けが起こるとき
 		- chcp 65001
-1. プロジェクトのテスト方法		template/md/how-to-test-Elixir-project
+5. プロジェクトのテスト方法		template/md/how-to-test-Elixir-project
 	1. Elixir のテスト
         - iex -S mix phx.severでサーバーを立ち上げると、iexが起動しているのでコンソール上で、Elixirをテストできるようになる
 		https://elixirschool.com/ja/lessons/basics/iex-helpers/
-1. APIの利用	template/md/external-API
+6. APIの利用	template/md/external-API
 	1. APIとは
 	1. AEDオープンデータプラットフォーム
 	1. AEDオープンデータプラットフォームとは
