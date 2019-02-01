@@ -1,6 +1,6 @@
 [Firefox](https://www.mozilla.org/ja/firefox/new/)
 
-[RestClient](https://addons.mozilla.org/ja/firefox/addon/restclient/)
+[RESTClient](https://addons.mozilla.org/ja/firefox/addon/restclient/)
 
 [テキストエディタ(vscode)](https://code.visualstudio.com/)
 
@@ -129,3 +129,11 @@
 [IEx](https://elixirschool.com/ja/lessons/basics/iex-helpers/)
 
 [AEDオープンデータプラットフォーム](http://hatsunejournal.jp/w8/AEDOpendata/)
+
+[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)
+
+[Launchpad](https://support.apple.com/ja-jp/HT202635)
+
+[ステータスコード](https://developer.mozilla.org/ja/docs/Web/HTTP/Status)
+
+[リクエスト](https://developer.mozilla.org/ja/docs/Web/HTTP/Methods)

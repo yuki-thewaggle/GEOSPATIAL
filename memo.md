@@ -44,13 +44,13 @@
         - 直近AED位置情報取得API　を利用する、例に乗っているURLをhttps://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185
 	1. 確認
         - 利用するとデータが取得できる事を確認する。
-1. RestClient の操作	template/md/use-RestClient
-	1. RestClient での確認
-	1. URL
-        - Firefoxのブラウザから、RestClientを起動し、URLに　https://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185 を入力する
-	1. Method
+7. RESTClient の操作	template/md/use-RESTClient
+	1. RESTClient の起動
+	1. URLの設定
+        - Firefoxのブラウザから、RESTClientを起動し、URLに　https://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185 を入力する
+	1. Methodの設定
         - MethodはGetで、send すると、 ステータスコード　200 OKで JSONデータが取得されている事を確認する
-	1. ステータスコード
+	1. ステータスコードを確認
 		- 無事に確認が取れたら、このような機能をElixirに実装していくと説明する
 1. 外部データの取得と抽出	template/md/external-API-data
 	1. 外部データの取得

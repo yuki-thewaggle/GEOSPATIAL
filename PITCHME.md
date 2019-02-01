@@ -46,7 +46,7 @@
 ---?include=template/md/add-modules/PITCHME.md
 ---?include=template/md/how-to-test-Elixir-project/PITCHME.md
 ---?include=template/md/external-API/PITCHME.md
----?include=template/md/use-RestClient/PITCHME.md
+---?include=template/md/use-RESTClient/PITCHME.md
 ---?include=template/md/external-API-data/PITCHME.md
 ---?include=template/md/display-data-on-web-page/PITCHME.md
 ---?include=template/md/display-map-on-web-page/PITCHME.md

@@ -792,7 +792,7 @@
 ### インストール
 @snapend
 
-1. firefox & RestClient
+1. firefox & RESTClient
 2. テキストエディタ
 3. Elixir
 4. node.js
@@ -808,7 +808,7 @@
 今回は、[Firefox](https://www.mozilla.org/ja/firefox/new/?utm_campaign=non-fx-button&utm_content=rta%3Ae2FkMGQ5MjVkLTg4ZjgtNDdmMS04NWVhLTg0NjM1NjllNzU2ZX0&utm_medium=referral&utm_source=addons.mozilla.org)「[RESTClient](https://addons.mozilla.org/ja/firefox/addon/restclient/)」を利用します。
 
 ダウンロードしてインストールしください。
-@img[span-70](template/img/environment/RestClient-add.png)
+@img[span-70](template/img/environment/RESTClient-add.png)
 @snapend
 ---
 @snap[north-west text-06]
