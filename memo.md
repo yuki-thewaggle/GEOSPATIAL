@@ -74,10 +74,9 @@
         - ここから、Map.getを利用して、"Latitude" のデータを取得したいと思います。
         - latitude = Map.get( result, "Latitude" )
         - これで、latitudeには、35.959898　のデータが取得できました。
-1. 抽出データのWebページ表示	template/md/display-data-on-web-page
-	1. 抽出したデータの実装
+9. 抽出データのWebページ表示	template/md/display-data-on-web-page
+	1. HTMLファイルのオープン
         - では、Json.getで取得したデータを取り出すまでできたので、Web上にそのデータを表示する事を実装していきましょう。
-	1. HTMLファイルの変更方法
 	    - lib/aedmap_web/templates/page/index.html.eex　ファイルを開きます。
         - 中に書かれている<タグ>を全て削除します。
 	1. テスト

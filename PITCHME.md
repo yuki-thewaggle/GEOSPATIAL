@@ -329,6 +329,35 @@
 
 @snapend
 
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [9. 抽出データのWebページ表示](#/)
+- [4. HTMLファイルの実装（プログラム）](#/)
+@olend
+@snapend
+
+### @css[slide-title smaller-font](テンプレートE1 - 手順詳細コード)
+
+@snap[slide-contents]
+
+@box[rounded box-style]( **Visual Studio Code** を使って、オープンしている<br>index.html.eexファイルに変更を加えます。)
+
+```elixir
+<% [ result ] = Json.get("https://aed.azure-mobile.net", "/api/NearAED?lat=35.96&lng=136.185")
+  latitude = Map.get(result,"Latitude")
+  longitude = Map.get(result,"Longitude")
+  locationName = Map.get(result,"LocationName")
+%>
+```
+
+@[1-5](全てをコピーして、index.html.eexファイルに貼り付けます。)
+
+
+@snapend
+
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)

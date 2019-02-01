@@ -22,18 +22,16 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Phoenix を使ってWebプロジェクトを作成します。)
+@box[rounded box-style](外部データを取得し必要なデータを抽出して、<br>Web上に表示します。)
 
-@snap[left-column]
 @ol[numberlist numberlist-color2](false)
-- [抽出したデータの実装](#/)
-- [HTMLファイルの変更方法](#/)
+- [HTMLファイルのオープン](#/)
+- [HTMLファイルの変更](#/)
 - [テスト](#/)
-- [HTMLファイルの実装<br>（プログラム）](#/)
+- [HTMLファイルの実装（プログラム）](#/)
 - [HTMLファイルの実装（表示）](#/)
 - [テスト](#/)
 @olend
-@snapend
 
 @snapend
 
@@ -42,56 +40,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [9. 抽出データのWebページ表示](#/)
-- [1. 抽出したデータの実装](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](抽出したデータの<br>実装)
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [9. 抽出データのWebページ表示](#/)
-- [1. 抽出したデータの実装](#/)
-@olend
-@snapend
-
-### @css[slide-title](抽出したデータの実装)
-
-@snap[slide-contents]
-
-@box[rounded box-style](作業の内容と目的)
-
-@snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
-@olend
-@snapend
-
-@snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
-@snapend
-
-@snapend
-
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [9. 抽出データのWebページ表示](#/)
-- [2. HTMLファイルの変更方法](#/)
+- [1. HTMLファイルのオープン](#/)
 @olend
 @snapend
 
@@ -104,32 +53,62 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [9. 抽出データのWebページ表示](#/)
-- [2. HTMLファイルの変更方法](#/)
+- [1. HTMLファイルのオープン](#/)
 @olend
 @snapend
 
-### @css[slide-title](HTMLファイルの変更方法)
+### @css[slide-title](HTMLファイルのオープン)
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style]( **CUI** を使って、<br>Visual Studio Code で HTMLファイルを開きます。)
+
+@ol[numberlist numberlist-color4](true)
+- アプリケーションが起動している場合は、[アプリケーションを終了](#/87)します。
+- 以下のコマンドを貼り付けます。
+- code lib/aedmap_web/templates/page/index.html.eex
+@olend
+
+@snapend
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [9. 抽出データのWebページ表示](#/)
+- [2. HTMLファイルの変更](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](HTMLファイルの<br>変更)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [9. 抽出データのWebページ表示](#/)
+- [2. HTMLファイルの変更](#/)
+@olend
+@snapend
+
+### @css[slide-title](HTMLファイルの変更)
+
+@snap[slide-contents]
+
+@box[rounded box-style]( **Visual Studio Code** を使って、HTMLファイル（index.html.eex）に変更を加え保存します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+@ol[numberlist numberlist-color4](true)
+- ファイルの中に書かれている記述を全て削除します。
+- Windowsの場合、「**Ctrl + S**」で保存します。
+- Macの場合、「**command + S**」で保存します。
 @olend
 @snapend
 
 @snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
+@img[goal-image to-center](template/img/environment/postgresql.png)
 @snapend
 
 @snapend
@@ -161,29 +140,15 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style]( **Webブラウザー** を使って、HTMLファイルの変更が<br>Webページに反映されていることを確認します。)
 
-@snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+- アプリケーションが終了している場合は、<br>[CUIでアプリケーションを起動](#/83)します。
+- <span class="not-selectable">Webブラウザーで</span><u>http://localhost:4000/</u><span class="not-selectable">にアクセスします。</span>
+- ヘッダーだけが表示されていることを確認します。
 @olend
-@snapend
-
-@snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
 
 @snapend
-@snapend
-
-@snapend
-
-
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
@@ -211,29 +176,23 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style]( **Visual Studio Code** を使って、オープンしている<br>index.html.eexファイルにプログラムを加えます。)
 
-@snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
-@olend
-@snapend
+```html
+<% [ result ] = Json.get("https://aed.azure-mobile.net", "/api/NearAED?lat=35.96&lng=136.185")
+  latitude = Map.get(result,"Latitude")
+  longitude = Map.get(result,"Longitude")
+  locationName = Map.get(result,"LocationName")
+%>
+```
 
-@snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
-@snapend
+@[1-5](全てをコピーして、index.html.eexファイルに貼り付けて保存します。)
+@[1](外部データを取得しています。)
+@[2](latitude に "Latitude"（緯度） の値を保存しています。)
+@[3](longitude に "Longitude"（経度） の値を保存しています。)
+@[4](locationName に "LocationName"（ロケーションの名称） の値を保存しています。)
 
 @snapend
-
-
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
@@ -261,25 +220,19 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style]( **Visual Studio Code** を使って、オープンしている<br>index.html.eexファイルに表示を加えます。)
 
-@snap[left-column]
-@ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
-@olend
-@snapend
+```html
+<%= latitude %><br> 
+<%= longitude %><br>
+<%= locationName %><br>
+```
 
-@snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
-@snapend
+@[0](全てをコピーして、先程の続きに貼り付けます。)
+@[0](表示するには、<%= %> タグを利用します。)
+@[1](緯度の値を表示します。)
+@[2](経度の値を表示します。)
+@[3](ロケーションの名称を表示します。)
 
 @snapend
 
@@ -311,24 +264,20 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style]( **Webブラウザー** を使って、HTMLファイルの変更が<br>Webページに反映されていることを確認します。)
 
 @snap[left-column]
+
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
-- Y
+- アプリケーションが終了している場合は、[アプリケーションを起動](#/83)します。
+- <span class="not-selectable">Webブラウザーで</span><u>[localhost:4000](http://localhost:4000/)</u><span class="not-selectable">にアクセスします。</span>
+- このような表示になっていることを確認します。
 @olend
+
 @snapend
 
 @snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1](説明)
-@[2](説明)
-
-@snapend
+@img[goal-image to-center](template/img/display-data-on-web-page/display-data.png)
 @snapend
 
 @snapend

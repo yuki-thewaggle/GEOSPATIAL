@@ -378,6 +378,7 @@ strong {
 .reveal ol.numberlist li {
   position: relative !important;
   counter-increment: step-counter !important;
+  font-size: 0.95em;
 }
 .reveal ol.numberlist li::before {
   color: white;

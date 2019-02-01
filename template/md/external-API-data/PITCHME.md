@@ -305,7 +305,6 @@
 
 @snapend
 
-
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
