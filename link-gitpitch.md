@@ -151,4 +151,7 @@
 
 [マップ](https://elixirschool.com/ja/lessons/basics/collections/#マップ)
 
+[ライブラリ](https://ja.wikipedia.org/wiki/ライブラリ)
+
+[インタラクティブ](http://e-words.jp/w/インタラクティブ.html)
 

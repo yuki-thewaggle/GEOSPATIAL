@@ -67,19 +67,22 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的,使用するソフトウェア)
+@box[rounded box-style](<u>[leaflet.js](https://leafletjs.com/)</u> は、<u>[JavaScript](https://ja.wikipedia.org/wiki/JavaScript)</u>のマップ用<u>[ライブラリ](https://ja.wikipedia.org/wiki/ライブラリ)</u>です。 )
+
 
 @snap[left-column]
 @ul[itemlist](false)
-- 条件１
-- 条件１
+- [インタラクティブ](http://e-words.jp/w/インタラクティブ.html)なマップ
+- モバイル対応
+- 軽量
+- ほとんどのマッピング機能
 @ulend
 @snapend
 
 @snap[right-column]
 @img[goal-image to-center](template/img/environment/postgresql.png)
-@snapend
 
+@snapend
 
 @snapend
 

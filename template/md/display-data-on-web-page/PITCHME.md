@@ -236,8 +236,6 @@
 
 @snapend
 
-
-
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
@@ -271,7 +269,7 @@
 @ol[numberlist numberlist-color4](false)
 - アプリケーションが終了している場合は、[アプリケーションを起動](#/83)します。
 - <span class="not-selectable">Webブラウザーで</span><u>[localhost:4000](http://localhost:4000/)</u><span class="not-selectable">にアクセスします。</span>
-- このような表示になっていることを確認します。
+- データが表示されていることを確認します。
 @olend
 
 @snapend

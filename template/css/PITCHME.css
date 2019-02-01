@@ -9,7 +9,7 @@
 * :not(.fa) {
   font-family: "Lato", sans-serif !important;
 }
-* :not(.fa):not(strong) {
+* :not(.fa):not(strong):not(a):not(h1):not(h2):not(h3) {
   color: rgb(80,80,80);
 }
 
@@ -455,7 +455,7 @@ strong {
   padding-bottom: 10px !important;
   margin-right: 20px !important;
   width: 95% !important;
-  color: #0B346E;
+  color: #0B346E !important;
 }
 .slide-title.smaller-font {
   font-size: 0.8em !important;
