@@ -519,6 +519,13 @@ strong {
   color: white;
   font-weight: normal !important;
 }
+.slide-contents .left-column table,
+.slide-contents .right-column table {
+  background-color: rgba(255,255,255,0.1) !important;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
+  width: 100% !important;
+  font-size: 0.65em !important;
+}
 
 /* Intro Template Styles */
 .byline {

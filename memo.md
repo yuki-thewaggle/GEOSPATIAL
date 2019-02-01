@@ -50,23 +50,26 @@
         - Firefoxのブラウザから、RESTClientを起動し、URLに　https://aed.azure-mobile.net/api/NearAED?lat=35.96&lng=136.185 を入力する
 	1. Methodの設定
         - MethodはGetで、send すると、 ステータスコード　200 OKで JSONデータが取得されている事を確認する
+	1. Requestの送信
 	1. ステータスコードを確認
 		- 無事に確認が取れたら、このような機能をElixirに実装していくと説明する
-1. 外部データの取得と抽出	template/md/external-API-data
+8. 外部データの取得と抽出	template/md/external-API-data
 	1. 外部データの取得
         - まず、コンソール上で、Json.get("https://aed.azure-mobile.net", "/api/NearAED?lat=35.96&lng=136.185")をするとデータが取得できる事を確認する。
 	1. Elixir の特徴
         - Elixirには、整数、浮動小数、真理値、atom、文字列、リスト、タプル、キーワードリスト、マップという書き方がある
         - 256 132.1123 true, false, :atom, "Hello", [1,:ok,"text"], {:ok, "text"}, [foo: "hello", bar: "world"], %{key = "value"}
         - それぞれの形の詳しい説明は、ここに乗っています。https://elixir-lang.org/getting-started/basic-types.html
-	1. 取得したデータの抽出（マップ型）
+	1. 取得したデータの観察
         - 先ほど、取得したデータを見てみると、 [ %{ dataの中身 } ] という形です。 []リストの中に %{} マップ型のデータ構造が入っています。
         - これを取得しやすくする為に、Map型のデータ構造だけ抜き取りたいと思います。
+	1. 取得したデータの抽出（マップ型）
         - ここで、Elixirの特徴として、=は代入演算子では無く、　＝　はパターンマッチング　です。それを利用して、
         - マップ型のデータだけを抜き出して見ます。
         - [ result ] = Json.get("https://aed.azure-mobile.net", "/api/NearAED?lat=35.96&lng=136.185")
         - これで、result　の中は、%{ } マップ型のデータのみが束縛されています。
         - result　の中は、%{ ... "Latitude" => 35.959898 ... } のような形になっています。
+	1. 抽出したデータの確認（マップ型）
 	1. 取得したデータの抽出（"Latitude"）
         - ここから、Map.getを利用して、"Latitude" のデータを取得したいと思います。
         - latitude = Map.get( result, "Latitude" )

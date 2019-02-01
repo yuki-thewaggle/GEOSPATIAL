@@ -137,3 +137,18 @@
 [ステータスコード](https://developer.mozilla.org/ja/docs/Web/HTTP/Status)
 
 [リクエスト](https://developer.mozilla.org/ja/docs/Web/HTTP/Methods)
+
+
+[アトム](https://elixirschool.com/ja/lessons/basics/basics/#%E3%82%A2%E3%83%88%E3%83%A0)
+
+[リスト](https://elixirschool.com/ja/lessons/basics/collections/#%E3%83%AA%E3%82%B9%E3%83%88)
+
+[タプル](https://elixirschool.com/ja/lessons/basics/collections/#%E3%82%BF%E3%83%97%E3%83%AB)
+
+[キーワードリスト](https://elixirschool.com/ja/lessons/basics/collections/#キーワードリスト)
+
+[データ型](https://ja.m.wikipedia.org/wiki/データ型)
+
+[マップ](https://elixirschool.com/ja/lessons/basics/collections/#マップ)
+
+
