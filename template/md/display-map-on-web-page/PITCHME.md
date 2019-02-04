@@ -29,7 +29,6 @@
 - [leaflet.js とは](#/)
 - [モジュールとは](#/)
 - [leaflet.js の導入方法](#/)
-- [HTMLファイルのオープン](#/)
 - [leaflet.js での実装（プロ<br>グラム）](#/)
 - [leaflet.js での実装（表示）](#/)
 - [プログラム部分の解説](#/)
@@ -148,51 +147,11 @@
 
 @box[rounded box-style](**Visual Studio Code** を使って、leaflet.jsを導入します。<br>今回は<u>[CDN](http://e-words.jp/w/CDN.html)</u>を利用します。)
 
-@snap[fragment]
-@ol[]
-- <u>[こちら](https://leafletjs.com/download.html#using-a-hosted-version-of-leaflet)</u> に記載されている、以下のコードを右クリックしてコピーします。
-@snapend
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-```
-
-@snapend
-
-@snapend
-
----?color=#77B6D4
-@snap[breadcrumbs-wrap lightbluescale]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [10. 地図のWebページ表示](#/)
-- [4. HTMLファイルのオープン](#/)
-@olend
-@snapend
-
-@snap[west headline]
-## @color[white](HTMLファイルの<br>オープン)
-@snapend
-
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [10. 地図のWebページ表示](#/)
-- [4. HTMLファイルのオープン](#/)
-@olend
-@snapend
-
-### @css[slide-title](HTMLファイルのオープン)
-
-@snap[slide-contents]
-
-@box[rounded box-style]( **CUI** を使って、<br>Visual Studio Code で HTMLファイルを開きます。)
-
 @ol[numberlist numberlist-color4](true)
-- 以下のコマンドを貼り付けます。
-- code -r lib/aedmap_web/templates/page/index.html.eex
+- <u>[こちら](https://leafletjs.com/download.html#using-a-hosted-version-of-leaflet)</u> に記載されている、以下のコード二行を右クリックしてコピーします。
+- ```<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />```
+- ```<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>```
+
 @olend
 
 @snapend
@@ -223,11 +182,12 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](作業の内容と目的)
+@box[rounded box-style]( **Visual Studio Code** を使って、オープンしている<br>index.html.eexファイルにプログラムを加えます。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
-- mix phx.new aedmap
+- index.html.eexの開き方は[こちら](#/)
+
 - Y
 @olend
 @snapend

@@ -99,7 +99,7 @@
         - <%= locationName　%><br>
 	1. テスト
         - これで、ブラウザに、無事にAPIで取得したデータの緯度経度、ロケーションの名称を表示する事ができました。
-1. 地図のWebページ表示	template/md/display-map-on-web-page
+10. 地図のWebページ表示	template/md/display-map-on-web-page
         - 続いて、このデータを利用して地図に表示できるようにしたいと思います。
 	1. leaflet.js とは
         - 地図を利用するのに、今回は簡単に使える leafletjs というJSのモジュールを使います。https://leafletjs.com/
@@ -243,6 +243,8 @@
  - ページ内リンク（色普通、下線なし）
  - 名称の大文字小文字、誤字脱字
  - 文章中のページ内リンクは<a href="#/">で検索
+ - ページタイトル
+
 
 
 ---
