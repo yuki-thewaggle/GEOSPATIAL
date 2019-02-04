@@ -2,7 +2,7 @@
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 @olend
 @snapend
 
@@ -16,7 +16,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 @olend
 @snapend
 
@@ -55,7 +55,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [1. Webとは]()
 @olend
 @snapend
@@ -65,9 +65,9 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>World Wide <span class="orange">Web</span>（WWW、ワールド・ワイド・ウェブ）</li><li>Web（ウェブ）とも呼ばれる</li><li>「<span class="orange">インターネット</span>」という表現が<br>ワールド・ワイド・ウェブを指す場合もある</li><li><span class="orange">世界中に張り巡らしたような、文書間のつながり</span></li></ul>](https://ja.wikipedia.org/wiki/World_Wide_Web)
+@quote[<ul><li>World Wide **Web**（WWW、ワールド・ワイド・ウェブ）</li><li>Web（ウェブ）とも呼ばれる</li><li>「**インターネット**」という表現が<br>ワールド・ワイド・ウェブを指す場合もある</li><li>**世界中に張り巡らしたような、文書間のつながり**</li></ul>](https://ja.wikipedia.org/wiki/World_Wide_Web)
 
-@quote[Webにおける情報の基礎的な単位は<span class="orange">ページ</span><br>（<span class="orange">Webページ</span>、ウェブページ）](http://e-words.jp/w/Web.html)
+@quote[Webにおける情報の基礎的な単位は**ページ**<br>（Webページ、ウェブページ）](http://e-words.jp/w/Web.html)
 
 @snapend
 @snapend
@@ -76,7 +76,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [2. Webページとは]()
 @olend
 @snapend
@@ -86,21 +86,16 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>ウェブ上にあり、ウェブブラウザで閲覧可能なページ単位の文書</li><li><span class="orange">HTML</span>（またはXHTML）と <span class="orange">スタイルシート</span>、画像データで構成</li><li>ウェブブラウザを使用して閲覧されることが一般的</li><li><span class="orange">JavaScript</span> などのスクリプト言語を使って<br>ウェブページに動作をもたる場合がある</li></ul>](https://ja.wikipedia.org/wiki/ウェブページ)
+@quote[<ul><li>ウェブ上にあり、ウェブブラウザで閲覧可能なページ単位の文書</li><li>**HTML**（またはXHTML）と **スタイルシート**、画像データで構成</li><li>ウェブブラウザを使用して閲覧されることが一般的</li><li>**JavaScript** などのスクリプト言語を使って<br>ウェブページに動作をもたる場合がある</li></ul>](https://ja.wikipedia.org/wiki/ウェブページ)
 
 @snapend
-
-* 文章の構造を定義する　<a href="#/">@css[orange](HTML)</a>
-* レイアウトなど装飾するのが　<a href="#/">@css[orange](スタイルシート（CSS）)</a>
-* 機能をつけるのが <a href="#/">@css[orange](JavaScript)</a>
-
 @snapend
 
 ---
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [3. HTMLとは]()
 @olend
 @snapend
@@ -110,12 +105,12 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<span class="orange">H</span>yper<span class="orange">T</span>ext <span class="orange">M</span>arkup <span class="orange">L</span>anguage（ハイパーテキスト マークアップ ランゲージ、HTML（エイチティーエムエル））](https://ja.wikipedia.org/wiki/HyperText_Markup_Language)
+@quote[**H**yper **T**ext **M**arkup **L**anguage（ハイパーテキスト マークアップ ランゲージ、HTML（エイチティーエムエル））](https://ja.wikipedia.org/wiki/HyperText_Markup_Language)
 
-@quote[<span class="orange">ハイパーテキスト</span>：<br>複数の文書（テキスト）を相互に関連付け、結び付ける仕組み](https://ja.wikipedia.org/wiki/ハイパーテキスト)
+@quote[**ハイパーテキスト**：<br>複数の文書（テキスト）を相互に関連付け、結び付ける仕組み](https://ja.wikipedia.org/wiki/ハイパーテキスト)
 
 
-@quote[<span class="orange">マークアップ言語</span>：<br>視覚表現や文章構造などを記述するための形式言語](https://ja.wikipedia.org/wiki/マークアップ言語)
+@quote[**マークアップ言語**：<br>視覚表現や文章構造などを記述するための形式言語](https://ja.wikipedia.org/wiki/マークアップ言語)
 
 @snapend
 @snapend
@@ -124,7 +119,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [4. HTMLの書き方]()
 @olend
 @snapend
@@ -157,7 +152,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [5. CSSとは]()
 @olend
 @snapend
@@ -167,9 +162,9 @@
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li><span class="orange">C</span>ascading <span class="orange">S</span>tyle <span class="orange">S</span>heets（CSS、<br>カスケーディング・スタイル・シート）</li><li>HTMLの要素をどのように修飾（表示）するかを指示する</li><li>文書の構造と体裁を分離させる<br>という理念を実現する為に提唱された<span class="orange">スタイルシート</span>の一つ</li></ul>](https://ja.wikipedia.org/wiki/Cascading_Style_Sheets)
+@quote[<ul><li>**C**ascading **S**tyle **S**heets（CSS、<br>カスケーディング・スタイル・シート）</li><li>HTMLの要素をどのように修飾（表示）するかを指示する</li><li>文書の構造と体裁を分離させる<br>という理念を実現する為に提唱された**スタイルシート**の一つ</li></ul>](https://ja.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-@quote[<span class="orange">スタイルシート</span>：<br>構造化文書などにおける表示形式を制御するしくみ](https://ja.wikipedia.org/wiki/スタイルシート)
+@quote[**スタイルシート**：<br>構造化文書などにおける表示形式を制御するしくみ](https://ja.wikipedia.org/wiki/スタイルシート)
 
 @snapend
 @snapend
@@ -178,7 +173,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [6. CSSの書き方]()
 @olend
 @snapend
@@ -205,7 +200,7 @@ div {
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [7. JavaScriptとは]()
 @olend
 @snapend
@@ -215,7 +210,7 @@ div {
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>JavaScript（ジャバスクリプト）</li><li>主にWebページに組み込まれたプログラムを<br>Webブラウザ上で実行するために用いられる<span class="orange">プログラミング言語</span></li><li>HTMLファイル内に埋め込まれて記述</li></ul>](https://ja.wikipedia.org/wiki/JavaScript)
+@quote[<ul><li>JavaScript（ジャバスクリプト）</li><li>主にWebページに組み込まれたプログラムを<br>Webブラウザ上で実行するために用いられる**プログラミング言語**</li><li>HTMLファイル内に埋め込まれて記述</li></ul>](https://ja.wikipedia.org/wiki/JavaScript)
 
 @snapend
 @snapend
@@ -224,7 +219,7 @@ div {
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [8. JavaScriptの書き方]()
 @olend
 @snapend
@@ -254,7 +249,7 @@ myHeading.textContent = "Hello World";
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [9. Webの仕組み]()
 @olend
 @snapend
@@ -264,7 +259,7 @@ myHeading.textContent = "Hello World";
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>ウェブページのコピーが<br><span class="orange">サーバー</span> から <span class="orange">クライアント</span> にダウンロードされ、<br>ユーザーのウェブブラウザーに表示されます</li><li><span class="orange">サーバー</span>：<br>ウェブページ、サイト、アプリを保存しているコンピューター</li><li><span class="orange">クライアント</span>：<br>インターネットに接続された<br>コンピューターやスマートフォンなどのデバイス</li></ul>](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+@quote[<ul><li>ウェブページのコピーが<br>**サーバー** から **クライアント** にダウンロードされ、<br>ユーザーのウェブブラウザーに表示されます</li><li>**サーバー**：<br>ウェブページ、サイト、アプリを保存しているコンピューター</li><li>**クライアント**：<br>インターネットに接続された<br>コンピューターやスマートフォンなどのデバイス</li></ul>](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 @snapend
 @snapend
@@ -273,7 +268,7 @@ myHeading.textContent = "Hello World";
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [10. Elixirとは]()
 @olend
 @snapend
@@ -283,7 +278,7 @@ myHeading.textContent = "Hello World";
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>Elixir（エリクサー）</li><li>プログラミング言語</li><li>高い基本性能、書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く/速く/メンテナンスしやすくするスタイル</li><li>開発用ツールセットが用意されています<ul><li>ビルドツール「 <span class="orange">mix（ミックス）</span>」</li></ul></li><li>Web<a href="#/"><span class="orange">フレームワーク</span></a>「 <span class="orange">Phoenix（フェニックス）</span>」が人気</li></ul>](https://www.ossnews.jp/oss_info/Elixir)
+@quote[<ul><li>Elixir（エリクサー）</li><li>プログラミング言語</li><li>高い基本性能、書きやすい高生産性</li><li>１つのマシン内で数十万のプロセスが同時に動作</li><li>コードを短く/速く/メンテナンスしやすくするスタイル</li><li>開発用ツールセットが用意されています<ul><li>ビルドツール「 **mix（ミックス）**」</li></ul></li><li>Web<a href="#/">**フレームワーク**</a>「 **Phoenix（フェニックス）**」が人気</li></ul>](https://www.ossnews.jp/oss_info/Elixir)
 
 @snapend
 @snapend
@@ -292,7 +287,7 @@ myHeading.textContent = "Hello World";
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [11. フレームワークとは]()
 @olend
 @snapend
@@ -302,7 +297,7 @@ myHeading.textContent = "Hello World";
 @snap[slide-contents]
 @snap[quote-wrap]
 
-@quote[<ul><li>汎用的な機能や基本的な制御構造をまとめた<span class="orange">半完成品</span></li><li>開発者がコードを記述して機能を追加、拡張する</li></ul>](http://e-words.jp/w/フレームワーク.html)
+@quote[<ul><li>汎用的な機能や基本的な制御構造をまとめた**半完成品**</li><li>開発者がコードを記述して機能を追加、拡張する</li></ul>](http://e-words.jp/w/フレームワーク.html)
 
 @snapend
 @snapend
@@ -311,7 +306,7 @@ myHeading.textContent = "Hello World";
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [12. 型とは]()
 @olend
 @snapend
@@ -330,7 +325,7 @@ myHeading.textContent = "Hello World";
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/4)
+- [1. 基礎知識](#/0)
 - [13. Elixirの主な型]()
 @olend
 @snapend

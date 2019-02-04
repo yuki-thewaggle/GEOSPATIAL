@@ -2,7 +2,7 @@
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 @olend
 @snapend
 
@@ -14,7 +14,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 @olend
 @snapend
 
@@ -41,7 +41,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [1. プロジェクトの作成](#/)
 @olend
 @snapend
@@ -54,7 +54,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [1. プロジェクトの作成](#/)
 @olend
 @snapend
@@ -89,7 +89,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [2. フォルダの移動](#/)
 @olend
 @snapend
@@ -102,7 +102,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [2. フォルダの移動](#/)
 @olend
 @snapend
@@ -136,7 +136,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [3. データベースの作成](#/)
 @olend
 @snapend
@@ -149,7 +149,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [3. データベースの作成](#/)
 @olend
 @snapend
@@ -183,7 +183,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [4. アプリケーションの起動](#/)
 @olend
 @snapend
@@ -196,7 +196,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [4. アプリケーションの起動](#/)
 @olend
 @snapend
@@ -229,7 +229,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [5. Webサイトの確認](#/)
 @olend
 @snapend
@@ -242,7 +242,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [5. Webサイトの確認](#/)
 @olend
 @snapend
@@ -273,7 +273,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [6. アプリケーションの終了](#/)
 @olend
 @snapend
@@ -286,7 +286,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [3. Phoenix プロジェクトの作成](#/)
+- [3. Phoenix プロジェクト](#/)
 - [6. アプリケーションの終了](#/)
 @olend
 @snapend
