@@ -26,17 +26,17 @@
 @ol[numberlist numberlist-color1](false)
 - 基礎知識			@css[detail-comment](Webの仕組みやプログラミングに必要な知識を学ぶ)
 - Phoenix プロジェクト	@css[detail-comment](Phoenix を利用して Elixir のWebプロジェクトを設定する)
-- 外部データの利用		@css[detail-comment](まずは地図を表示してみる)
-- DBの操作		@css[detail-comment](公開されている地図システムを利用する)
-- ページの追加			@css[detail-comment](使いたいデータを登録する)
-- 自分の位置情報の取得と表示		@css[detail-comment](ツールを使って地図アプリを配信する)
-- 地図へのポイント追その他の便利なツール紹介加	@css[detail-comment](説明文説明文説明文説明文説明文)
+- 外部データの利用		@css[detail-comment](オープンデータを取得して抽出したデータをWebページに表示する)
+- DBの操作		@css[detail-comment](DBからデータを取得してWebページに表示する)
+- ページの追加			@css[detail-comment](Webサイトにページを追加する)
+- 自分の位置情報の取得と表示		@css[detail-comment](自分の位置情報を取得してWebページに表示する)
+- その他の便利なツール	@css[detail-comment](地図アプリを作成するのに便利なツールを知る)
 @olend
 
 @snapend
 
----?include=template/md/basic-knowlede-webgis/PITCHME.md
 ---?include=template/md/environment/PITCHME.md
+---?include=template/md/basic-knowlede-webgis/PITCHME.md
 ---?include=template/md/create-a-new-project/PITCHME.md
 ---?include=template/md/add-modules/PITCHME.md
 ---?include=template/md/how-to-test-Elixir-project/PITCHME.md
