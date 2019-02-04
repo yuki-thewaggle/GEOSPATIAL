@@ -13,15 +13,21 @@
   color: rgb(80,80,80);
 }
 
+@media screen and (max-width:900px) {
+  * {
+    font-feature-settings: "pkna";
+  }
+}
+
 
 /* Select */
 
 .not-selectable {
   -ms-user-select: none; /* IE 10+ */
-   -moz-user-select: -moz-none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
-   user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 /* Link */
@@ -421,38 +427,25 @@ strong {
 }
 
 /* Title */
-
+.headline {
+  margin-left: 5vw;
+  text-align: left;
+}
 .headline h1, .headline h2 {
   letter-spacing: 0.01em;
   line-height: 1.5em !important;
   font-size: 2.2em !important;
-  margin: 0 3vw !important;
+  margin: 0 5vw !important;
  /*font-variant: small-caps !important;*/
 }
 .headline-detail {
-  margin-left: 3vw !important;
-}
-@media only screen and (max-device-width: 900px) {
-  .headline h1, .headline h2 {
-    letter-spacing: 0.01em;
-    line-height: 1.5em !important;
-    font-size: 2.2em !important;
-    margin: 0 10vw !important;
-   /*font-variant: small-caps !important;*/
-  }
-  .headline-detail {
-    margin-left: 10vw !important;
-  }
+  position: relative;
+  left: 0.5em;
+  text-align: left;
 }
 
 .headline-detail span {
   color: #93C5DD !important;
-}
-
-/* Sub Title */
-.sub-headline {
-  color: #0B346E;
-  margin-left: 10px !important;
 }
 
 /* Slide Title */
@@ -460,12 +453,12 @@ strong {
 .slide-title {
   position: fixed !important;
   top: 1.7em !important;
-  left: 20px !important;
+  left: 5vw !important;
   font-size: 0.9em !important;
   text-align: center !important;
   border-bottom: solid 2px gainsboro !important;
   padding-bottom: 10px !important;
-  margin-right: 20px !important;
+  margin-right: 5vw !important;
   width: 95% !important;
   color: #0B346E !important;
 }
@@ -478,7 +471,6 @@ strong {
   margin-top: 0.87em !important;
 }
 
-
 .detail-comment {
   font-size: 0.6em !important;
   margin-left: 22px !important;
@@ -490,13 +482,13 @@ strong {
 .slide-contents {
   position: fixed !important;
   top: 200px !important;
-  left: 20px !important;
+  left: 5vw !important;
   font-size: 0.8em !important;
   display: inline-block !important;
   text-align: left  ;
   vertical-align: top !important;
   /* width: 950px !important; */
-  margin-right: 20px !important;
+  margin-right: 5vw !important;
   width: 95% !important;
 }
 .slide-contents .code-contents {
@@ -518,7 +510,10 @@ strong {
   margin-right: 2em !important;
 }
 
+/* Table */
+
 .slide-contents table {
+  table-layout:fixed;
   background-color: rgba(255,255,255,0.1) !important;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05) !important;
   width: 100% !important;
@@ -539,6 +534,11 @@ strong {
   width: 100% !important;
   font-size: 0.65em !important;
 }
+@media screen and (max-width:900px) {
+  table {
+    background-color:red !important;
+    width:90%;
+  }
 
 /* Intro Template Styles */
 .byline {

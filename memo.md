@@ -416,6 +416,8 @@ L.marker([<%= Map.get(result,"latitude") %>, <%= Map.get(result,"longitude") %>]
 
 このサイトのスクリプトを貼り付けて動かして見ましょう。
 
+### ページの追加
+
 その前に、新しいページを追加したいと思います。
 
 lib/aedmap_web/router.ex

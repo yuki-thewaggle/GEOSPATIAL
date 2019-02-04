@@ -1,14 +1,12 @@
 ---?color=#3A8FB7
 
-@snap[west top-left]
+@snap[headline]
 
 @snap[byline headline-detail color4]
 @size[0.75em](GEOSPATIAL Hackers Program Hands-on)
 @snapend
 
-@snap[headline]
 # オープンデータを<br>利用して<br>地図アプリを作ろう!
-@snapend
 @snapend
 
 ---

@@ -161,8 +161,8 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- <span class="not-selectable">検索ボックスに<br>「</span>**コマンドプロンプト**<span class="not-selectable">」<br>と記入します。</span>
-- 「**コマンドプロンプト<br>デスクトップアプリ**」<br>をクリックします。
+- <span class="not-selectable">検索ボックスに「</span> **コマンドプロンプト**<span class="not-selectable">」と記入します。</span>
+- 「**コマンドプロンプト デスクトップアプリ**」をクリックします。
 - コマンドプロンプトが起動します。
 @olend
 @snapend
@@ -189,7 +189,7 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- 画面端にあるメニューバー <u>**[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)**</u> から <u>**[Launchpad](https://support.apple.com/ja-jp/HT202635)**</u>をクリックします。
+- 画面端にあるメニューバー <u>[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)</u> から <u>[Launchpad](https://support.apple.com/ja-jp/HT202635)</u>をクリックします。
 - <span class="not-selectable">検索ボックスに「</span> **ターミナル** <span class="not-selectable">」と入力して検索します。</span>
 - **ターミナル** をクリックします。
 - ターミナルが起動します。
