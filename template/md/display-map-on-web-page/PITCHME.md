@@ -29,6 +29,7 @@
 - [leaflet.js とは](#/)
 - [モジュールとは](#/)
 - [leaflet.js の導入方法](#/)
+- [HTMLファイルのオープン](#/)
 - [leaflet.js での実装（プロ<br>グラム）](#/)
 - [leaflet.js での実装（表示）](#/)
 - [プログラム部分の解説](#/)
@@ -67,12 +68,12 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<u>[leaflet.js](https://leafletjs.com/)</u> は、<u>[JavaScript](https://ja.wikipedia.org/wiki/JavaScript)</u>のマップ用<u>[ライブラリ](https://ja.wikipedia.org/wiki/ライブラリ)</u>です。 )
+@box[rounded box-style](<u>[leaflet.js](https://leafletjs.com/)</u> は、<u>[JavaScript](https://ja.wikipedia.org/wiki/JavaScript)</u>のマップ用**モジュール**です。)
 
 
 @snap[left-column]
 @ul[itemlist](false)
-- [インタラクティブ](http://e-words.jp/w/インタラクティブ.html)なマップ
+- <u>[インタラクティブ](http://e-words.jp/w/インタラクティブ.html)</u>なマップ
 - モバイル対応
 - 軽量
 - ほとんどのマッピング機能
@@ -112,22 +113,12 @@
 ### @css[slide-title](モジュールとは)
 
 @snap[slide-contents]
+@snap[quote-wrap]
 
-@box[rounded box-style](作業の内容と目的,使用するソフトウェア)
-
-@snap[left-column]
-@ul[itemlist](false)
-- 条件１
-- 条件１
-@ulend
-@snapend
-
-@snap[right-column]
-@img[goal-image to-center](template/img/environment/postgresql.png)
-@snapend
+@quote[<ul><li>機能単位、**交換可能な構成部分**という意味の英単語</li><li>システムの一部を構成する**ひとまとまりの機能を持った部品**</li><li>規格化・標準化されていて、容易に追加や交換ができる</li></ul>]((http://e-words.jp/w/モジュール.html)
 
 @snapend
-
+@snapend
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]
@@ -155,20 +146,56 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Firefoxは、高速かつ軽量なWebブラウザーです。<br>拡張機能が豊富であるという特徴があります。)
+@box[rounded box-style](**Visual Studio Code** を使って、leaflet.jsを導入します。<br>今回は<u>[CDN](http://e-words.jp/w/CDN.html)</u>を利用します。)
 
-@ol[numberlist numberlist-color4](true)
-- <u>[Firefoxのダウンロードページ](https://www.mozilla.org/ja/firefox/new/)</u>にアクセスします。
-- 「今すぐダウンロード」ボタンをクリックします。
-- ダウンロードしたファイルをクリックして起動します。
-- Windows
-- Mac
-- インストールされます。
-@olend
+@snap[fragment]
+@ol[]
+- <u>[こちら](https://leafletjs.com/download.html#using-a-hosted-version-of-leaflet)</u> に記載されている、以下のコードを右クリックしてコピーします。
+@snapend
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+```
 
 @snapend
 
+@snapend
 
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [10. 地図のWebページ表示](#/)
+- [4. HTMLファイルのオープン](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](HTMLファイルの<br>オープン)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [10. 地図のWebページ表示](#/)
+- [4. HTMLファイルのオープン](#/)
+@olend
+@snapend
+
+### @css[slide-title](HTMLファイルのオープン)
+
+@snap[slide-contents]
+
+@box[rounded box-style]( **CUI** を使って、<br>Visual Studio Code で HTMLファイルを開きます。)
+
+@ol[numberlist numberlist-color4](true)
+- 以下のコマンドを貼り付けます。
+- code -r lib/aedmap_web/templates/page/index.html.eex
+@olend
+
+@snapend
 
 ---?color=#77B6D4
 @snap[breadcrumbs-wrap lightbluescale]

@@ -45,7 +45,7 @@
 @snapend
 
 @snap[west headline]
-## @color[white](HTMLファイルの<br>変更方法)
+## @color[white](HTMLファイルの<br>オープン)
 @snapend
 
 ---
@@ -66,7 +66,7 @@
 @ol[numberlist numberlist-color4](true)
 - アプリケーションが起動している場合は、[アプリケーションを終了](#/87)します。
 - 以下のコマンドを貼り付けます。
-- code lib/aedmap_web/templates/page/index.html.eex
+- code -r lib/aedmap_web/templates/page/index.html.eex
 @olend
 
 @snapend

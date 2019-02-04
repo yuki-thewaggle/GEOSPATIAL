@@ -109,6 +109,7 @@
         - https://leafletjs.com/download.html　より、Using a Hosted Version of Leaflet　に記載あるリンクをコピーします
         - <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
         - <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+        1. HTMLファイルのオープン
         - コピーしたら、lib/aedmap_web/templates/layout/app.html.eex ファイルの<head>タグの中の一番最下部にペーストします。
         - これで、leafletjsのモジュールを使えるようになりました。
 	1. leaflet.js での実装（プログラム）
