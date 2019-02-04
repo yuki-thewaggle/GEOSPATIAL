@@ -2,7 +2,7 @@
 @snap[breadcrumbs-wrap bluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 @olend
 @snapend
 
@@ -14,7 +14,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 @olend
 @snapend
 
@@ -50,7 +50,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 @olend
 @snapend
@@ -63,7 +63,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 @olend
 @snapend
@@ -78,7 +78,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 - [0. CUIの起動](#/20)
 @olend
@@ -105,7 +105,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 - [0. CUIとは]()
 @olend
@@ -129,7 +129,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 - [0. ユーザインタフェースとは]()
 @olend
@@ -149,7 +149,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 - [k. 起動方法（Windowsの場合）]()
 @olend
@@ -161,8 +161,8 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- <span class="not-selectable">検索ボックスに<br>「</span>**コマンドプロンプト**<span class="not-selectable">」<br>と記入します。</span>
-- 「**コマンドプロンプト<br>デスクトップアプリ**」<br>をクリックします。
+- <span class="not-selectable">検索ボックスに「</span> **コマンドプロンプト**<span class="not-selectable">」と記入します。</span>
+- 「**コマンドプロンプト デスクトップアプリ**」をクリックします。
 - コマンドプロンプトが起動します。
 @olend
 @snapend
@@ -177,7 +177,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 - [k. 起動方法（Macの場合）]()
 @olend
@@ -189,7 +189,7 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- 画面端にあるメニューバー <u>**[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)**</u> から <u>**[Launchpad](https://support.apple.com/ja-jp/HT202635)**</u>をクリックします。
+- 画面端にあるメニューバー <u>[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)</u> から <u>[Launchpad](https://support.apple.com/ja-jp/HT202635)</u>をクリックします。
 - <span class="not-selectable">検索ボックスに「</span> **ターミナル** <span class="not-selectable">」と入力して検索します。</span>
 - **ターミナル** をクリックします。
 - ターミナルが起動します。
@@ -205,7 +205,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [1. CUI](#/20)
 - [k. 確認]()
 @olend
@@ -230,7 +230,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Firefox]()
 @olend
 @snapend
@@ -243,7 +243,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Firefox]()
 - [k. Firefox]()
 @olend
@@ -259,7 +259,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Firefox]()
 - [k. Firefoxのインストール]()
 @olend
@@ -286,7 +286,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Firefox]()
 - [k. 確認]()
 @olend
@@ -316,7 +316,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. RESTClient]()
 @olend
 @snapend
@@ -329,7 +329,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. RESTClient]()
 - [k. RESTClient]()
 @olend
@@ -345,7 +345,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. RESTClient]()
 - [k. RESTClientのインストール]()
 @olend
@@ -386,7 +386,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. RESTClient]()
 - [k. 確認]()
 @olend
@@ -399,7 +399,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. テキストエディタ]()
 @olend
 @snapend
@@ -412,7 +412,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. テキストエディタ]()
 - [k. テキストエディタ]()
 @olend
@@ -428,7 +428,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. テキストエディタ]()
 - [k. テキストエディタのインストール]()
 @olend
@@ -469,7 +469,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. テキストエディタ]()
 - [k. 確認]()
 @olend
@@ -481,7 +481,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Elixir]()
 @olend
 @snapend
@@ -496,7 +496,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Elixir]()
 - [k. Elixirのインストール]()
 @olend
@@ -534,7 +534,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. node.js]()
 @olend
 @snapend
@@ -547,7 +547,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. node.js]()
 - [k. node.js]()
 @olend
@@ -563,7 +563,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. node.js]()
 - [k. node.jsのインストール]()
 @olend
@@ -604,7 +604,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. node.js]()
 - [k. 確認]()
 @olend
@@ -616,7 +616,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. PostgreSQL]()
 @olend
 @snapend
@@ -629,7 +629,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. PostgreSQL]()
 - [k. PostgreSQL]()
 @olend
@@ -645,7 +645,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. PostgreSQL]()
 - [k. PostgreSQLのインストール]()
 @olend
@@ -686,7 +686,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. PostgreSQL]()
 - [k. 確認]()
 @olend
@@ -698,7 +698,7 @@
 @snap[breadcrumbs-wrap lightbluescale]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Phoenixframework]()
 @olend
 @snapend
@@ -711,7 +711,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Phoenixframework]()
 - [k. Phoenixframework]()
 @olend
@@ -727,7 +727,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Phoenixframework]()
 - [k. Phoenixframeworkのインストール]()
 @olend
@@ -767,7 +767,7 @@
 @snap[breadcrumbs-wrap]
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
-- [2. 環境構築](#/18)
+- [0. 環境構築](#/)
 - [m. Phoenixframework]()
 - [k. 確認]()
 @olend

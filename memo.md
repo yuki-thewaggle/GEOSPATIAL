@@ -408,6 +408,91 @@ L.marker([<%= Map.get(result,"latitude") %>, <%= Map.get(result,"longitude") %>]
     .openPopup();
 <%= end %>
 
+これで、DBから値を取得して地図に反映させる事ができました。
+
+次に、JavascriptのgeolocationというAPIを利用して、端末から自分の位置情報、緯度と経度を取得する方法を追加して行きましょう。
+
+詳しくは、こちらのサイトに記載されています。https://developer.mozilla.org/ja/docs/Web/API/Geolocation/Using_geolocation
+
+このサイトのスクリプトを貼り付けて動かして見ましょう。
+
+### ページの追加
+
+その前に、新しいページを追加したいと思います。
+
+lib/aedmap_web/router.ex
+
+scoopの中に次を追記します。追記する場所は、get "/", PageController, :indexの１行したに挿入しましょう。
+
+get "/geolocation", GeoController, :index
+
+続いて、controllersに controllerモジュールを追加します。
+
+lib/aedmap_web/controllers/geo_controller.ex　ファイルを追加して、以下の記述を追加します。
+
+defmodule AedmapWeb.GeoController do
+  use AedmapWeb, :controller
+
+  def index(conn, _params) do
+    render(conn, "index.html")
+  end
+end
+
+続いて、lib/aedmap_web/views/geo_view.ex を追加して、以下の記述を追加します。
+
+defmodule AedmapWeb.GeoView do
+  use AedmapWeb, :view
+end
+
+そして、最後に lib/aedmap_web/templates/geo/index.html.eex を追加します。
+
+index.html.eexの中に、https://developer.mozilla.org/ja/docs/Web/API/Geolocation/Using_geolocation
+の中の　Geolocation のライブサンプル　をコピーしてペーストします。
+
+サンプルを動かして見ましょう。imgが出てこないですね。これは、google map　APIを利用しているのですが、google map APIの
+利用が無料ではなくなったので、利用できなくなった為です。
+この部分を削除して、leafletjsの地図を表示できるように改良しましょう。
+
+var img = new Image();
+    img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=13&size=300x300&sensor=false";
+
+    output.appendChild(img);
+
+修正箇所は、　function success(position) の関数の中を書き換えて行きます。
+関数の中の変数にleafletjsのmapを生成するL.mapを追記していきます。
+
+  function success(position) {
+    var latitude  = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    var map = L.map('map').setView([ latitude , longitude ], 15);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([latitude,  longitude ]).addTo(map)
+        .bindPopup('あなたの現在位置'+ '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>')
+        .openPopup();
+
+    output.innerHTML = 'あなたの現在位置'+ '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
+    output.appendChild(map);
+  }
+
+これで、自分の現在位置をJavascriptから取得する事ができるようになりました。
+
+複数ページを作成したので、簡単にページの移動ができるようにリンクを追加して起きましょう。
+
+<li><a href="http://localhost:4000/">home</a></li>
+<li><a href="http://localhost:4000/locations">input form</a></li>
+<li><a href="http://localhost:4000/geolocation">My GEO location</a></li>
+
+これらを、lib/aedmap_web/templates/layout/app.html.eex の<header>タグの<nav>タグの<ul>タグの中に追加します。
+
+最後に、mapに追加の情報を入力できるturf.jsを紹介します。こちらを利用すると、Mapに追加情報を付け加えられます。
+
+http://turfjs.org/
+
+ここで、turf.bufferを利用して半径500mくらいのサークルを表示させたいが、うまくいってない。
 
 ---
 

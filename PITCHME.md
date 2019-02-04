@@ -1,14 +1,12 @@
 ---?color=#3A8FB7
 
-@snap[west top-left]
+@snap[headline]
 
 @snap[byline headline-detail color4]
 @size[0.75em](GEOSPATIAL Hackers Program Hands-on)
 @snapend
 
-@snap[headline]
 # オープンデータを<br>利用して<br>地図アプリを作ろう!
-@snapend
 @snapend
 
 ---
@@ -25,23 +23,18 @@
 
 @ol[numberlist numberlist-color1](false)
 - 基礎知識			@css[detail-comment](Webの仕組みやプログラミングに必要な知識を学ぶ)
-- 環境構築			@css[detail-comment](地図アプリを作るために必要なPCの設定をする)
-- APIサーバの構築	@css[detail-comment](地図アプリを提供するためのシステムを作る)
-- 地図の表示		@css[detail-comment](まずは地図を表示してみる)
-- 外部APIの呼び出し		@css[detail-comment](公開されている地図システムを利用する)
-- DBの操作			@css[detail-comment](使いたいデータを登録する)
-- 内部APIの呼び出し		@css[detail-comment](ツールを使って地図アプリを配信する)
-- 地図へのポイント追加	@css[detail-comment](説明文説明文説明文説明文説明文)
-- 自分の緯度経度の取得	@css[detail-comment](説明文説明文説明文説明文説明文)
-- CSSデータの読み込み	@css[detail-comment](説明文説明文説明文説明文説明文)
-- デプロイ				@css[detail-comment](説明文説明文説明文説明文説明文)
-- 最後に全項目にページ内リンクを貼る				@css[detail-comment](説明文説明文説明文説明文説明文)
+- Phoenix プロジェクト	@css[detail-comment](Phoenix を利用して Elixir のWebプロジェクトを設定する)
+- 外部データの利用		@css[detail-comment](オープンデータを取得して抽出したデータをWebページに表示する)
+- DBの操作		@css[detail-comment](DBからデータを取得してWebページに表示する)
+- ページの追加			@css[detail-comment](Webサイトにページを追加する)
+- 自分の位置情報の取得と表示		@css[detail-comment](自分の位置情報を取得してWebページに表示する)
+- その他の便利なツール	@css[detail-comment](地図アプリを作成するのに便利なツールを知る)
 @olend
 
 @snapend
 
----?include=template/md/basic-knowlede-webgis/PITCHME.md
 ---?include=template/md/environment/PITCHME.md
+---?include=template/md/basic-knowlede-webgis/PITCHME.md
 ---?include=template/md/create-a-new-project/PITCHME.md
 ---?include=template/md/add-modules/PITCHME.md
 ---?include=template/md/how-to-test-Elixir-project/PITCHME.md
