@@ -1,12 +1,12 @@
 # アジェンダ項目再編
-1. 環境構築(environment)
-2. 基礎知識(basic-knowledge-webgis)
-3. Phoenix プロジェクト（create-a-new-project, add-modules, how-to-test-Elixir-project）
-4. 外部データの利用(external-API, use-RESTClient, external-API-data, display-data-on-web-page, display-map-on-web-page)
-5. DBの操作：DBへの追加、DBからの呼び出し、表示()
-6. ページの追加()
-7. 自分の位置情報の取得と表示()
-8. その他の便利なツール紹介()
+0. 環境構築(environment)
+1. 基礎知識(basic-knowledge-webgis)
+2. Phoenix プロジェクト（create-a-new-project, add-modules, how-to-test-Elixir-project）
+3. 外部データの利用(external-API, use-RESTClient, external-API-data, display-data-on-web-page, display-map-on-web-page)
+4. DBの操作：DBへの追加、DBからの呼び出し、表示()
+5. ページの追加()
+6. 自分の位置情報の取得と表示()
+7. その他の便利なツール紹介()
 
 
 ---
