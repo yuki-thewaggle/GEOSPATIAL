@@ -189,7 +189,7 @@
 @box[rounded box-style](**Visual Studio Code** を使って、**app.html.eex**に、先ほどコピーしたCDNを追加します。)
 
 @ol[numberlist numberlist-color4](true)
-- VScodeのサイドバーにあるEXPLORERより、```lib/aedmap_web/templates/layout/app.html.eex```を開きます。
+- Visual Studio CodeのサイドバーにあるEXPLORERより、```lib/aedmap_web/templates/layout/app.html.eex```を開きます。
 - ```<head>``` タグと ```</head>```の終了タグの間（どこでも可）に先ほどコピーしたタグをペーストします。
 @olend
 

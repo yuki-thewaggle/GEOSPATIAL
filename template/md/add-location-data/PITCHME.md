@@ -220,7 +220,7 @@ SQLは大きく３つの体系から分類できます。
 
 @snap[slide-contents]
 
-@box[rounded box-style](**VScode** を利用します。```router.ex```のファイルを開きます。)
+@box[rounded box-style](**Visual Studio Code** を利用します。```router.ex```のファイルを開きます。)
 
 @ol[numberlist numberlist-color2](false)
 - [```lib/aedmap_web/router.ex```を開きます。](#/)
@@ -431,16 +431,10 @@ SQLは大きく３つの体系から分類できます。
 
 @box[rounded box-style](**ブラウザ**を利用します。```http://localhost:4000/locations```のページから、それぞれ入力・修正・削除ができます。)
 
-@snap[left-column]
+@ol[numberlist numberlist-color2](false)
+- [もう１件データを追加します](#/)
+- 礫川地域活動センター, 35.711938、 139.750418
+@olend
 
-@img[goal-image to-center](template/img/add-location-data/showlocation1.png)
-
-@snapend
-
-@snap[right-column]
-
-@img[goal-image to-center](template/img/add-location-data/locations1.png)
-
-@snapend
 
 @snapend

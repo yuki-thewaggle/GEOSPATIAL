@@ -44,6 +44,7 @@
 ---?include=template/md/display-data-on-web-page/PITCHME.md
 ---?include=template/md/display-map-on-web-page/PITCHME.md
 ---?include=template/md/add-location-data/PITCHME.md
+---?include=template/md/DB-operation/PITCHME.md
 
 
 ---?color=#3A8FB7
