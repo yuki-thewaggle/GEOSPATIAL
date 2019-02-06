@@ -176,41 +176,45 @@
 @snap[slide-contents]
 
 <table>
+<thead>
 <tr>
 	<th width="30%"/*適宜変更*/>型</th>
 	<th>表記例</td>
 </tr>
+</thead>
+<tbody>
 <tr>
-	<td>整数</th>
+	<th>整数</th>
 	<td>1</td>
 </tr><tr>
-	<td>整数(16進数)</th>
+	<th>整数(16進数)</th>
 	<td>0x1F</td>
 </tr>
 <tr>
-	<td>小数</th>
+	<th>小数</th>
 	<td>1.0</td>
 </tr>
 <tr>
-	<td>論理値</th>
+	<th>論理値</th>
 	<td>true</td>
 </tr>
 <tr>
-	<td>アトム</th>
+	<th>アトム</th>
 	<td>:atom</td>
 </tr>
 <tr>
-	<td>文字列</th>
+	<th>文字列</th>
 	<td>"elixir"</td>
 </tr>
 <tr>
-	<td>リスト</th>
+	<th>リスト</th>
 	<td>[1, 2, 3]</td>
 </tr>
 <tr>
-	<td>タプル</th>
+	<th>タプル</th>
 	<td>{1, 2, 3}</td>
 </tr>
+</tbody>
 </table>
 
 @snapend

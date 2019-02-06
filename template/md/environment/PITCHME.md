@@ -116,11 +116,11 @@
 @snap[slide-contents]
 
 @snap[quote-wrap]
-@quote[<ul><li>**C**haracter **U**ser **I**nterface（キャラクタユーザインタフェース）</li><li><a href="#/">**ユーザインタフェース**</a>の様式</li><li>キーボード等からの文字列を<a href="#/">**入力**</a>とする</li><li>文字列が表示されるウィンドウを<a href="#/">**出力**</a>とする</li></ul>](https://ja.wikipedia.org/wiki/キャラクタユーザインタフェース)
+@quote[<ul><li>**C**haracter **U**ser **I**nterface &#40;キャラクタユーザインタフェース&#41;</li><li><a href="#/">**ユーザインタフェース**</a>の様式</li><li>キーボード等からの文字列を<a href="#/">**入力**</a>とする</li><li>文字列が表示されるウィンドウを<a href="#/">**出力**</a>とする</li></ul>](https://ja.wikipedia.org/wiki/キャラクタユーザインタフェース)
 @snapend
 
-- Macは「**ターミナル**」
-- Windowsは「**コマンドプロンプト**」
+Macは「**ターミナル**」<br>
+Windowsは「**コマンドプロンプト**」
 
 @snapend
 
@@ -161,8 +161,8 @@
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
-- <span class="not-selectable">検索ボックスに「</span> **コマンドプロンプト**<span class="not-selectable">」と記入します。</span>
-- 「**コマンドプロンプト デスクトップアプリ**」をクリックします。
+- <span class="not-selectable">検索ボックスに </span> **コマンドプロンプト**<span class="not-selectable"> と記入します。</span>
+- **コマンドプロンプト デスクトップアプリ** をクリックします。
 - コマンドプロンプトが起動します。
 @olend
 @snapend
@@ -190,7 +190,7 @@
 @snap[left-column]
 @ol[numberlist numberlist-color4](true)
 - 画面端にあるメニューバー <u>[Dock](https://support.apple.com/ja-jp/guide/mac-help/mh35859/mac)</u> から <u>[Launchpad](https://support.apple.com/ja-jp/HT202635)</u>をクリックします。
-- <span class="not-selectable">検索ボックスに「</span> **ターミナル** <span class="not-selectable">」と入力して検索します。</span>
+- <span class="not-selectable">検索ボックスに </span> **ターミナル** <span class="not-selectable"> と入力して検索します。</span>
 - **ターミナル** をクリックします。
 - ターミナルが起動します。
 @olend

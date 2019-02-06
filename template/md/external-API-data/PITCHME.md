@@ -112,59 +112,66 @@
 
 @snap[left-column]
 <table>
+<thead>
 <tr>
-	<th width="45%">型</th>
+	<th>型</th>
 	<th>表記例</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);">整数</td>
+	<th>整数</th>
 	<td>1</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);">整数(16進数)</td>
+	<th>整数(16進数)</th>
 	<td>0x1F</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);">小数</td>
+	<th>小数</th>
 	<td>1.0</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);">論理値</td>
+	<th>論理値</th>
 	<td>true</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);"><u>[アトム](https://elixirschool.com/ja/lessons/basics/basics/#%E3%82%A2%E3%83%88%E3%83%A0)</u></td>
+	<th><u>[アトム](https://elixirschool.com/ja/lessons/basics/basics/#アトム)</u></th>
 	<td>:atom</td>
 </tr>
+</tbody>
 </table>
 @snapend
 
 @snap[right-column]
 <table>
+<thead>
 <tr>
-	<th width="45%">型</th>
+	<th>型</th>
 	<th>表記例</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);">文字列</td>
+	<th>文字列</th>
 	<td>"elixir"</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);"><u>[リスト](https://elixirschool.com/ja/lessons/basics/collections/#%E3%83%AA%E3%82%B9%E3%83%88)</u></td>
+	<th><u>[リスト](https://elixirschool.com/ja/lessons/basics/collections/#リスト)</u></th>
 	<td>[1, 2, 3]</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);"><u>[タプル](https://elixirschool.com/ja/lessons/basics/collections/#%E3%82%BF%E3%83%97%E3%83%AB)</u></td>
+	<th><u>[タプル](https://elixirschool.com/ja/lessons/basics/collections/#タプル)</u></th>
 	<td>{1, 2, 3}</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);"><u>[キーワードリスト](https://elixirschool.com/ja/lessons/basics/collections/#キーワードリスト)</u></td>
-	<td>[foo: "hello", bar: "world"]</td>
+	<th><u>[キーワードリスト](https://elixirschool.com/ja/lessons/basics/collections/#キーワードリスト)</u></th>
+	<td>@size[0.85em](&#91;foo: "hello", bar: "world"&#93;)</td>
 </tr>
 <tr>
-	<td style="background-color:rgba(0,0,0,0.1);"><u>[マップ](https://elixirschool.com/ja/lessons/basics/collections/#マップ)</u></td>
+	<th><u>[マップ](https://elixirschool.com/ja/lessons/basics/collections/#マップ)</u></th>
 	<td>%{key = "value"}</td>
-</tr>
+</tr></tbody>
 </table>
 @snapend
 
