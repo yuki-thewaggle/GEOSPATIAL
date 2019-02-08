@@ -74,7 +74,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/postgresql.png)
+@img[goal-image to-center](template/img/use-RESTClient/RESTClient.png)
 @snapend
 
 @snapend
@@ -116,7 +116,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/postgresql.png)
+@img[goal-image to-center](template/img/use-RESTClient/set-url.png)
 @snapend
 
 @snapend
@@ -159,7 +159,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/CUI-windows.png)
+@img[goal-image to-center](template/img/use-RESTClient/set-method.png)
 @snapend
 
 @snapend
@@ -200,7 +200,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/CUI-windows.png)
+@img[goal-image to-center fragment](template/img/use-RESTClient/request-send.png)
 @snapend
 
 @snapend
@@ -216,7 +216,7 @@
 @snapend
 
 @snap[west headline]
-## @color[white](ステータスコードを確認)
+## @color[white](ステータスコードを<br>確認)
 @snapend
 
 ---
@@ -242,7 +242,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/CUI-windows.png)
+@img[goal-image to-center](template/img/use-RESTClient/responce-200ok.png)
 @snapend
 
 @snapend

@@ -64,9 +64,10 @@
 @box[rounded box-style]( **CUI** を使って、<br>Visual Studio Code で HTMLファイルを開きます。)
 
 @ol[numberlist numberlist-color4](true)
-- アプリケーションが起動している場合は、[アプリケーションを終了](#/87)します。
-- 以下のコマンドを貼り付けます。
-- code -r lib/aedmap_web/templates/page/index.html.eex
+- **lib/aedmap_web/templates/page/index.html.eex** を開きます。
+- 画面上部のメニューから「**View**」 > 「**Explorer**」 をクリックします。
+- 画面の左側に「**EXPLORER**」という枠が開きます。
+- 「EXPLORER」の中から「**lib/aedmap_web/templates/page/index.html.eex**」を捜してクリックします。
 @olend
 
 @snapend
@@ -108,7 +109,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/postgresql.png)
+@img[goal-image to-center](template/img/display-data-on-web-page/clear-html.png)
 @snapend
 
 @snapend
@@ -143,7 +144,7 @@
 @box[rounded box-style]( **Webブラウザー** を使って、HTMLファイルの変更が<br>Webページに反映されていることを確認します。)
 
 @ol[numberlist numberlist-color4](false)
-- アプリケーションが終了している場合は、<br>[CUIでアプリケーションを起動](#/83)します。
+- アプリケーションが終了している場合は、<br>[CUIでアプリケーションを起動](#/)します。
 - <span class="not-selectable">Webブラウザーで</span><u>http://localhost:4000/</u><span class="not-selectable">にアクセスします。</span>
 - ヘッダーだけが表示されていることを確認します。
 @olend
@@ -178,19 +179,20 @@
 
 @box[rounded box-style]( **Visual Studio Code** を使って、オープンしている<br>index.html.eexファイルにプログラムを加えます。)
 
-```html
-<% [ result ] = Json.get("https://aed.azure-mobile.net", "/api/NearAED?lat=35.96&lng=136.185")
-  latitude = Map.get(result,"Latitude")
-  longitude = Map.get(result,"Longitude")
-  locationName = Map.get(result,"LocationName")
-%>
-```
+
+
+@snap[gist-box half-gist-box]
+
+@gist[html zoom-09](https://gist.github.com/yuki-thewaggle/515cac053200d75a6791bc448e61402e)
 
 @[1-5](全てをコピーして、index.html.eexファイルに貼り付けて保存します。)
 @[1](外部データを取得しています。)
 @[2](latitude に "Latitude"（緯度） の値を保存しています。)
 @[3](longitude に "Longitude"（経度） の値を保存しています。)
 @[4](locationName に "LocationName"（ロケーションの名称） の値を保存しています。)
+
+@snapend
+
 
 @snapend
 
@@ -222,17 +224,18 @@
 
 @box[rounded box-style]( **Visual Studio Code** を使って、オープンしている<br>index.html.eexファイルに表示を加えます。)
 
-```html
-<%= latitude %><br> 
-<%= longitude %><br>
-<%= locationName %><br>
-```
+@snap[gist-box half-gist-box]
+
+
+@gist[html zoom-09](https://gist.github.com/yuki-thewaggle/c14b0eea4ee96e4b872685efff0ebbe7)
 
 @[0](全てをコピーして、先程の続きに貼り付けます。)
 @[0](表示するには、<%= %> タグを利用します。)
 @[1](緯度の値を表示します。)
 @[2](経度の値を表示します。)
 @[3](ロケーションの名称を表示します。)
+
+@snapend
 
 @snapend
 
@@ -267,7 +270,7 @@
 @snap[left-column]
 
 @ol[numberlist numberlist-color4](false)
-- アプリケーションが終了している場合は、[アプリケーションを起動](#/83)します。
+- アプリケーションが終了している場合は、[アプリケーションを起動](#/)します。
 - <span class="not-selectable">Webブラウザーで</span><u>[localhost:4000](http://localhost:4000/)</u><span class="not-selectable">にアクセスします。</span>
 - データが表示されていることを確認します。
 @olend

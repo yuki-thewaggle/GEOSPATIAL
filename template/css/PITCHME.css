@@ -174,7 +174,7 @@ strong {
   font-size: 0.8em;
 }
 .slide-contents code {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
 }
 .slide-contents .code-presenting-annotation {
     width: 96% !important;

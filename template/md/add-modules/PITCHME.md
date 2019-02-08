@@ -22,7 +22,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](Phoenix を使ってWebプロジェクトを作成します。)
+@box[rounded box-style]( **Phoenix** を使ってWebプロジェクトを作成します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color2](false)
@@ -102,18 +102,18 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>Visual Studio Codeを起動します。)
+@box[rounded box-style](**CUI**を使って、<br>Visual Studio Codeを起動します。)
 
 @snap[left-column]
-@ol[numberlist numberlist-color4](false)
+@ol[numberlist numberlist-color4](true)
 - code .
 @olend
 @snapend
 
 @snap[right-column]
-@snap[imagebox]
-@img[](template/img/environment/postgresql.png)
-@snapend
+    @snap[imagebox fragment]
+    @img[](template/img/add-modules/open-vscode.png)
+    @snapend
 @snapend
 
 @snapend
@@ -144,7 +144,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、<br>mix.exs ファイルを編集してモジュールを追加します。)
+@box[rounded box-style](**Visual Studio Code**を使って、<br>mix.exs ファイルを編集してモジュールを追加します。)
 
 @ol[numberlist numberlist-color4](false)
 - mix.exs という名前のファイルを編集して、<br>追加のモジュールを書き込んでいきます。
@@ -180,12 +180,12 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、<br>mix.exs というファイルを開きます。)
+@box[rounded box-style](**Visual Studio Code**を使って、<br>mix.exs というファイルを開きます。)
 
 @ol[numberlist numberlist-color4](false)
-- 画面上部のメニューから「<span class="orange">View</span>」 > 「<span class="orange">Explorer</span>」 をクリックします。
-- 画面の左側に「<span class="orange">EXPLORER</span>」という枠が開きます。
-- 「EXPLORER」の中を、下にスクロールして「<span class="orange">mix.exs</span>」を捜してクリックします。
+- 画面上部のメニューから「**View**」 > 「**Explorer**」 をクリックします。
+- 画面の左側に「**EXPLORER**」という枠が開きます。
+- 「EXPLORER」の中を、下にスクロールして「**mix.exs**」を捜してクリックします。
 @olend
 
 @snapend
@@ -216,7 +216,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">Visual Studio Code</span>を使って、smallex という<br>APIを取得するのに便利なモジュールを実際に追加します。)
+@box[rounded box-style](**Visual Studio Code**を使って、smallex という<br>APIを取得するのに便利なモジュールを実際に追加します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -225,14 +225,9 @@
 @snapend
 
 @snap[right-column]
-@snap[gist-box half-gist-box]
-
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
-
-@[1-5](（defp deps doのブロックをハイライト）この区分の中に加筆します。)
-@[2](この行に `{:smallex, "~> 0.2.3"},` と記入します。)
-
-@snapend
+    @snap[imagebox]
+    @img[](template/img/add-modules/smallex.png)
+    @snapend
 @snapend
 
 @snapend
@@ -263,7 +258,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](<span class="orange">CUI</span>を使って、<br>smallexがインストールされていることを確認します。)
+@box[rounded box-style]( **CUI**を使って、<br>smallexがインストールされていることを確認します。)
 
 @snap[left-column]
 @ol[numberlist numberlist-color4](false)
@@ -274,9 +269,10 @@
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/6225d47bfe950aa8255afb72b2a26718)
+@gist[r zoom-07](yuki-thewaggle/6225d47bfe950aa8255afb72b2a26718)
 
-@[40](smallex0.2.3 の記述があります。)
+@[1](必要なパッケージを取り込みます。)
+@[42](smallex0.2.3 の記述があります。)
 
 @snapend
 @snapend
@@ -322,7 +318,7 @@
 @snapend
 
 @snap[right-column]
-@snap[gist-box half-gist-box]
+@snap[gist-box half-gist-box fragment]
 
 @gist[json zoom-05](yuki-thewaggle/1a1e2d5395161b615fa70cb0e392b1c7)
 
@@ -361,14 +357,9 @@
 
 @box[rounded box-style](WindowsのCUIで、表示される文字が別の文字に変換されてしまうときは、以下のコマンドを入力してください。)
 
-@snap[left-column]
-@ol[numberlist numberlist-color4](false)
+@ol[numberlist numberlist-color4](true)
 - chcp 65001
+- これで文字コードがUTF-8に変更されました。
 @olend
-@snapend
-
-@snap[right-column]
-@img[goal-image to-center](template/img/environment/postgresql.png)
-@snapend
 
 @snapend

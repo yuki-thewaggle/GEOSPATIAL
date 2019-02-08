@@ -7,7 +7,7 @@
 @snapend
 
 @snap[west headline]
-## 外部データの取得と抽出
+## 外部データの<br>取得と抽出
 @snapend
 
 ---
@@ -22,7 +22,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](外部データを取得し、そのデータの中から必要な部分のみを抽出します。)
+@box[rounded box-style](外部データを取得し、そのデータの中から<br>必要な部分のみを抽出します。)
 
 @ol[numberlist numberlist-color2](false)
 - [外部データの取得](#/)
@@ -73,9 +73,11 @@
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[json zoom-09](https://gist.github.com/yuki-thewaggle/8d5c582ba46e0350acc6fcba0d66439c)
+@gist[json zoom-09](https://gist.github.com/yuki-thewaggle/d1cf3c8d2d4bcc2b61853f68559d56c9)
 
-@[0](このようなデータが取得できます。)
+@[1](サーバーを起動します。)
+@[6](外部APIからデータを取得します。)
+@[7-44](このようなデータが取得できます。)
 
 @snapend
 @snapend
@@ -256,8 +258,8 @@
 
 @gist[json zoom-08](https://gist.github.com/yuki-thewaggle/1f7029888a37f0df49d65ec95f549b7b)
 
-@[0](これで result の中は、)
-@[0](%{}（マップ型）のデータのみが束縛されています。)
+@[1](これで result の中は、)
+@[1](%{}（マップ型）のデータのみが束縛されています。)
 
 @snapend
 @snapend

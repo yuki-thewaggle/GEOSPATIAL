@@ -75,10 +75,10 @@
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[elixir zoom-07](yuki-thewaggle/6d480567461a24e96aeceb52a17e5764)
 
-@[1](説明)
-@[2](説明)
+@[1](プロジェクトを生成します)
+@[49](関連する必要物のインストールを許可します)
 
 @snapend
 @snapend
@@ -122,9 +122,9 @@
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[r zoom-10](yuki-thewaggle/90de4546ce732c14d5c82a23cd35c964)
 
-@[1](説明)
+@[1](aedmapに移動します)
 
 @snapend
 @snapend
@@ -169,7 +169,7 @@
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[r zoom-09](yuki-thewaggle/72816aa21b6f9fc214197d8ba3218cef)
 
 @[1](説明)
 @[2](説明)
@@ -216,9 +216,9 @@
 @snap[right-column]
 @snap[gist-box half-gist-box]
 
-@gist[zoom-09](yuki-thewaggle/82bf9f1de5b6963bcb47f02e7b1c5d09)
+@gist[r zoom-07](yuki-thewaggle/cbe24972628ae0f1f0a2d5bec6943f41)
 
-@[1](説明)
+@[1](サーバーを起動します)
 
 @snapend
 @snapend
@@ -279,7 +279,7 @@
 @snapend
 
 @snap[west headline]
-## @color[white](アプリケーションの終了)
+## @color[white](アプリケーションの<br>終了)
 @snapend
 
 ---
