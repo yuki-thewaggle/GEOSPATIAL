@@ -55,7 +55,7 @@ strong {
 /* Space */
 
 .space-0 {
-  margin: 0.1em !important;
+  margin: 0.1 !important;
 }
 
 .margin-left1 {
@@ -173,8 +173,8 @@ strong {
   width: 100%;
   font-size: 0.8em;
 }
-.slide-contents code {
-  /* white-space: pre-wrap; */
+.slide-contents pre {
+  white-space: pre-wrap;
 }
 .slide-contents .code-presenting-annotation {
     width: 96% !important;
@@ -185,6 +185,10 @@ strong {
 }
 .slide-contents .code-presenting-annotation span {
   margin-right: 2em !important;
+}
+.slide-contents .code-presenting-annotation a {
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 /* Box Style */
