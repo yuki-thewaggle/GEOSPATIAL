@@ -84,7 +84,7 @@
 @snapend
 
 @snap[right-column]
-@img[goal-image to-center](template/img/environment/postgresql.png)
+@img[goal-image to-center](template/img/display-map-on-web-page/leafletjs.png)
 
 @snapend
 
@@ -151,12 +151,15 @@
 
 @box[rounded box-style](**Visual Studio Code** を使って、leaflet.jsを導入します。<br>今回は<u>[CDN](http://e-words.jp/w/CDN.html)</u>を利用します。)
 
-@ol[numberlist numberlist-color4](true)
+@ol[numberlist numberlist-color4](false)
 - <u>[こちら](https://leafletjs.com/download.html#using-a-hosted-version-of-leaflet)</u> に記載されている、以下のコード二行を右クリックしてコピーします。
-- ```<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />```
-- ```<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>```
-
 @olend
+
+
+```
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+```
 
 @snapend
 
@@ -186,11 +189,11 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](**Visual Studio Code** を使って、**app.html.eex**に、先ほどコピーしたCDNを追加します。)
+@box[rounded box-style](**Visual Studio Code** を使って、**app.html.eex**に<br>先ほどコピーしたCDNを追加します。)
 
 @ol[numberlist numberlist-color4](true)
-- Visual Studio CodeのサイドバーにあるEXPLORERより、```lib/aedmap_web/templates/layout/app.html.eex```を開きます。
-- ```<head>``` タグと ```</head>```の終了タグの間（どこでも可）に先ほどコピーしたタグをペーストします。
+- Visual Studio Codeのサイドバーにある**EXPLORER**より、**lib/aedmap_web/templates/layout/app.html.eex**を開きます。
+- **&lt;head&gt;タグと&lt;/head&gt;の終了タグの間（どこでも可）** に先ほどコピーしたタグをペーストします。
 @olend
 
 @snapend
@@ -308,8 +311,10 @@
 - ```</head>```の終了タグの上に、以下のタグを追記します。
 @olend
 
-@snap[gist-box]
-    @gist[css zoom-06](Yoosuke/a2917fdd1b7279a40b0a63351a84195c)
+@css[space-0]
+
+@snap[gist-box half-gist-box]
+@gist[css zoom-08](Yoosuke/a2917fdd1b7279a40b0a63351a84195c)
 @snapend
 
 @snapend
@@ -387,7 +392,7 @@
 @gist[js zoom-09](Yoosuke/34b74c792a0bf40f1875f22da9bc2b46)
 
 @[1](東京タワーの緯度経度に変更しています。)
-@[3](```https://maps.gsi.go.jp/development/ichiran.html#std```より、写真のタイルを利用します。)
+@[3]([こちら](https://maps.gsi.go.jp/development/ichiran.html#std)より、写真のタイルを利用します。)
 @[4](国土地理院の名前とリンク先を追加します。)
 @[7-9](東京タワーと緯度経度を追加しています。)
 

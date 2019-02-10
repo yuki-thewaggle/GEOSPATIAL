@@ -40,7 +40,6 @@
 @ol[numberlist numberlist-color2 start-7](false)
 - PostgreSQL
 - Phoenixframework
-- リンクつけるのを忘れない
 @olend
 @snapend
 

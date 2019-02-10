@@ -91,7 +91,7 @@
 ### @css[slide-title smaller-font](AEDオープンデータプラットフォーム)
 
 @snap[slide-contents]
-@img[goal-image to-center](template/img/environment/Firefox.png)
+@img[goal-image to-center](template/img/external-API/aed-opendata-platform.png)
 @snapend
 
 ---
@@ -107,7 +107,7 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](今回は<u>[AEDオープンデータプラットフォーム](http://hatsunejournal.jp/w8/AEDOpendata/)</u>を利用します。これは、AEDの設置箇所に関する情報を取得できるAPIです。)
+@box[rounded box-style](今回は<u>[AEDオープンデータプラットフォーム](http://hatsunejournal.jp/w8/AEDOpendata/)</u>を利用します。<br>これは、AEDの設置箇所に関する情報を取得できるAPIです。)
 
 @ol[numberlist numberlist-color4](false)
 - Webブラウザーを使って、<u>http://hatsunejournal.jp/w8/AEDOpendata/</u>にアクセスします。
@@ -191,7 +191,7 @@
 
 @gist[json zoom-06](yuki-thewaggle/8d5c582ba46e0350acc6fcba0d66439c)
 
-@[0](先程とは別の情報が取得できることを確認します。)
+@[0](上記（先程）とは別データを取得したことを確認します。)
 
 @snapend
 @snapend

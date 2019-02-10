@@ -30,22 +30,22 @@
 @ol[numberlist numberlist-color2](false)
 - [Webとは](#/5)
 - [Webページとは](#/6)
-- HTMLとは
-- 小項目
-- 小項目
-- 小項目
+- [HTMLとは](#/)
+- [HTMLの書き方](#/)
+- [CSSとは](#/)
+- [CSSの書き方](#/)
 @olend
 @snapend
 
 
 @snap[right-column]
-@ol[numberlist numberlist-color2](false)
-- アジェンダ項目内の小項目
-- 小項目
-- 小項目
-- 小項目
-- 小項目
-- 小項目
+@ol[numberlist numberlist-color2 start-7](false)
+- [JavaScriptとは](#/)
+- [JavaScriptの書き方](#/)
+- [Webの仕組み]()
+- [Elixirとは](#/)
+- [フレームワークとは](#/)
+- [型とは](#/)
 @olend
 @snapend
 
@@ -229,19 +229,20 @@ div {
 @snap[slide-contents]
 @snap[code-contents]
 
-
+<div>
 ```
 var myHeading = document.querySelector('h1');
 ```
-
 @[0](「h1」という要素を「myHeading」という名前で操作できるようにします。)
-
+</div>
+<div>
 ```
 myHeading.textContent = "Hello World";
 ```
 
 @[0](「myHeading」のテキスト内容（textContent）を「Hello World」に設定します。)
 @[0](この結果、Webページのh1タグが「Hello World」という言葉になって表示されます。)
+</div>
 @snapend
 @snapend
 
@@ -321,84 +322,5 @@ myHeading.textContent = "Hello World";
 @snapend
 @snapend
 
----
-@snap[breadcrumbs-wrap]
-@ol[breadcrumbs](false)
-- [ハンズオン講習会の流れ](#/2)
-- [1. 基礎知識](#/0)
-- [13. Elixirの主な型]()
-@olend
-@snapend
-
-### @css[slide-title](Elixirの主な型)
-
-@snap[slide-contents]
-
-@snap[left-column]
-<table>
-<thead>
-<tr>
-	<th>型</th>
-	<th>表記例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-	<th>整数</th>
-	<td>1</td>
-</tr>
-<tr>
-	<th>整数(16進数)</th>
-	<td>0x1F</td>
-</tr>
-<tr>
-	<th>小数</th>
-	<td>1.0</td>
-</tr>
-<tr>
-	<th>論理値</th>
-	<td>true</td>
-</tr>
-<tr>
-	<th><u>[アトム](https://elixirschool.com/ja/lessons/basics/basics/#アトム)</u></th>
-	<td>:atom</td>
-</tr>
-</tbody>
-</table>
-@snapend
-
-@snap[right-column]
-<table>
-<thead>
-<tr>
-	<th>型</th>
-	<th>表記例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-	<th>文字列</th>
-	<td>"elixir"</td>
-</tr>
-<tr>
-	<th><u>[リスト](https://elixirschool.com/ja/lessons/basics/collections/#リスト)</u></th>
-	<td>[1, 2, 3]</td>
-</tr>
-<tr>
-	<th><u>[タプル](https://elixirschool.com/ja/lessons/basics/collections/#タプル)</u></th>
-	<td>{1, 2, 3}</td>
-</tr>
-<tr>
-	<th><u>[キーワードリスト](https://elixirschool.com/ja/lessons/basics/collections/#キーワードリスト)</u></th>
-	<td>@size[0.85em](&#91;foo: "hello", bar: "world"&#93;)</td>
-</tr>
-<tr>
-	<th><u>[マップ](https://elixirschool.com/ja/lessons/basics/collections/#マップ)</u></th>
-	<td>%{key = "value"}</td>
-</tr></tbody>
-</table>
-@snapend
-
-@snapend
 
 
