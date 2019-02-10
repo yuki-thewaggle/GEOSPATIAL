@@ -340,17 +340,16 @@ SQLは大きく３つの体系から分類できます。
 @snap[slide-contents]
 
 @fa[external-link]
-[AED設置施設](https://www.city.bunkyo.lg.jp/bosai/bosai/bousai/snota/aed/settikasho.html)ページの、
-[AED設置施設一覧表](https://www.city.bunkyo.lg.jp/var/rev0/0110/3859/2016510114959.pdf)を開きます。<br>
+[AED設置場所](http://opendata-catalogue.metro.tokyo.jp/dataset/t131091d0000000006)ページの、
+AED設置場所csvデータをダウンロードします。<br>
 
-@box[rounded box-style](**ブラウザ**を利用します。文京シビックセンター等のセンター名称のみ記載されているデータから、緯度経度を調べてDBに入力します。)
+@box[rounded box-style](**ブラウザ**を利用します。CSVデータにある緯度経度を入力します。無いデータは調べる事ができます。)
 
 
 @ol[numberlist numberlist-color2](false)
-- [Yahoo!地図で緯度・経度を調べる **<-クリック** ](https://user.numazu-ct.ac.jp/~tsato/webmap/sphere/coordinates/yahoo_olp/)
-- 検索に「文京シビックセンター」で検索します
-- 検索結果に２件ほど表示されます１つをクリックします。
 - 緯度と経度をコピーします。
+- 緯度と経度が無いデータがあった場合
+- [Yahoo!地図で緯度・経度を調べる **<-クリック** ](https://user.numazu-ct.ac.jp/~tsato/webmap/sphere/coordinates/yahoo_olp/)
 
 @olend
 @snapend

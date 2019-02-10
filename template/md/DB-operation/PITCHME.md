@@ -115,8 +115,8 @@
 
 @box[rounded box-style](**CUI** を利用します。取得したDataの構造体を確認します。)
 
-@snap[gist-box]
-@gist[js zoom-08](Yoosuke/32b8b3d1d4cb5ffba23c93fffd1219d6)
+@snap[gist-box half-gist-box]
+@gist[js zoom-06](Yoosuke/32b8b3d1d4cb5ffba23c93fffd1219d6)
 @snapend
 
 @[1](```:ok```というステータスが返ってきています。)
@@ -131,7 +131,50 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [12. DBからのData取得](#/)
-- [3. DB取得のモジュール開発](#/)
+- [3. DB取得のモジュール開発準備](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](DB取得の<br>モジュール開発準備)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [12. DBからのData取得](#/)
+- [3. DB取得のモジュール開発準備](#/)
+@olend
+@snapend
+
+### @css[slide-title](DB取得のモジュール開発準備)
+
+@snap[slide-contents]
+
+@box[rounded box-style](**Visual Studio Code** を利用します。lib/util/db.exを作ります。)
+
+@snap[left-column]
+
+@ul[itemlist](false)
+- ```lib/util/```の作成
+- ```util/db.ex```ファイルの作成
+@ulend
+
+@snapend
+
+@snap[right-column]
+@img[goal-image to-center](template/img/DB-operation/Visual_Studio_Code.png)
+@snapend
+
+@snapend
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [12. DBからのData取得](#/)
+- [4. DB取得のモジュール開発](#/)
 @olend
 @snapend
 
@@ -144,7 +187,7 @@
 @ol[breadcrumbs](false)
 - [ハンズオン講習会の流れ](#/2)
 - [12. DBからのData取得](#/)
-- [3. DB取得のモジュール開発](#/)
+- [4. DB取得のモジュール開発](#/)
 @olend
 @snapend
 
@@ -152,13 +195,54 @@
 
 @snap[slide-contents]
 
-@box[rounded box-style](**Visual Studio Code** を利用します。lib/util/db.exを作ります。)
+@box[rounded box-style](**Visual Studio Code** を利用します。)
+
+@snap[gist-box half-gist-box]
+@gist[js zoom-06](Yoosuke/ae11d619278417963e971972ba791278)
+@snapend
+
+@[1](```Db```というモジュール名で作成します。)
+@[2](```query```という関数名で、sqlを引数にとります。)
+@[3](```case 何々 do```で返って来た値と比較します。)
+@[4](ステータスに```:ok```が返って来たら、resultを返します。)
+@[5](```:error```が返って来たらエラーメッセージを返します。)
+
+@snapend
+
+---?color=#77B6D4
+@snap[breadcrumbs-wrap lightbluescale]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [12. DBからのData取得](#/)
+- [5. recompile](#/)
+@olend
+@snapend
+
+@snap[west headline]
+## @color[white](recompile)
+@snapend
+
+---
+@snap[breadcrumbs-wrap]
+@ol[breadcrumbs](false)
+- [ハンズオン講習会の流れ](#/2)
+- [12. DBからのData取得](#/)
+- [5. recompile](#/)
+@olend
+@snapend
+
+### @css[slide-title](recompile)
+
+@snap[slide-contents]
+
+@box[rounded box-style](**CUI** を利用します。コンソール画面から、recompileします。)
 
 @snap[left-column]
 
 @ul[itemlist](false)
-- ```lib/```直下に```util/```の作成
-- ```util/```直下に```db.ex```ファイルの作成
+- ```recompile```を打ちます。
+- ```:ok```と表示されていれば成功です。
+- ```result = Db.query("SELECTZ * FROM locations")```
 @ulend
 
 @snapend
@@ -166,5 +250,6 @@
 @snap[right-column]
 @img[goal-image to-center](template/img/DB-operation/Visual_Studio_Code.png)
 @snapend
+
 
 @snapend
